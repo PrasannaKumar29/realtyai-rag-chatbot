@@ -1,0 +1,5 @@
+# Direct dependencies of the user-designated extraction reference.
+# Documentation only; not installed/resolved during this handover.
+requests>=2.32,<3
+beautifulsoup4>=4.13,<5
+lxml>=5,<7

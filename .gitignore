@@ -1,0 +1,52 @@
+.env
+.env.*
+!.env.example
+.venv/
+.venv-extraction/
+.python/
+.uv-cache/
+.cache/
+models/
+data/
+reports/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.log
+*.mp4
+*.mov
+*.pem
+*.key
+/.aws/
+/.codex/
+/.agents/
+/archive/
+/packaging-output/
+
+# Machine-specific migration records remain local; public project history is in docs/.
+/docs/migration-17b-ledger.json
+/docs/migration-17b-verification.json
+
+# Archived datasets and generated artifacts remain local; source/history stay available.
+archive/**/data/
+archive/**/reports/
+archive/**/models/
+archive/**/*.egg-info/
+archive/**/.pytest_cache/
+archive/**/.ruff_cache/
+
+# Future reproduction outputs must use a separate directory, never the approved dataset.
+reproduction-output/
+
+# Source-code-first migration policy: preserve these locally, exclude from Git.
+/wasalt_data/
+/wasalt_*.json
+/archive/2026-11-18/manual-wasalt/
+.wasalt-*.tmp
+.wasalt-offline-*.tmp
+.acquisition-report-*.tmp

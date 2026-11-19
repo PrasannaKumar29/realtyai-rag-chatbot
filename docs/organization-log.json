@@ -1,0 +1,153 @@
+{
+  "archive_root": "archive/2026-11-18",
+  "moves": [
+    {
+      "from": "data/darglobal",
+      "to": "archive/2026-11-18/data/darglobal",
+      "files_verified": 58
+    },
+    {
+      "from": "data/darglobal_data_collab",
+      "to": "archive/2026-11-18/data/darglobal_data_collab",
+      "files_verified": 12
+    },
+    {
+      "from": "data/darglobal_html_pilot",
+      "to": "archive/2026-11-18/data/darglobal_html_pilot",
+      "files_verified": 7
+    },
+    {
+      "from": "data/darglobal_reader_pilot",
+      "to": "archive/2026-11-18/data/darglobal_reader_pilot",
+      "files_verified": 10
+    },
+    {
+      "from": "data/corpus",
+      "to": "archive/2026-11-18/data/corpus",
+      "files_verified": 1
+    },
+    {
+      "from": "data/synthetic-index",
+      "to": "archive/2026-11-18/data/synthetic-index",
+      "files_verified": 3
+    },
+    {
+      "from": "README.md",
+      "to": "archive/2026-11-18/prototype/README.md",
+      "files_verified": 1
+    },
+    {
+      "from": "01_darglobal_scraping.ipynb",
+      "to": "archive/2026-11-18/prototype/01_darglobal_scraping.ipynb",
+      "files_verified": 1
+    },
+    {
+      "from": "DARGLOBAL_EXTRACTION_HANDOFF.md",
+      "to": "archive/2026-11-18/prototype/DARGLOBAL_EXTRACTION_HANDOFF.md",
+      "files_verified": 1
+    },
+    {
+      "from": "app.py",
+      "to": "archive/2026-11-18/prototype/app.py",
+      "files_verified": 1
+    },
+    {
+      "from": "Dockerfile",
+      "to": "archive/2026-11-18/prototype/Dockerfile",
+      "files_verified": 1
+    },
+    {
+      "from": ".dockerignore",
+      "to": "archive/2026-11-18/prototype/.dockerignore",
+      "files_verified": 1
+    },
+    {
+      "from": ".env.example",
+      "to": "archive/2026-11-18/prototype/.env.example",
+      "files_verified": 1
+    },
+    {
+      "from": "pyproject.toml",
+      "to": "archive/2026-11-18/prototype/pyproject.toml",
+      "files_verified": 1
+    },
+    {
+      "from": "uv.lock",
+      "to": "archive/2026-11-18/prototype/uv.lock",
+      "files_verified": 1
+    },
+    {
+      "from": "requirements.lock",
+      "to": "archive/2026-11-18/prototype/requirements.lock",
+      "files_verified": 1
+    },
+    {
+      "from": "requirements-dev.lock",
+      "to": "archive/2026-11-18/prototype/requirements-dev.lock",
+      "files_verified": 1
+    },
+    {
+      "from": "requirements-extraction.lock",
+      "to": "archive/2026-11-18/prototype/requirements-extraction.lock",
+      "files_verified": 1
+    },
+    {
+      "from": "scripts",
+      "to": "archive/2026-11-18/prototype/scripts",
+      "files_verified": 11
+    },
+    {
+      "from": "src",
+      "to": "archive/2026-11-18/prototype/src",
+      "files_verified": 36
+    },
+    {
+      "from": "tests",
+      "to": "archive/2026-11-18/prototype/tests",
+      "files_verified": 14
+    },
+    {
+      "from": "config",
+      "to": "archive/2026-11-18/prototype/config",
+      "files_verified": 1
+    },
+    {
+      "from": "docs",
+      "to": "archive/2026-11-18/prototype/docs",
+      "files_verified": 6
+    },
+    {
+      "from": "reports",
+      "to": "archive/2026-11-18/prototype/reports",
+      "files_verified": 5
+    }
+  ],
+  "dataset_move": {
+    "from": "darglobal_final_dataset",
+    "to": "data/darglobal",
+    "files_verified": 857
+  },
+  "deleted_files": [],
+  "follow_up_moves": [
+    {
+      "from": "reproducibility/extract_darglobal.py",
+      "to": "archive/2026-11-18/assistant-reconstruction/extract_darglobal.py",
+      "sha256": "7dbadd3086565f3f51026d6a9cf06318132c53b7ce1c666a5d56a1e00ba7999e"
+    },
+    {
+      "from": "reproducibility/README.md",
+      "to": "archive/2026-11-18/assistant-reconstruction/README.md",
+      "sha256": "4804f15101546884a1328d711382378b0052ad3f5de94c36b7ff58a61da498fb"
+    },
+    {
+      "from": "reproducibility/requirements.txt",
+      "to": "archive/2026-11-18/assistant-reconstruction/requirements.txt",
+      "sha256": "1c095830666ca7db698ae2161f7c66ac363ddef5915ba087290d1a6d65c5fa6b"
+    },
+    {
+      "from": ".env.example",
+      "to": "archive/2026-11-18/assistant-reconstruction/.env.example",
+      "sha256": "800c9b7d1b17d6e94fcf2260333b2512a21fb00541594c7108d615df59e8bf22"
+    }
+  ]
+}

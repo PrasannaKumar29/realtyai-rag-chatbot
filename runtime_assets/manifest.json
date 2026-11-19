@@ -1,0 +1,42 @@
+{
+  "chunks.jsonl": {
+    "bytes": 4579165,
+    "sha256": "09f4c8eac0e0d250e8085fc5ed1dfb1f76f1ef60119c622af763d89690d679a1"
+  },
+  "listings.jsonl": {
+    "bytes": 483148,
+    "sha256": "917374904481e16bfbaa21ab4d687a184f83963701ad82b4c0001348c0c7bb6f"
+  },
+  "chroma/index_manifest.json": {
+    "bytes": 130911,
+    "sha256": "0a6fe85436ec0ebe4935b07cfb6a72af24c1497a06c178ed652056bc4d3a2dc0"
+  },
+  "chroma/store/chroma.sqlite3": {
+    "bytes": 33906688,
+    "sha256": "dfc252a36615174b2794939b64d24638d68873ec6a1ae1f0ae2d8a147a26c1d7"
+  },
+  "chroma/store/9e4b1be3-6c95-49a1-9be6-07a297c18f05/data_level0.bin": {
+    "bytes": 6598200,
+    "sha256": "e093fb16e7551a8729d254210e21d13f01989607d2e094553a20d2d5634fd51a"
+  },
+  "chroma/store/9e4b1be3-6c95-49a1-9be6-07a297c18f05/length.bin": {
+    "bytes": 4200,
+    "sha256": "634540b6650eb8c977af37a723d57e26d7c8001ff323abf6fc510a11bb16df99"
+  },
+  "chroma/store/9e4b1be3-6c95-49a1-9be6-07a297c18f05/link_lists.bin": {
+    "bytes": 9096,
+    "sha256": "fefa43a03dbd4bcdcc6ce53a87e1411de652928c68282304693e329a8903192e"
+  },
+  "chroma/store/9e4b1be3-6c95-49a1-9be6-07a297c18f05/header.bin": {
+    "bytes": 100,
+    "sha256": "76534422bb02c81839358d03745bf4e581b3f199d1c5accd4b41d95a167f764c"
+  },
+  "chroma/store/9e4b1be3-6c95-49a1-9be6-07a297c18f05/index_metadata.pickle": {
+    "bytes": 168132,
+    "sha256": "88ecdc80f20af3db747ff6e1bf3d61852c2447ef35c0531f4a5b0d26bb999867"
+  },
+  "tokenizer/9b5ad71b2ce5302211f9c61530b329a4922fc6a4": {
+    "bytes": 1681126,
+    "sha256": "223921b76ee99bde995b7ff738513eef100fb51d18c93597a113bcffe865b2a7"
+  }
+}

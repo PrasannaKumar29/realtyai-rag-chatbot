@@ -1,0 +1,25 @@
+{
+  "primary_reference": "scripts/darglobal/darglobal_extraction_reference.py",
+  "original_filename": "darglobal_extraction_reference.py",
+  "sha256": "7dad5b410df04c825537d93ef623587e6fb97bab042f3695e5b877a4da3b4bb5",
+  "bytes": 9583,
+  "copy_preserved_byte_for_byte": true,
+  "executed": false,
+  "note": "The user-designated extraction source of truth is the supplied reference. The assistant reconstruction is archived history only.",
+  "source_of_truth": "scripts/darglobal/darglobal_extraction_reference.py",
+  "archived_reconstruction": "archive/2026-11-18/assistant-reconstruction/extract_darglobal.py",
+  "relocations": [
+    {
+      "previous_path": "reproducibility/darglobal_extraction_reference.py",
+      "current_path": "scripts/darglobal/darglobal_extraction_reference.py",
+      "checkpoint": "17B",
+      "content_changed": false
+    }
+  ],
+  "migration_validation": {
+    "checkpoint": "17B",
+    "local_inspection_executed": true,
+    "network_or_cleaning_executed": false,
+    "historical_executed_flag_refers_to_original_handover": true
+  }
+}

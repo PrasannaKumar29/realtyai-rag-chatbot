@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-11-18T17:13:49.980192Z",
+  "raw_property_files": 261,
+  "unique_raw_properties": 261,
+  "normalized_records": 261,
+  "property_markdown_documents": 261,
+  "informational_markdown_documents": 5,
+  "total_corpus_documents": 266,
+  "jsonl_records": 261,
+  "quality_rows": 261,
+  "sale_rent_distribution": {
+    "rent": 130,
+    "sale": 131
+  },
+  "property_type_distribution": {
+    "apartment": 47,
+    "building": 46,
+    "chalet": 1,
+    "duplex": 1,
+    "floor": 46,
+    "land": 46,
+    "rest_house": 20,
+    "room": 8,
+    "villa": 46
+  },
+  "city_distribution": {
+    "Abha": 2,
+    "Abqaiq": 1,
+    "Al Ahsa": 2,
+    "Al Jubaylah": 1,
+    "Al-Majma'Ah": 1,
+    "Albikiriuh": 1,
+    "Aldammam": 10,
+    "Aljumum": 1,
+    "Alttayif": 3,
+    "Bariduh": 7,
+    "Diriyah": 1,
+    "Eanizah": 3,
+    "Earear": 3,
+    "Jazan": 9,
+    "Jeddah": 37,
+    "Khobar": 9,
+    "Madinah": 4,
+    "Makkah Al Mukarramah": 9,
+    "Mawqaq": 1,
+    "Qatif": 1,
+    "Riyadh": 153,
+    "Samith": 1,
+    "Tbwk": 1
+  },
+  "property_quality_status_distribution": {
+    "valid_with_warnings": 261
+  },
+  "corpus_quality_status_distribution": {
+    "valid_with_warnings": 264,
+    "valid": 2
+  },
+  "missing_fields": {
+    "description_clean": 9,
+    "area_sqm": 13,
+    "bedrooms": 101,
+    "bathrooms": 253,
+    "rooms": 101,
+    "region": 72
+  },
+  "quality_flag_counts": {
+    "area_description_mismatch": 3,
+    "missing_area_sqm": 13,
+    "missing_bathrooms": 153,
+    "missing_bedrooms": 1,
+    "missing_description_clean": 9,
+    "payment_options_in_description": 1,
+    "property_type_inferred_from_title": 261,
+    "rooms_description_mismatch": 3,
+    "schema_type_property_type_mismatch": 214
+  },
+  "unresolved_source_concerns": [
+    {
+      "issue": "area_description_mismatch",
+      "listing_ids": [
+        "5927297",
+        "5897966",
+        "5906160"
+      ]
+    },
+    {
+      "issue": "rooms_description_mismatch",
+      "listing_ids": [
+        "5831933",
+        "5853786",
+        "5891090"
+      ]
+    },
+    {
+      "issue": "payment_options_in_description",
+      "listing_ids": [
+        "5891036"
+      ]
+    },
+    {
+      "issue": "missing_description_clean",
+      "count": 9
+    },
+    {
+      "issue": "missing_area_sqm",
+      "count": 13
+    },
+    {
+      "issue": "missing_bedrooms",
+      "count": 101
+    },
+    {
+      "issue": "missing_bathrooms",
+      "count": 253
+    }
+  ],
+  "schema_org_types": {
+    "SingleFamilyResidence": 261
+  },
+  "collection_range_utc": {
+    "first": "2026-11-18T13:56:21.083Z",
+    "last": "2026-11-18T17:05:31.887593Z"
+  },
+  "excluded_unavailable_listing": {
+    "listing_id": "5842008",
+    "http_status": 404,
+    "retained_in_acquisition_logs": true
+  },
+  "duplicate_ids": 0,
+  "duplicate_urls": 0,
+  "duplicate_complete_source_records": 0,
+  "checks": {
+    "raw_metadata_and_description_preserved": true,
+    "prices_and_periods_match_source": true,
+    "decimal_areas_match_source": true,
+    "nulls_not_fabricated": true,
+    "source_urls_preserved": true,
+    "arabic_preserved": true,
+    "contact_scan_clean": true,
+    "no_challenge_content": true,
+    "utf8_valid": true,
+    "portable_relative_paths": true
+  },
+  "integration_ready": true,
+  "file_integrity": {
+    "raw_source_files": 261,
+    "all_raw_files_sha256_recorded": true,
+    "checked_files": 1231,
+    "inventory": "file_integrity.json",
+    "audit_and_integrity_files_excluded_from_checksum_inventory": true,
+    "pre_existing_files_verified_unchanged": 828,
+    "only_pre_existing_derived_files_rebuilt": [
+      "listings.jsonl",
+      "quality_report.csv"
+    ],
+    "original_62_normalized_and_markdown_unchanged": true,
+    "original_raw_and_informational_files_unchanged": true
+  },
+  "test_suite": {
+    "command": ".venv-extraction/bin/python -B -m unittest discover -s tests -p 'test_wasalt_*.py' -v",
+    "tests_run": 44,
+    "passed": 44,
+    "failures": 0,
+    "errors": 0
+  }
+}

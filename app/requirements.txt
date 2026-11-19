@@ -1,0 +1,7 @@
+# Corpus preparation and direct embedding/index integration. Install only with approval.
+PyYAML==6.0.3
+tiktoken==0.14.0
+python-dotenv==1.2.4
+# Integration ranges require a real-SDK smoke test and version lock after installation.
+openai>=1.30,<3
+chromadb>=1.0,<2

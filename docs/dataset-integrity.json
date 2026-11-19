@@ -1,0 +1,3449 @@
+{
+  "dataset_root": "data/darglobal",
+  "previous_root": "darglobal_final_dataset",
+  "markdown_root": "data/darglobal/final/markdown",
+  "final_markdown_documents": 419,
+  "categories": {
+    "corporate": 9,
+    "insights": 26,
+    "developments": 36,
+    "communities": 13,
+    "press": 68,
+    "blog": 241,
+    "project_listings": 15,
+    "partners": 11
+  },
+  "all_files_verified": 857,
+  "content_changed": false,
+  "files": {
+    ".DS_Store": {
+      "sha256": "9a501210f374b85025eaf986d32d8593be8f60da3fb08482ef620596f4dc34c2",
+      "bytes": 6148
+    },
+    "darglobal_near_duplicates.csv": {
+      "sha256": "a2eb87e86dc1234d8c8911c280ac4109fde758a635a4ab901e4c311ef4ec19fc",
+      "bytes": 7243
+    },
+    "darglobal_quality_audit.csv": {
+      "sha256": "391ae78ba4bd0ea4721462ec6cebf72693341f14b0bbb2ae281423159b2a5939",
+      "bytes": 121226
+    },
+    "darglobal_recovery.csv": {
+      "sha256": "608e23dd302a860b2ef2bea41650e3b10311d8c76877af347054f72b3fe310a9",
+      "bytes": 3174
+    },
+    "final/.DS_Store": {
+      "sha256": "df3ea306dea0300fb79fbf21aff57f46402757442d024f8502910402100d5648",
+      "bytes": 6148
+    },
+    "final/cleaning_report.csv": {
+      "sha256": "1f1ca8e6f5f9b9414770f510650563d25ee9e34f81f72cbf4c947fc91fd2f174",
+      "bytes": 87299
+    },
+    "final/markdown/blog/blog--The-Rise-of-Experiential-Real-Estate-Redefining-Modern-Living-440e6bc1.md": {
+      "sha256": "890a38da35e2a9ed74d12e632f0af20cbf904e1d8732f0fd47a7446fbf8e2358",
+      "bytes": 3521
+    },
+    "final/markdown/blog/blog--Why-Our-Broker-Programs-Are-the-Best-in-the-Business-e369e7ca.md": {
+      "sha256": "5b500b89cd9bce6b7bc9afcd70d50a47656c0db1fc810f5856eeda22dcc108cf",
+      "bytes": 3335
+    },
+    "final/markdown/blog/blog-10-reasons-to-invest-in-dubai-real-estate-4618b392.md": {
+      "sha256": "0570cddda684cc45a97b557d75f006330f9298b6cde0e9b1b36d11d7a034a2c1",
+      "bytes": 12839
+    },
+    "final/markdown/blog/blog-2072673e.md": {
+      "sha256": "c306350845b3bee25adb7af20b7787dc9661b1750e4aff59952d2039294913e2",
+      "bytes": 12709
+    },
+    "final/markdown/blog/blog-A-Cut-Above-The-Signature-Amenities-That-Set-DarGlobal-Apart-d2979323.md": {
+      "sha256": "3ae26055c4080f4ef801fb88b296a9d548fece41a9c3755a8a46598092ecf59f",
+      "bytes": 5448
+    },
+    "final/markdown/blog/blog-Al-Marjan-Island-A-Jewel-in-the-UAEs-Real-Estate-Market-7cdeb59a.md": {
+      "sha256": "33eb8c4e9c34cbf37399eafa7fc23ae3a5572189d2fee835a0b81c070b0315a1",
+      "bytes": 4294
+    },
+    "final/markdown/blog/blog-An-Insider-s-Guide-to-the-Most-Prestigious-Real-Estate-Markets-0668c46f.md": {
+      "sha256": "396637497c56534c51ae064381c560e4da75c448142919cd29c22c7ee71f1703",
+      "bytes": 4177
+    },
+    "final/markdown/blog/blog-Elegance-in-the-Sky-DarGlobal-and-Trump-Organization-Unveil-Jeddah-Tower-bb5670fe.md": {
+      "sha256": "d7ece71f913ec3051df22a103622dbafc0ba21ec2367f8d8735fc621b208784d",
+      "bytes": 3172
+    },
+    "final/markdown/blog/blog-Embrace-Spanish-Luxury-with-Tierra-Viva-by-DarGlobal-and-Automobili-Lamborghini-50908502.md": {
+      "sha256": "a581f6cffd81dcf8fa709aca9aca0f462751f5397d8eb64bb996e3b1ac1db1dd",
+      "bytes": 3896
+    },
+    "final/markdown/blog/blog-Embrace-Spanish-Luxury-with-Tierra-Viva-by-DarGlobal-debb9e1f.md": {
+      "sha256": "0955a84c765c51cb17f2c024f9f4c5dbe8d114fb0cbdd17102b283c5cdd40ccb",
+      "bytes": 3733
+    },
+    "final/markdown/blog/blog-Experience-Unmatched-Luxury-at-Neptune-by-Mouawad-Villas-in-Riyadh-cc55f8ae.md": {
+      "sha256": "f5270abdde9a645d5b4873e4f8dd190d35fac136f4e65d424871dde809ceeccb",
+      "bytes": 3776
+    },
+    "final/markdown/blog/blog-How-DarGlobal-Ensures-Long-Term-Value-for-Its-Investors-7cd0f56d.md": {
+      "sha256": "a850a1880cdaa01ba97b0534aaf9e69fba863c8a64b7b7d7f2f0253643b5ffd0",
+      "bytes": 3910
+    },
+    "final/markdown/blog/blog-How-DarGlobal-Turns-Iconic-Ideas-into-Landmarks-c3f0b388.md": {
+      "sha256": "dca7b18c22885dd678cddbc0642b37ac2117634adf089247275aeed6dfec12aa",
+      "bytes": 3351
+    },
+    "final/markdown/blog/blog-How-DarGlobals-Properties-Promote-Wellbeing-and-Leisure-4e85cccc.md": {
+      "sha256": "d62845e4768b2624c886c0e0ac6685965992d5373688df63bf3fa3c7e9229945",
+      "bytes": 3541
+    },
+    "final/markdown/blog/blog-How-to-Diversify-Your-Portfolio-with-International-Real-Estate-Investments-567bb028.md": {
+      "sha256": "5db3650ed1694c37dd58cb900da5d42d190169018f8957040b5c2f1a9c915c25",
+      "bytes": 3556
+    },
+    "final/markdown/blog/blog-Inside-Spain-Exclusive-Estates-A-Look-at-the-Most-Prestigious-Properties-d4ec0d5c.md": {
+      "sha256": "35e8808b2a404dc3bc16c95f49a9f16b7c030fba3114eb45643b4f64e72a8b2f",
+      "bytes": 3988
+    },
+    "final/markdown/blog/blog-Investing-in-Coastal-Real-Estate-Why-Waterfront-Properties-Remain-Popular-1f13b751.md": {
+      "sha256": "2060f628c0c7ad6a719f8bb398c5441ae5aa4fa4f5e427db25ee0261a0df194c",
+      "bytes": 3521
+    },
+    "final/markdown/blog/blog-Investing-in-Elegance-The-Unique-Benefits-of-DarGlobal-Luxury-Properties-in-Qatar-680ad481.md": {
+      "sha256": "c0e1e55f9a17cb3138e8a772998c10b17a6ad377a3062c9d410075c32a7ea2f5",
+      "bytes": 3683
+    },
+    "final/markdown/blog/blog-Investing-in-Saudi-Arabia-s-Real-Estate-Opportunities-in-a-Growing-Market-05add0b7.md": {
+      "sha256": "40d1d78932912b7522b0eff9f25d4163ba656918d505e8014dd354802bcf3da3",
+      "bytes": 4477
+    },
+    "final/markdown/blog/blog-Les-Vagues-by-Elie-Saab-A-Masterpiece-of-Coastal-Luxury-and-Elegance-in-Qatar-75a2bc3d.md": {
+      "sha256": "81465a30d278b240e366babcb630411c57719e47160c396789860cddd36cfecf",
+      "bytes": 4460
+    },
+    "final/markdown/blog/blog-Living-Between-Cities-Managing-Luxury-Properties-Across-the-Globe-69982cb0.md": {
+      "sha256": "b7931b7be88015f051fde83b589f7e5b46e68c3e8a6f6f612f0114a1ada28342",
+      "bytes": 5358
+    },
+    "final/markdown/blog/blog-Luxury-Real-Estate-Trends-to-Watch-in-the-Coming-Years-64f33906.md": {
+      "sha256": "b667fbf4281d1615ef011e1642f833bacc51cd5b45bbfd1614da909b91f8ea0c",
+      "bytes": 5893
+    },
+    "final/markdown/blog/blog-Omans-Hidden-Gem-Living-in-the-Heart-of-AIDA-7e3ac821.md": {
+      "sha256": "a4654e559dd80e764be1a57037c4f5f0bdddb1ea64fde3429b610a705031b25d",
+      "bytes": 3388
+    },
+    "final/markdown/blog/blog-Our-Vision-for-the-future-Whats-Next-for-Real-Estate-Development-a2541c04.md": {
+      "sha256": "40e719cf01bc0da8db51fbde88011dde30f9db760ce303b58abf36c37a6cf2fb",
+      "bytes": 4184
+    },
+    "final/markdown/blog/blog-Seasonal-Real-Estate-Trends-Why-Now-Is-the-Perfect-Time-to-Invest-ac5ad10d.md": {
+      "sha256": "31d55f2a7ca42afa6197ad8015c841cad8773742f82abb77e11c88970382c007",
+      "bytes": 3121
+    },
+    "final/markdown/blog/blog-Smart-Homes-and-Beyond-DarGlobals-Vision-for-Modern-Luxury-Living-93c66626.md": {
+      "sha256": "024c7bb7e70ca5dffbec2cbfdc34b6c781732710135a79e823eb7e01f7d8f94a",
+      "bytes": 4178
+    },
+    "final/markdown/blog/blog-The-Benefits-of-Owning-a-Branded-Residence-More-Than-Just-a-Name-166ab15d.md": {
+      "sha256": "50163528964d19aaa4ebd4839ecff753e12955b1fbaf165728fa95f2ffa9a560",
+      "bytes": 3611
+    },
+    "final/markdown/blog/blog-The-Growing-Trend-of-Dual-Purpose-Properties-Live-Earn-and-Relax-48eff8c3.md": {
+      "sha256": "d32567c2734e4ab77eaa823ce634a70fb345220d916eaa2ae4946f69c239f79a",
+      "bytes": 4010
+    },
+    "final/markdown/blog/blog-The-Rising-Appeal-of-Off-Plan-Properties-Why-Invest-Early-ee897328.md": {
+      "sha256": "f7bb686200eb8fb347a55f22752cc73705668ce5f4ea3d907b04766dcfc64a34",
+      "bytes": 3769
+    },
+    "final/markdown/blog/blog-The-Rising-Demand-for-Holiday-Homes-Is-It-Worth-Investing-5fdd09de.md": {
+      "sha256": "d5a7493c0882fe6d2736b42ddaaa5ed0c16d2ed84169513ab11001057a0cf4e1",
+      "bytes": 6508
+    },
+    "final/markdown/blog/blog-Top-5-Destinations-for-a-Second-Home-A-Guide-to-Smart-Investments-475f4193.md": {
+      "sha256": "d6bbc57ceec19612995e5c63fdd0f6ada8ccbea3196cdc0cd61d0be026b953ca",
+      "bytes": 4076
+    },
+    "final/markdown/blog/blog-Whats-Next-for-DarGlobal-A-Sneak-Peek-into-Our-Upcoming-Projects-0894540e.md": {
+      "sha256": "05d5d7ffd86a1f63d71d19cedf2e5455e8d91a43a56e5d465e8779fa719b33dc",
+      "bytes": 5813
+    },
+    "final/markdown/blog/blog-Where-Prestige-Meets-Place-The-Ultimate-Guide-to-Real-Estate-Location-Value-23eeea49.md": {
+      "sha256": "1aeec6f33fa49307c222300e8409c25269be37dc12d4646d0e6e76c2231d7082",
+      "bytes": 3258
+    },
+    "final/markdown/blog/blog-Why-Luxury-Real-Estate-Is-the-Safest-Investment-in-2025-a8c86a72.md": {
+      "sha256": "80cbfb554bace90cabb2361ad48021955c1a782146bc1d404381e0f2c3fa13e1",
+      "bytes": 3877
+    },
+    "final/markdown/blog/blog-Why-Middle-Eastern-Real-Estate-Is-Booming-for-Foreign-Investors-aee4a51f.md": {
+      "sha256": "a9b43466757376492e266bdbdebc971992f5e9632fd128dea9657c8803640068",
+      "bytes": 3978
+    },
+    "final/markdown/blog/blog-Why-Real-Estate-is-the-Best-Investment-in-a-Changing-World-4fe32d09.md": {
+      "sha256": "44e261671d9ae036c59d5c9deaa02a41166544a298a778b2662b774dfe4addbc",
+      "bytes": 3417
+    },
+    "final/markdown/blog/blog-Why-Saudi-Arabias-Luxury-Real-Estate-Market-Is-the-Investment-Opportunity-of-the-Decade-10c4806b.md": {
+      "sha256": "09e14624145a5023dd49f18991005f03136a1124a2ad7e14d4cd4956549a8a32",
+      "bytes": 4317
+    },
+    "final/markdown/blog/blog-aida-trump-international-hotel-redefining-luxury-hospitality-2233b027.md": {
+      "sha256": "646240fdb0fb241813c2e79b00da3e189a250050c734337b44d03096a237a940",
+      "bytes": 6136
+    },
+    "final/markdown/blog/blog-benahavis-luxury-villas-and-prime-real-estate-discover-your-perfect-investment-destination-44b17aff.md": {
+      "sha256": "a011d502b61bc297ac48b3e5285b8f4e452deb507d657889cfafdffa52563401",
+      "bytes": 5665
+    },
+    "final/markdown/blog/blog-best-cities-to-invest-in-real-estate-in-gulf-f21e9e91.md": {
+      "sha256": "a8224d579e057520c458e46ca96341b6062355d6749aad1a2e1314e0ee0e5ce6",
+      "bytes": 12082
+    },
+    "final/markdown/blog/blog-best-countries-luxury-real-estate-investment-2026-0466ae0c.md": {
+      "sha256": "b38d155e40290579668a3776e1d9409082daad3caf6e710a976a727d68acf9ae",
+      "bytes": 7881
+    },
+    "final/markdown/blog/blog-branded-real-estate-dubai-081eaa40.md": {
+      "sha256": "fd101242ad25b64c38acc792dd7ccc5548e6b883ebe46635e529333f38b587bf",
+      "bytes": 9609
+    },
+    "final/markdown/blog/blog-buying-luxury-villas-in-muscat-oman-your-gateway-to-arabian-pulence-911e1510.md": {
+      "sha256": "49e0ebdb11531d6de48cc763be56a432995e3c1d8d0208717d21a819bab4335d",
+      "bytes": 9724
+    },
+    "final/markdown/blog/blog-buying-property-in-dubai-1d72c8a3.md": {
+      "sha256": "95076253d458123c8363f8759eca2340280cdcd75b48f6959d117d73e47b9c87",
+      "bytes": 11765
+    },
+    "final/markdown/blog/blog-buying-property-in-oman-complete-guide-d15d7215.md": {
+      "sha256": "37e01a686f85a79b2b873ff11ed765f2926e39dedf3415d3ae134bd4b277f6d3",
+      "bytes": 10128
+    },
+    "final/markdown/blog/blog-buying-property-in-oman-trends-predictions-28078351.md": {
+      "sha256": "a3e8f9d590f531d843be408a795874b618e116117b54716a5796260022bc6c31",
+      "bytes": 9307
+    },
+    "final/markdown/blog/blog-buying-property-in-spain-complete-guide-239a7e51.md": {
+      "sha256": "ae279944f74c85623278bab22675c8f755242ac654436f14228df3af4b2d98d1",
+      "bytes": 9276
+    },
+    "final/markdown/blog/blog-can-foreigners-buy-property-in-qatar-dc3dc40c.md": {
+      "sha256": "ea38b77cbb9e270233b0728037ef3c485bfcb321e4a090504f2f0bcaebed30ee",
+      "bytes": 10064
+    },
+    "final/markdown/blog/blog-can-foreigners-buy-property-in-saudi-arabia-16a5be04.md": {
+      "sha256": "bf26af8aadf25336220b53a18acf5511101c089359922f2800322e5acf3f14a6",
+      "bytes": 9331
+    },
+    "final/markdown/blog/blog-can-foreigners-buy-property-uk-complete-guide-31a23d2e.md": {
+      "sha256": "fcdfd570aa389647f653349e49e92524ba1aa7ceaef2668485e65636c7498544",
+      "bytes": 10306
+    },
+    "final/markdown/blog/blog-capital-growth-vs-rental-yield-in-luxury-real-estate-dd79ffbf.md": {
+      "sha256": "fdf6b5798763920a28c3c7e3d4e9f6a418a78ff6b7480e0ea827cacbbe308442",
+      "bytes": 8375
+    },
+    "final/markdown/blog/blog-choosing-the-right-real-estate-developer-in-dubai-tips-for-finding-your-perfect-home-7a331818.md": {
+      "sha256": "702e763b3d930128beb1af522afe3674d4302a4d737b09a429c0fd4034af7a84",
+      "bytes": 8650
+    },
+    "final/markdown/blog/blog-choosing_your_dream_lifestyle_in_oman-d071d2c2.md": {
+      "sha256": "90a0d30f866f9cae357d2d7bcf1135b99e4f161c0b5027e72e80ada37c0cde68",
+      "bytes": 3275
+    },
+    "final/markdown/blog/blog-commercial-vs-residential-real-estate-440196fe.md": {
+      "sha256": "f7f850ca62fc006c497a4770c9a4aea0735116a08a27ef28d98f0e4dea861e4a",
+      "bytes": 9965
+    },
+    "final/markdown/blog/blog-cost-of-living-in-qatar-and-impact-on-real-estate-market-a830e856.md": {
+      "sha256": "0eae1d82870ece0d2887b3dccaecf198d9c4637a277a0df47594369f23d2592c",
+      "bytes": 9538
+    },
+    "final/markdown/blog/blog-costa-del-sol-a-blend-of-culture-comfort-29be8f64.md": {
+      "sha256": "d924af5c2e2ceb4ee2eead5e1f7d4f97bc8e49b393c0158a9d441c8c1de89d32",
+      "bytes": 6210
+    },
+    "final/markdown/blog/blog-creating-luxury-living-beyond-the-ordinary-62f15589.md": {
+      "sha256": "5944c36a2583ef18ef00d8101a0d9c03b18aadcf70da807110a79389cee02637",
+      "bytes": 10505
+    },
+    "final/markdown/blog/blog-current-trends-in-omans-real-estate-market-what-investors-need-to-know-d9e90684.md": {
+      "sha256": "7d137290ed7a1a3e52c6df3540d69e36123e2f2f595bf0c11e8e88bc078da748",
+      "bytes": 3433
+    },
+    "final/markdown/blog/blog-darglobal-and-dar-al-arkan-promoting-dual-listing-with-the-london-stock-exchange-fe38c91c.md": {
+      "sha256": "50934a0bdc18f891a6a999dad406068cd5e4cedbf20dfb2ddfab6a98bee93c55",
+      "bytes": 4235
+    },
+    "final/markdown/blog/blog-defining-opulence-what-luxury-truly-means-in-todays-real-estate-market-096c1e7b.md": {
+      "sha256": "48002bb5f828f54189dd752c5b5f4808adc38e2c1a0db473ef00198f2694b5c0",
+      "bytes": 4229
+    },
+    "final/markdown/blog/blog-discover-dg1-residences-luxury-living-in-the-heart-of-dubai-b7009eae.md": {
+      "sha256": "cfd600d98dc74c8847f8bc417b7880c358c28e46ef49fa07d2635e0bd68767d5",
+      "bytes": 3062
+    },
+    "final/markdown/blog/blog-discover-luxury-villas-for-sale-in-costa-del-sol-and-tierra-viva-30ec4ec5.md": {
+      "sha256": "70b5aaae2716c0bce26612656c1ab6c0e8ce59e33f24b6b4131391f9dc75ed43",
+      "bytes": 10667
+    },
+    "final/markdown/blog/blog-discover-the-best-of-ras-al-khaimah-5-top-attractions-836eaa8c.md": {
+      "sha256": "51eda58e9549f51d06c9f9bc52fc4130e4e00c4395e41e68c50be43592093dcd",
+      "bytes": 6309
+    },
+    "final/markdown/blog/blog-discover-the-luxury-and-leisure-of-al-marjan-island-uae-7ae84b38.md": {
+      "sha256": "74b687a6dc2e9e7c0516af65962de8920246f891bb8330ea82fd4f8a95b722fc",
+      "bytes": 6731
+    },
+    "final/markdown/blog/blog-discovering-omans-enchanting-blend-cultural-marvels-pristine-landscapes-and-a-gateway-to-cosmop-2ffe86b2.md": {
+      "sha256": "17f6724ec37acf2652c9e348e099ea5418dfdf8b36160e1d7830a3c3e89f0d49",
+      "bytes": 4977
+    },
+    "final/markdown/blog/blog-do-you-pay-council-tax-on-empty-property-83a22c1c.md": {
+      "sha256": "2dab4545511bbce8a9c2920f6aff4c607058b8acc30b7a92c15372b20c74d33d",
+      "bytes": 9656
+    },
+    "final/markdown/blog/blog-dubai-2040-smart-sustainable-city-roadmap-adb951dd.md": {
+      "sha256": "9185b3727e4f2699ab15ff150cfbfe89475cf42f0e836d8bf10367fab3b15356",
+      "bytes": 10017
+    },
+    "final/markdown/blog/blog-dubai-property-prices-trend-2025-17ca3282.md": {
+      "sha256": "fac574251aca49ab22d30533c5c524e5ffe5d8348224fc9f793d33891c98f66d",
+      "bytes": 11548
+    },
+    "final/markdown/blog/blog-dubai-real-estate-investment-guide-bdccb629.md": {
+      "sha256": "7da92d98845cf372899519be0b62149bf1787c3208c0780f8eb76ae5226e3ab4",
+      "bytes": 9936
+    },
+    "final/markdown/blog/blog-dubai-real-estate-market-trends-2025-98394cb6.md": {
+      "sha256": "24978558319026831c10fccba7d443e9a806d3940de69096d900823ad873777c",
+      "bytes": 9684
+    },
+    "final/markdown/blog/blog-dubai-real-estate-roi-in-2025-eb47f0d8.md": {
+      "sha256": "65c455ff8421b4bd932ec36fbfff2d95c33063049906d5e93f3b0682e4eaf19f",
+      "bytes": 11974
+    },
+    "final/markdown/blog/blog-eco-friendly-architecture-and-luxury-living-25ddf43e.md": {
+      "sha256": "b0331c42f516f8c5a852d0e3a2b2da8e38664c4289ab0b08eb3458dbcafdf8ca",
+      "bytes": 10820
+    },
+    "final/markdown/blog/blog-eid-shopping-extravaganza-top-places-in-dubai-for-your-holiday-purchases-0aa76d94.md": {
+      "sha256": "70454da58845f508541da45bb5d4f836b2a60d24f0f0e28e07dd0a93961832c8",
+      "bytes": 4448
+    },
+    "final/markdown/blog/blog-elegance-unveiled-discovering-the-timeless-charm-of-cortesin-spain-52e3f46e.md": {
+      "sha256": "f78d9fbeb5203eb658c9fd89195affb187fb096dbc71a3dcfe2ec8e63d3989bb",
+      "bytes": 3412
+    },
+    "final/markdown/blog/blog-elevate-your-lifestyle-the-da-vinci-tower-interiors-by-pagani-8e4bc5e6.md": {
+      "sha256": "e9564aa75283945423be03ee3e9f6cfe5673ad7f0bb5f03cc1f1a78bc2186338",
+      "bytes": 3501
+    },
+    "final/markdown/blog/blog-embrace-the-best-of-london-living-discover-culture-in-luxury-7e5a808c.md": {
+      "sha256": "66fb2c1367994cc582b6fcbe85650d235c4eb18b61ef86270a2bb95e21054de2",
+      "bytes": 3827
+    },
+    "final/markdown/blog/blog-exclusive-lifestyle-features-elevating-luxury-homes-with-private-amenities-b06fcd19.md": {
+      "sha256": "407bf75ec01282235f2bd7815882d285d2be146c81932b5866959eaa869b60aa",
+      "bytes": 2978
+    },
+    "final/markdown/blog/blog-experience-refined-tranquility-at-the-great-escape-2-in-aida-oman-14e7ba15.md": {
+      "sha256": "a9097d128e406c21a29038c317dbbd1276a299477346ecee003dcf32911605c6",
+      "bytes": 3188
+    },
+    "final/markdown/blog/blog-experience-the-extraordinary-tierra-viva-launch-event-in-puerto-banus-7b7b4627.md": {
+      "sha256": "455a86c2393a2a468f47a09aec94cd061252255c0e1149659bf60a37d5d12a0b",
+      "bytes": 4428
+    },
+    "final/markdown/blog/blog-experience-unmatched-luxury-at-the-weekend-in-doha-qatar-2666fc56.md": {
+      "sha256": "da7ee59e32b5a83d7b3642642606499d571d6527dff65102c766d9f140d44d1c",
+      "bytes": 3577
+    },
+    "final/markdown/blog/blog-explore-natures-playground-dream-villa-for-sale-oman-7829ec4d.md": {
+      "sha256": "9d1aaaab8586b3c4b72cbfd91ce092d9c2fe681ca925ac8461968c4453890f38",
+      "bytes": 8727
+    },
+    "final/markdown/blog/blog-exploring-dubais-art-scene-the-7-best-art-museums-f72f4c84.md": {
+      "sha256": "97fadea5ddfe35be01a331db9089b370a97b99be38908a1cff4f99f22bd5a4d3",
+      "bytes": 3924
+    },
+    "final/markdown/blog/blog-exploring-spain-s-luxury-villa-market-uncover-hidden-gems-and-authentic-experiences-with-darglo-5b3a9335.md": {
+      "sha256": "41411abb6580b88c50600cb4469fac15c76d8bde67a61e24162bf907de50ed9e",
+      "bytes": 9842
+    },
+    "final/markdown/blog/blog-exploring-the-market-for-villas-for-sale-in-dubai-a-comprehensive-guide-for-discerning-investor-2a871df1.md": {
+      "sha256": "8ea78ed54f06c7d7d8091121528c40bc1821f92ae8345e403924562ef5134e80",
+      "bytes": 11324
+    },
+    "final/markdown/blog/blog-family-friendly-fun-in-dubai-your-ultimate-guide-to-a-memorable-saturday-afternoon-4479cb27.md": {
+      "sha256": "8e1906217310805b9c6c4e58727bde17aae721b833249e8a7214bc64e4daf42b",
+      "bytes": 3970
+    },
+    "final/markdown/blog/blog-finding-your-dream-home-top-tips-for-buying-a-luxury-villa-for-sale-ebe69e1c.md": {
+      "sha256": "600d0102aadc53db42d01f116410fa756cad6ba27f784c5b05701b5aba8e8326",
+      "bytes": 10047
+    },
+    "final/markdown/blog/blog-five-types-of-insurance-coverage-every-homeowner-needs-5832f851.md": {
+      "sha256": "88c02d02758ea5cf442d9d2bae389b66f08796cd5be4be7270b8694002d9dec7",
+      "bytes": 3832
+    },
+    "final/markdown/blog/blog-foreign-investment-in-saudi-arabia-028af022.md": {
+      "sha256": "29d6717cf451490b142a50e17f829d5dc3c3e1cfe8c6c43f3d74e6220bdcc1b3",
+      "bytes": 11484
+    },
+    "final/markdown/blog/blog-freehold-vs-leasehold-dubai-f3fa787a.md": {
+      "sha256": "f5661725a45b7d4a0be309f74680713ccb6a9195c3d83e41284449f4f71eaba2",
+      "bytes": 12243
+    },
+    "final/markdown/blog/blog-from-vision-to-reality-the-most-anticipated-real-estate-projects-in-muscat-08174d8b.md": {
+      "sha256": "fccfb2e3060d3e246fd4715c43c6525447c67661528a610ff6ebe07cb6c104aa",
+      "bytes": 3629
+    },
+    "final/markdown/blog/blog-future-of-branded-residences-f3383ce7.md": {
+      "sha256": "a609ac2525001b76909dcf3aa8d38f757fd5b8faadca7cca4669fb7b90932e0f",
+      "bytes": 5554
+    },
+    "final/markdown/blog/blog-future-of-real-estate-ksa-5d7d348a.md": {
+      "sha256": "2e573f5182860d728bf5888de56fd76503b7a1df87fb91f585509ea87844e61a",
+      "bytes": 9486
+    },
+    "final/markdown/blog/blog-futuristic-splendor-navigating-the-architectural-marvels-of-doha-qatar-8b49fc5b.md": {
+      "sha256": "0776f9dbf7a737bc5a2015b6a566986d540793c0d713e065a3bb250f7f703c46",
+      "bytes": 4459
+    },
+    "final/markdown/blog/blog-golden-visa-countries-for-real-estate-roi-3cc0f633.md": {
+      "sha256": "ea4ae8bfadf8aa2702e8b9899244446745b048c8394de632370dd14167448c70",
+      "bytes": 12448
+    },
+    "final/markdown/blog/blog-high-roi-and-roe-real-estate-co-branding-through-the-lens-of-ziad-el-chaar-ceo-of-darglobal-d5758905.md": {
+      "sha256": "737691a5800c66d88e87b614a4232b0b74100c8941af438991049c92f61de409",
+      "bytes": 6937
+    },
+    "final/markdown/blog/blog-holiday-home-investment-in-oman-695362e9.md": {
+      "sha256": "b3f024dfc664caeec1f124e47e05197fd0d16b410f8d64ecb6228be54e610b0f",
+      "bytes": 9029
+    },
+    "final/markdown/blog/blog-holiday-home-investment-in-spain-667044b9.md": {
+      "sha256": "ca3e446a0357ccc0b91f61b059f42105fe190ffa44ffd1923cd157f99b482395",
+      "bytes": 12428
+    },
+    "final/markdown/blog/blog-hotel-chains-meet-real-estate-a-new-era-for-muscats-property-market-e8f76ec7.md": {
+      "sha256": "8befed6ba9ab22af22b4c146e66e1fe5984368c0f8d0851a1fee807e6bae2a20",
+      "bytes": 4294
+    },
+    "final/markdown/blog/blog-how-international-investors-buy-luxury-property-with-confidence-8d4385ef.md": {
+      "sha256": "9990312c03e4e9971a03346e1b7e204474aea7d7285dfd870111be4b6bb9891c",
+      "bytes": 6281
+    },
+    "final/markdown/blog/blog-how-luxury-real-estate-supports-global-mobility-and-residency-d7c007e8.md": {
+      "sha256": "fa07ad1572d3519408ce4428715a77fae07c81ac700fbdf5cc2b86d31333d310",
+      "bytes": 6896
+    },
+    "final/markdown/blog/blog-how-to-buy-a-villa-in-dubai-7ebbb77e.md": {
+      "sha256": "91ab8eea65f2283e7e42f60baf5da244793a0a369f848406a4ce9efcc018dec6",
+      "bytes": 7109
+    },
+    "final/markdown/blog/blog-how-to-buy-luxury-real-estate-76615090.md": {
+      "sha256": "73f63cde71bb02fe68a217081b3a18c0c6b7bbd8793899364d042ee79258175e",
+      "bytes": 9040
+    },
+    "final/markdown/blog/blog-how-to-buy-property-in-london-23349b1e.md": {
+      "sha256": "6e36520a5bfb10f0c1d8cfdc359ff7e3b940aa612a923e571f536489016108b6",
+      "bytes": 10396
+    },
+    "final/markdown/blog/blog-how-to-buy-property-in-spain-complete-guide-aaaf180a.md": {
+      "sha256": "75c47cfd664881e991ee7745b234dc77a0f6d6cdf27c1df0581fd1b0c12eefde",
+      "bytes": 9630
+    },
+    "final/markdown/blog/blog-how-to-design-luxury-homes-2025-031f1d53.md": {
+      "sha256": "c7229721f181ad8fc6c02aed265f4265aa59abb8fa887d2434af01062677bede",
+      "bytes": 10449
+    },
+    "final/markdown/blog/blog-how-to-evaluate-a-luxury-property-before-you-invest-49e31cc2.md": {
+      "sha256": "f13960b337fd4098d20a58df9c43a2bdbc3103901c9a077271d870686eb0e895",
+      "bytes": 6769
+    },
+    "final/markdown/blog/blog-how-to-get-into-real-estate-in-dubai-69cb4dc8.md": {
+      "sha256": "5711ad264f2341b3f39e65c5c4dff68410701dd0ca8c7acba9fa4df2d31dd818",
+      "bytes": 8194
+    },
+    "final/markdown/blog/blog-how-to-get-residence-visa-dubai-2025-48b4b209.md": {
+      "sha256": "cd07f59fcb480b947b4b15b9bb25fb11c346dc9d000e5faf92e44f3d33a200d7",
+      "bytes": 10258
+    },
+    "final/markdown/blog/blog-how-to-invest-in-dubai-real-estate-b534016a.md": {
+      "sha256": "9f5ff8b03cf97c3d2d026ee764cd78361d38c0caeb3d2fe9a11bb3dbfe078262",
+      "bytes": 10384
+    },
+    "final/markdown/blog/blog-how-to-invest-in-housing-491cc67c.md": {
+      "sha256": "1c29e9d5c7486c25545c96ec079237ccc39021cbe6e59ac0766d439d960810f3",
+      "bytes": 6664
+    },
+    "final/markdown/blog/blog-how-to-invest-in-property-2025-71b20924.md": {
+      "sha256": "31cf247338e5b267d764625f2ee926e9b1e722b92c1b9630728d1c98015299bf",
+      "bytes": 9272
+    },
+    "final/markdown/blog/blog-how-to-invest-in-uk-property-a01e4cb8.md": {
+      "sha256": "54844bd7f33b50c16a04c69732917d286d717b29bbabac4d970dca236ae3b3d0",
+      "bytes": 7797
+    },
+    "final/markdown/blog/blog-impact-of-global-events-on-international-real-estate-market-041eaaf0.md": {
+      "sha256": "b455403f0b1d6971e26b4edefdcc1de0e8019bacc841d36d6f7be8c6cb169531",
+      "bytes": 11495
+    },
+    "final/markdown/blog/blog-impact-of-tourism-on-saudi-arabia-real-estate-market-18f86707.md": {
+      "sha256": "5b933ed274b0ea021adcc56e1ad158b0a3085a6a11db8b56f3e936d936751ae8",
+      "bytes": 8807
+    },
+    "final/markdown/blog/blog-impact-of-vision-2030-on-riyadh-real-estate-3e0e03d6.md": {
+      "sha256": "f12a927242a300f04967b0585768fbe22c0ddfee81335eb67fbeaf35952a436d",
+      "bytes": 8902
+    },
+    "final/markdown/blog/blog-inside-dubai-priciest-listing-exploring-the-most-exclusive-apartment-for-sale-in-2024-14fa2ad5.md": {
+      "sha256": "9bfcf929b56dddfe80817a1a661880ceb53f0c8038fe512284a49094f42a4bbb",
+      "bytes": 3598
+    },
+    "final/markdown/blog/blog-invest-in-luxury-and-nature-discover-the-beauty-of-bosnia-and-herzegovina-with-sidra-7cc2d9e2.md": {
+      "sha256": "4c638efd3d876e048806c5d1cbe72e4edc3dec9a0700b5ad568913b9f8d479df",
+      "bytes": 5521
+    },
+    "final/markdown/blog/blog-investing-in-hotel-apartments-in-dubai-ae128cc3.md": {
+      "sha256": "707f5759265e7f6e71114b39c49395cccf88800cbcde3e7a5069a20df9f7d58d",
+      "bytes": 9428
+    },
+    "final/markdown/blog/blog-investing-in-london-properties-a-strategic-analysis-for-2024-fd0e9518.md": {
+      "sha256": "019f65102f20acc81cccc2d703439ccdeac024ccf368948afe5a28f81a3e4784",
+      "bytes": 3857
+    },
+    "final/markdown/blog/blog-investing-in-marbella-luxury-villas-timeless-elegance-lucrative-returns-1fd72256.md": {
+      "sha256": "eff4671e6f31ba1a7ca141b7e43ff7b507b28fa60c8861ea45d679f565133250",
+      "bytes": 8795
+    },
+    "final/markdown/blog/blog-investing-in-oman-opportunities-and-benefits-148cc80e.md": {
+      "sha256": "ab3a77c8aa1672b43f9c19407f913d5702236f334f24bed630b9d0596986957d",
+      "bytes": 12520
+    },
+    "final/markdown/blog/blog-investing-in-qatar-is-now-the-right-time-to-enter-the-real-estate-market-17a05050.md": {
+      "sha256": "4e6a72930a43eb988d6bf37765adadb791ad9d6612dd499fb6180c79c2b91957",
+      "bytes": 3887
+    },
+    "final/markdown/blog/blog-investing-in-the-jewel-of-the-middle-east-is-oman-the-next-big-real-estate-opportunity-81520479.md": {
+      "sha256": "b838a72c26889bc00731ddad8fa25d725680cc197d434ccfffb7d315ec33093b",
+      "bytes": 3791
+    },
+    "final/markdown/blog/blog-investment-spotlight-assessing-the-viability-of-dubai-real-estate-in-2024-d3955490.md": {
+      "sha256": "eaa505ebae641dbd8eb6bc717a780837059a3ec1a4da711ecb4b6f85e30563c7",
+      "bytes": 3737
+    },
+    "final/markdown/blog/blog-is-buying-a-home-a-good-investment-652f3d66.md": {
+      "sha256": "c76edde24046a303a11aa1780eb40982d1d324bd09c7b841ff883d3e02dac233",
+      "bytes": 9340
+    },
+    "final/markdown/blog/blog-is-buying-a-second-home-still-a-smart-investment-a1e2847a.md": {
+      "sha256": "e745fe80e7a21228a4bbdbb2cdeee74fddb5e8f9df008ed660d3150af9e1536d",
+      "bytes": 6849
+    },
+    "final/markdown/blog/blog-key-factors-driving-the-sale-of-villas-in-oman-unveiling-the-sultanate-s-irresistible-allure-93349d8b.md": {
+      "sha256": "e4833d6e1790ba894fdbee82af3030732162e63c36a2bbbff924fde6c8040fab",
+      "bytes": 9293
+    },
+    "final/markdown/blog/blog-les-vagues-where-couture-meets-comfort-elie-saabs-visionary-real-estate-venture-in-qatar-ues-el-0eb6e078.md": {
+      "sha256": "b416c982764498c583af9663eeb23a62dde0c2e59c473c98df91c8436319cebb",
+      "bytes": 3775
+    },
+    "final/markdown/blog/blog-london-a-city-of-unmatched-diversity-and-opportunity-7f1ff12e.md": {
+      "sha256": "1530d1e8b0537326a8368362d23c717cd644960c4c36e4b63a814bc066d04897",
+      "bytes": 4279
+    },
+    "final/markdown/blog/blog-londons-prime-real-estate-where-to-invest-in-2024-451606a5.md": {
+      "sha256": "44a18f222d73ce6b6eb0fc2404dece53b2e953f855732ce5177d2b6ea632fb66",
+      "bytes": 4380
+    },
+    "final/markdown/blog/blog-luxury-amenities-in-spain-branded-villas-6ecc2b75.md": {
+      "sha256": "8193ab4408772f70e0a750c4f72dbdd295b9c04a7693a872f6f70a56e5d4fcca",
+      "bytes": 11958
+    },
+    "final/markdown/blog/blog-luxury-apartments-in-dubai-the-epitome-of-elevated-living-and-astute-investment-33df37fd.md": {
+      "sha256": "bbc58f3c844429e1b42da33d2ee75884e48a18be802aa81e8069f197995e05f8",
+      "bytes": 11674
+    },
+    "final/markdown/blog/blog-luxury-living-in-oman-s-enchanting-capital-10b9faa0.md": {
+      "sha256": "5074853a458e7cc5261460535cb53ecd1b4f9fb9b05b112cf2b09052161c6268",
+      "bytes": 11477
+    },
+    "final/markdown/blog/blog-luxury-living-qatar-c4ba5d82.md": {
+      "sha256": "d6dfd0927877e66c9953b99982b2fabfd1948de3a5bba7f67b3e4b2922408574",
+      "bytes": 8469
+    },
+    "final/markdown/blog/blog-luxury-real-estate-developers-in-spain-crafting-dreams-in-the-heart-of-the-mediterranean-950ffa4e.md": {
+      "sha256": "90d84d888ccad259c54cc81beb339e9af96d0619692f884cd9ddbde5f52899a9",
+      "bytes": 8830
+    },
+    "final/markdown/blog/blog-luxury-real-estate-long-term-wealth-2969a172.md": {
+      "sha256": "d7b5fb46abfa00da307c927c587362193cf0c8efc2ebfbdfb0726ec8a84eca8a",
+      "bytes": 6149
+    },
+    "final/markdown/blog/blog-luxury-real-estate-market-analysis-forecasting-trends-and-opportunities-2a79a8de.md": {
+      "sha256": "0e65b10550f9ee692783b708ba55166318d41bf0d9847b59f36a4ad477ea57f0",
+      "bytes": 4547
+    },
+    "final/markdown/blog/blog-luxury-real-estate-trends-2026-bb8772a6.md": {
+      "sha256": "493767511bd064f5f493185cf450e0f4643811d0c37a21afbf6fcba7aa50cf3d",
+      "bytes": 7858
+    },
+    "final/markdown/blog/blog-luxury-vacation-homes-finding-your-perfect-retreat-in-paradise-a4609015.md": {
+      "sha256": "4e4f399f30f35e47ab4327537af96d9c276c1822dbf861ce0b38aab46c96cb9b",
+      "bytes": 3881
+    },
+    "final/markdown/blog/blog-luxury-villas-for-sale-in-dubai-gateway-to-world-of-experiences-dbf725f8.md": {
+      "sha256": "0a8c62b6f816881322ff9aaf38ad557f869a394b920ebc73bc295802d61e3681",
+      "bytes": 8678
+    },
+    "final/markdown/blog/blog-luxury-villas-for-sale-in-marbella-a-Buyer-s-guide-bcc346d6.md": {
+      "sha256": "60b2afd1527218811046f4c2d1a63e2d1ac57219847b378f8606a3e7c3c2ed7e",
+      "bytes": 12098
+    },
+    "final/markdown/blog/blog-luxury-villas-for-sale-in-marbella-a-buyer-s-guide-to-sun-kissed-opulence-d826bc9d.md": {
+      "sha256": "84d0bda58b4454d2b1cef193e4f8f65884579cca5ee67178ac3c96b6010fcc51",
+      "bytes": 10298
+    },
+    "final/markdown/blog/blog-luxury-villas-in-spain-what-to-look-for-and-where-to-invest-194397aa.md": {
+      "sha256": "759c8faa03477e2bfb5025b60781c1c90c39b3f190a24cbe4f2b9ec85be4d689",
+      "bytes": 11037
+    },
+    "final/markdown/blog/blog-luxury-waterfront-properties-bd38fdca.md": {
+      "sha256": "875e8fc012ad1b30badb9202dba05875a30ad8ee0be591ae61171270ef0066d5",
+      "bytes": 10011
+    },
+    "final/markdown/blog/blog-luxury-waterfront-properties-what-makes-them-so-valuable-19407007.md": {
+      "sha256": "49abe1872f604c3d662964ab55a3677abe2feeb9fc0815da79fc5ed58edc8f25",
+      "bytes": 5804
+    },
+    "final/markdown/blog/blog-making-history-with-omans-real-estate-market-f2566c7c.md": {
+      "sha256": "113bba95734e60a01ef1c00aa9ae7b67d19bd48ca6f7ba7a929600af14002081",
+      "bytes": 2955
+    },
+    "final/markdown/blog/blog-malaga-vs-marbella-for-real-estate-investment-19d9a6a0.md": {
+      "sha256": "9ba0efdf2fc39e9d8c6beb821698163e96ef9705922d9a55930a9397c688e40b",
+      "bytes": 10026
+    },
+    "final/markdown/blog/blog-marbella-beyond-the-beach-a-cultural-and-culinary-journey-from-your-luxury-villa-02a215e8.md": {
+      "sha256": "6830ef0daba9ed5f6dca6effe89a296bfed63594eba953bc5c54739a5b67d972",
+      "bytes": 9601
+    },
+    "final/markdown/blog/blog-marbella-s-magnetic-charm-why-it-s-the-epicentre-for-luxurious-villa-living-d5030a52.md": {
+      "sha256": "3cddc19d7cead8f0f16f6410d0ec0f5efec9d91567dd3bbb87483a92a37a4402",
+      "bytes": 10277
+    },
+    "final/markdown/blog/blog-marbella-your-year-round-luxury-retreat-with-darglobal-4654ffb0.md": {
+      "sha256": "de0fb472482004bee38e4899753c9e5e637db85c8dbf3ba92bdf3ed81b240116",
+      "bytes": 9169
+    },
+    "final/markdown/blog/blog-market-insights-luxury-villas-for-sale-in-marbella-a-deep-dive-into-the-trends-and-opportunitie-bbfe754a.md": {
+      "sha256": "9b0b7ea8c06ddbca06070300ba7fcca975897cd7457d100337edf95b75ef6d04",
+      "bytes": 11911
+    },
+    "final/markdown/blog/blog-modern-architecture-in-dubai-97197275.md": {
+      "sha256": "f04c6a7fd35361f31dd6a634772d463a1ecb47611466904999bb226bf5004aca",
+      "bytes": 8727
+    },
+    "final/markdown/blog/blog-muscat-s-rise-as-a-luxury-haven-the-investment-opportunities-and-lifestyle-benefits-of-luxury-v-16996c6c.md": {
+      "sha256": "effa90ebbfb70dd9986f144a726d2ed6cb543cf1e749e279ae4e325e3ed83351",
+      "bytes": 10618
+    },
+    "final/markdown/blog/blog-oasis-of-opulence-exploring-the-luxurious-lifestyles-of-muscat-oman-a644ff2b.md": {
+      "sha256": "374ac9060f241cc9329b8d33074b3220dd7dc26ee1db023c3c1aa60f4c36355e",
+      "bytes": 3618
+    },
+    "final/markdown/blog/blog-off-plan-property-investment-in-dubai-b456cbb8.md": {
+      "sha256": "f37275c41630efd68e9177f097171dcc30cc0b764f742bf23d9a542c256d27df",
+      "bytes": 12510
+    },
+    "final/markdown/blog/blog-oman-s-luxury-villas-for-sale-an-investment-overview-for-the-discerning-buyer-3224ffc5.md": {
+      "sha256": "f450613633a04e54bca0bfaf73f5ef365a154f0322e0606b486d009969d612d7",
+      "bytes": 9020
+    },
+    "final/markdown/blog/blog-oman-vision-2040-4d3f7c88.md": {
+      "sha256": "1a9cfea532e6c5691a2c9da13b843ff34b6a30692ae83979be833f3916147f66",
+      "bytes": 12022
+    },
+    "final/markdown/blog/blog-plano-group-top-seller-aida-oman-darglobal-success-story-8abcba4e.md": {
+      "sha256": "2f2b3a7895ef46482426d43a1c5e55514b13e0b4af5113100ca9a4330f34ce43",
+      "bytes": 4396
+    },
+    "final/markdown/blog/blog-premier-properties-exploring-marbellas-most-luxurious-neighborhoods-9b48f7ed.md": {
+      "sha256": "48045346ad37300ad919536d12281089bcbb8e28caa6017dbd865a3a78035ac9",
+      "bytes": 4052
+    },
+    "final/markdown/blog/blog-property-investment-in-oman-42265bd9.md": {
+      "sha256": "2bf1340dc805b010a6fc705abe067ca2d25215b95c52353d71f1b98721757f4e",
+      "bytes": 10065
+    },
+    "final/markdown/blog/blog-property-investment-in-qatar-for-non-qataris-854177c3.md": {
+      "sha256": "781361744b34e1836405a98e6a3b11ea820b688b3f3ee8584a5c4d74b7a2a7ab",
+      "bytes": 11781
+    },
+    "final/markdown/blog/blog-property-transfer-vs-title-deed-differences-548b24be.md": {
+      "sha256": "a13690df1d1bc78dec4673e714aabd519d8a977c6c7cd60ebbece11e4d0dbc3e",
+      "bytes": 9000
+    },
+    "final/markdown/blog/blog-proptech-and-impact-on-real-estate-market-15c02446.md": {
+      "sha256": "dab2db0553cc2ded482e7917230884dd000f08553cbe5ec66ea5e8ef100f2e86",
+      "bytes": 11234
+    },
+    "final/markdown/blog/blog-qatar-crown-jewel-a-look-inside-the-hottest-property-on-the-market-bf0b784e.md": {
+      "sha256": "934fbb745420a1793f89087a64b020f59af360e4ddbe70c1d94ff8cc2261372e",
+      "bytes": 4021
+    },
+    "final/markdown/blog/blog-qatars-vision-2030-opportunities-and-advantages-for-real-estate-investor-0a4a9903.md": {
+      "sha256": "db23929d233daa09546dacb8c4cd8b526f1b639185e7d3da957ea453450be7f3",
+      "bytes": 4443
+    },
+    "final/markdown/blog/blog-real-estate-forecast-next-5-years-dubai-0d482c84.md": {
+      "sha256": "b67165c56cf5bf58984ee9c0b2e978681ee678c56fc17d3c23f83b54869545f1",
+      "bytes": 8689
+    },
+    "final/markdown/blog/blog-real-estate-investment-in-qatar-682ce89d.md": {
+      "sha256": "9a511b6153b4df6530c2f5bc8f6726e3192ba059922131fd338447a5c2dbede1",
+      "bytes": 8117
+    },
+    "final/markdown/blog/blog-real-estate-investment-in-rak-885e2848.md": {
+      "sha256": "fa7889df86cc02a86f33c94c5ae642a85532fd3c340d1e1bec294023ecca0f5d",
+      "bytes": 8487
+    },
+    "final/markdown/blog/blog-real-estate-investment-international-residency-bb9fd812.md": {
+      "sha256": "c1f6d8596a80c9a71c6ecb6d502fe56453f23305db21faa2f3717d3ab5c62fed",
+      "bytes": 10302
+    },
+    "final/markdown/blog/blog-real-estate-market-in-middle-east-baa4d51c.md": {
+      "sha256": "f299c3f806b618aa543e60afc10f4d3c34e14a1c46413eb67beb51dfca8445d7",
+      "bytes": 10882
+    },
+    "final/markdown/blog/blog-real-estate-market-trends-in-emerging-global-cities-9acef0b8.md": {
+      "sha256": "3aab3ef711932d6407d3e153074d34e854263126364411bd751875ae08ccad6b",
+      "bytes": 11753
+    },
+    "final/markdown/blog/blog-redefining-luxury-real-estate-development-for-the-discerning-buyer-4276746a.md": {
+      "sha256": "ff037ab8315a240bd00c71c54b11171a08bf2613dd07995c24e65226d080540e",
+      "bytes": 9385
+    },
+    "final/markdown/blog/blog-redefining-real-estate-development-for-the-discerning-buyer-9d74b90a.md": {
+      "sha256": "f3e6ac95d4cce247c868524723bebca23fd217b7e3ad20211b1a0128a1fb99ec",
+      "bytes": 9915
+    },
+    "final/markdown/blog/blog-remote-work-lifestyle-aida-9ecbbc16.md": {
+      "sha256": "e8915474083a3e59f41b38724401605e12f7c5f2dcd80308d84f996e8fa74168",
+      "bytes": 3600
+    },
+    "final/markdown/blog/blog-rental-property-investing-guide-5e02b464.md": {
+      "sha256": "6966812f5efd832aeebcea1ef453c3b290b8465d291b09d69efcb9014a19f935",
+      "bytes": 12980
+    },
+    "final/markdown/blog/blog-renting-vs-buying-in-qatar-277ac295.md": {
+      "sha256": "2fefb097faeffc1fb304eb5c89f3c993c02706ef6d0e3a0f1ae8665b9d9ac42e",
+      "bytes": 11343
+    },
+    "final/markdown/blog/blog-rise-of-reit-in-dubai-fce5ce80.md": {
+      "sha256": "60c2664a9b1e7e0076ffa6e5dd0a9e1fd70a1b01c560d2f488a0e7bf8a61e508",
+      "bytes": 8566
+    },
+    "final/markdown/blog/blog-rise-of-smart-homes-in-saudi-arabia-b1f4d1e5.md": {
+      "sha256": "a10318ded7e9970702ae6553e1bd047260db31e2f9481d11dec13d1fc48f6052",
+      "bytes": 9242
+    },
+    "final/markdown/blog/blog-role-of-art-collectibles-enhancing-luxury-home-interior-bf829173.md": {
+      "sha256": "bf2aefca185fb7eb0044b6562d54981ef97ed80dd88b58248f2460dc32042dce",
+      "bytes": 6779
+    },
+    "final/markdown/blog/blog-runway-residences-fashion-brands-redefining-luxury-living-elie-saab-missoni-and-dg-797b62df.md": {
+      "sha256": "03b3c4475bd66961cf5d5f8116f34f0a7c08ca016e121aeed99a6030cc7d1e05",
+      "bytes": 4892
+    },
+    "final/markdown/blog/blog-saudi-arabia-smart-cities-2f965667.md": {
+      "sha256": "1c3a48bd6bed13fc053e062a6e5e266542fcd43f92c51e074257f50aeeec9ec0",
+      "bytes": 9575
+    },
+    "final/markdown/blog/blog-second-home-in-spain-b8ac70cd.md": {
+      "sha256": "dc6e0132d977dc0379bf20730415abb5bd7c2ee83a51e66e727df5270e915834",
+      "bytes": 11112
+    },
+    "final/markdown/blog/blog-smart-home-interior-design-2025-9b3b988f.md": {
+      "sha256": "2c26f1da81bf81721dab7c507aa4cac65988b41b02bcfa2757e1efeb3310199d",
+      "bytes": 9809
+    },
+    "final/markdown/blog/blog-smart-home-technology-2025-c38800f1.md": {
+      "sha256": "c0f3a1ecf4f90b0197b48b9f98457d9fa0e109115e08c33d4dcc247e503c6fcd",
+      "bytes": 10456
+    },
+    "final/markdown/blog/blog-smart-home-technology-with-luxury-living-03fec6e1.md": {
+      "sha256": "c698f4ec2174746ad03bd0e7b0ad46ded9d87085be9680a2678c6359fe0e45e0",
+      "bytes": 6811
+    },
+    "final/markdown/blog/blog-spain-and-oman-two-of-the-best-places-to-buy-a-villa-for-lavish-living-053363cb.md": {
+      "sha256": "c571510159e1b8b5a8d3b00eaaefaf375767905e72e7c26c74a2ad61bb642a2c",
+      "bytes": 12328
+    },
+    "final/markdown/blog/blog-spain-s-top-luxury-villas-to-buy-your-guide-to-securing-a-slice-of-paradise-4af7952f.md": {
+      "sha256": "78225885e8da50f09312a4894fece578b970df6308f728de2452da3965f8e60e",
+      "bytes": 8871
+    },
+    "final/markdown/blog/blog-spotlight-on-up-and-coming-luxury-market-in-oman-aaf7b3c5.md": {
+      "sha256": "997ebee28d588c9b34bb701b5cfb70ede45e7567dfd3cd010555fb25f24c0cdf",
+      "bytes": 3788
+    },
+    "final/markdown/blog/blog-staying-up-to-speed-on-the-latest-residential-design-trends-for-2024-bf94ec13.md": {
+      "sha256": "0537a39d22c87d3e67850c53888f52a021b2c79e851e0dddc73757e2af3cd745",
+      "bytes": 3507
+    },
+    "final/markdown/blog/blog-synergy-in-style-exploring-collaborations-between-luxury-brands-and-real-estate-8a03ba69.md": {
+      "sha256": "c75014637ea5435cd8baf6c5fc3dcdb1b0204534ff27590677582dcd45e74beb",
+      "bytes": 3850
+    },
+    "final/markdown/blog/blog-tech-meets-luxury-smart-homes-redefining-opulent-living-be6e93c0.md": {
+      "sha256": "44bc2f469fbdb534963c7845a09ed4750f9cdf4587cc1b046a697e8d5572a727",
+      "bytes": 3255
+    },
+    "final/markdown/blog/blog-the-appeal-of-villas-for-sale-in-marbella-what-buyers-should-know-a34cf09e.md": {
+      "sha256": "fee4a0c5ac01fd3e127eb97a9edc23b5e1b17ef410b813725777acbd43754eab",
+      "bytes": 9528
+    },
+    "final/markdown/blog/blog-the-astera-redefining-luxury-living-with-aston-martin-interiors-8dc4f148.md": {
+      "sha256": "8a35176fd44f3c12ca9a6f99c5d145def3031d8c111ca45fd5fae00284dfbca7",
+      "bytes": 5929
+    },
+    "final/markdown/blog/blog-the-best-dubai-neighborhoods-for--luxury-villas-your-guide-to-opulent-living-in-the-city-of-dre-2a834a3b.md": {
+      "sha256": "93dfd9c67a59673882eb037f035f09cac5f8eb98f851183f80747b1b74b8e757",
+      "bytes": 9755
+    },
+    "final/markdown/blog/blog-the-booming-real-estate-market-in-oman-a-lucrative-opportunity-for-investors-and-homeowners-d0594bfb.md": {
+      "sha256": "d11a9cf4299dd919e803974ed11c7c94edac6d6649d9338d0f3cef2219bcedc7",
+      "bytes": 7525
+    },
+    "final/markdown/blog/blog-the-complete-guide-to-investing-in-dubai-off-plan-properties-dd6cf8a0.md": {
+      "sha256": "0e164743bb60efc9f94a25048b80c9f259e87d75c05a1ac3a2389228336b9848",
+      "bytes": 8942
+    },
+    "final/markdown/blog/blog-the-impact-of-location-on-luxury-real-estate-values-factors-to-consider-83bb2f9b.md": {
+      "sha256": "32a601d4cb5416b8207f5a2ae1290c99216cd5d9ae3a16888382850c9029bb32",
+      "bytes": 4011
+    },
+    "final/markdown/blog/blog-the-new-work-from-paradise-trend-luxury-villas-in-oman-as-remote-work-havens-1741e1dd.md": {
+      "sha256": "abaa006b1e8627e102cd4b2dd68d3260d8b3d0ec4a6331b8e573d2f29e09faa7",
+      "bytes": 8659
+    },
+    "final/markdown/blog/blog-the-rise-of-luxury-real-estate-in-spain-analyzing-investment-opportunities-41b2f0e3.md": {
+      "sha256": "557bbb894947fa6e4bfb54f523006668423adda91cbc3227820a7f14cf7748ea",
+      "bytes": 4067
+    },
+    "final/markdown/blog/blog-the-trump-golf-villas-luxury-living-with-a-view-at-aida-oman-8cf5a02f.md": {
+      "sha256": "b53342cbfc3791a1842be165c3902aa3dac0609cea5ce8451b8b7d296d7cb0ed",
+      "bytes": 3865
+    },
+    "final/markdown/blog/blog-the-ultimate-muscat--oman-luxury-villa-buying-experience-a219820f.md": {
+      "sha256": "be9908f3a2e6a0e36bc9185e5009402e40a773ade897932d384a4c681e40fa71",
+      "bytes": 10105
+    },
+    "final/markdown/blog/blog-tierra-viva-an-example-of-how-the-automotive-industry-is-shaping-luxury-real-estate-eb01ce0b.md": {
+      "sha256": "13a15757b23e7caf6b616d3327d80f3ebc69c5235690440ebb49ba18052a7df0",
+      "bytes": 5719
+    },
+    "final/markdown/blog/blog-top-branded-residences-in-downtown-dubai-8e1c5327.md": {
+      "sha256": "015329be1694cbae73372997647c3883fe2d2c6ff258fc4a8b0ca9b85b8dfd09",
+      "bytes": 11069
+    },
+    "final/markdown/blog/blog-top-considerations-when-buying-a-luxury-residence-in--dubai-a-comprehensive-guide-for-discernin-a22e4238.md": {
+      "sha256": "ca08f82708ff21ac2399146a0b7f4b61d717c94b5e45478eef257ce57a7c5be2",
+      "bytes": 8748
+    },
+    "final/markdown/blog/blog-top-luxury-gated-communities-7c086251.md": {
+      "sha256": "e4b312c20216f0b82b842401dbb3a71c8368480e5b1c6e9f9d723f3e4758cfd3",
+      "bytes": 10976
+    },
+    "final/markdown/blog/blog-trump-lnternational-debuts-in-aida-oman-a-landmark-in-luxury-3c7409f0.md": {
+      "sha256": "307294905c311cdeaf93203aeb4c4a9513775b04dffb50e87673d4859d9c44a9",
+      "bytes": 6326
+    },
+    "final/markdown/blog/blog-types-of-lighting-in-interior-design-39245e03.md": {
+      "sha256": "56980712bf098204a85359596e078f93bee79c3127d5e79a21f18bded3e20605",
+      "bytes": 9901
+    },
+    "final/markdown/blog/blog-unlocking-the-door-to-your-dream-home-essential-financial-steps-for-homebuyers-0b500004.md": {
+      "sha256": "192b473aec648092d5214afaad14b89250837e35f14ff1b0a489a6ec5cc1e052",
+      "bytes": 3654
+    },
+    "final/markdown/blog/blog-unlocking-the-doors-to-tax-free-real-estate-investment-in-oman-724a0c3a.md": {
+      "sha256": "2865354be3cb5ba916026afcaa414613f5375b2b41e0f65ee6cebc70473f6582",
+      "bytes": 3846
+    },
+    "final/markdown/blog/blog-unravelling-the-luxuries-of-costa-del-sol-best-things-to-do-places-to-visit-b333772c.md": {
+      "sha256": "cbbb87de787d5b4791fafdffccf324d326e508cc85cefcbabc856b7d147fa298",
+      "bytes": 6413
+    },
+    "final/markdown/blog/blog-unveiling-qatars-luxurious-investment-oasis-your-gateway-to-opulence-d52efb83.md": {
+      "sha256": "ad2c3ed6e92434bd5cc24aea473870099047ddb8cb9d5929ba3364fa46f398f1",
+      "bytes": 4701
+    },
+    "final/markdown/blog/blog-unveiling-the-astera-where-luxury-real-estate-meets-automotive-excellence-10274c5b.md": {
+      "sha256": "f5ffb536114c51bcf0ff6af3b1bd9ed2f1f27c6e0bf3ad8f34436e3b50df4f82",
+      "bytes": 4193
+    },
+    "final/markdown/blog/blog-unveiling-utopia-residences-paganis-automotive-artistry-meets-unparalleled-luxury-17bfe85b.md": {
+      "sha256": "940a82e54df17151c8b0111ebaae871426dbd8d413809743b3293c97d724abb7",
+      "bytes": 6116
+    },
+    "final/markdown/blog/blog-unwind-and-connect-at-dg1-residences-a-lifestyle-beyond-compare-7667da34.md": {
+      "sha256": "5e174d3422d483b6fb4c551cc607fc88a859f0e23ad6c6e55ec400e2679106c4",
+      "bytes": 4125
+    },
+    "final/markdown/blog/blog-villa-for-sale-in-dubai-s-most-desirable-locations-b1d5481f.md": {
+      "sha256": "16e470ed62dc6f31899d7fdafd7a825c154907739b24c682b0c8b73284496a9a",
+      "bytes": 12188
+    },
+    "final/markdown/blog/blog-villas-in-spain-to-buy-unlocking-the-hidden-gems-of-authentic-luxury-living-3c17890d.md": {
+      "sha256": "db785928ec6cef2f4a8f0f5b1e3d7beb508e5e485585285de573c1f75109089d",
+      "bytes": 11070
+    },
+    "final/markdown/blog/blog-wellness-real-estate-guide-a06d3e8a.md": {
+      "sha256": "501d96776e878c7f3371f703b8b1b67b2cf66ecacf809b4e6602eed11d3ccbc7",
+      "bytes": 11399
+    },
+    "final/markdown/blog/blog-what-is-a-golden-visa-in-spain-e400a630.md": {
+      "sha256": "635852d9f2276e0ff0c0f03824e59924da20d3bacb60c38827e958e050e6186b",
+      "bytes": 8558
+    },
+    "final/markdown/blog/blog-what-is-property-insurance-premium-9b900811.md": {
+      "sha256": "17f5bea377ed3f2dc53223b408e3af6a8675ddb65958e40037b83ef20a0c2201",
+      "bytes": 11527
+    },
+    "final/markdown/blog/blog-what-is-waterfront-property-6d3029b1.md": {
+      "sha256": "0a63320c920b599436c71fdbf8e8097c6dce8f1529b8e917111a7704d35344f6",
+      "bytes": 8391
+    },
+    "final/markdown/blog/blog-what-makes-an-apartment-luxury-be22f80a.md": {
+      "sha256": "5d1ce8fe977044505c46ebdfe9397aeba3549b03bdff3609f2420f5b50c4f0b8",
+      "bytes": 11230
+    },
+    "final/markdown/blog/blog-what-makes-great-luxury-real-estate-developer-key-traits-industry-leaders-68a82eaf.md": {
+      "sha256": "22209b50a7dfc592104f1c5075c889323da6ee8d31b464ce96297ed704dc58da",
+      "bytes": 8512
+    },
+    "final/markdown/blog/blog-where-luxury-meets-design-aston-martins-collaboration-with-darglobal-on-the-astera-35474220.md": {
+      "sha256": "d184ba933898d1eb47011154afb2b519b004630d73ec33605439c1ade5b8f95d",
+      "bytes": 4073
+    },
+    "final/markdown/blog/blog-where-to-invest-money-in-uae-5b7c2cf3.md": {
+      "sha256": "3d17a598751da556483e7b2b9d094cd817599eda7521a7ce7f6994308f08bf42",
+      "bytes": 9041
+    },
+    "final/markdown/blog/blog-why-aida-trump-international-cliff-villa-are-the-ultimate-luxury-getaway-88925df2.md": {
+      "sha256": "a59ac414748218e552f66d56cb970999627b19c5cbc71234a4492d9d0b0f9b40",
+      "bytes": 8248
+    },
+    "final/markdown/blog/blog-why-branded-residences-outperform-traditional-luxury-homes-23658a95.md": {
+      "sha256": "42cb9d3b2fdedd1f39a2a9dc0cc96a21cd52ddc7122f026ffbcc15669cd87429",
+      "bytes": 6420
+    },
+    "final/markdown/blog/blog-why-buy-property-in-spain-bee4d5ff.md": {
+      "sha256": "8bcb2e3f0fa5ece3a3ad775829373702556b0ed1105dfca6137d4965373df72b",
+      "bytes": 11745
+    },
+    "final/markdown/blog/blog-why-choose-marbella-top-luxury-villas-for-sale-in-this-idyllic-destination-7f9c5528.md": {
+      "sha256": "094859090717adca1e1ded93f345b6fdf366fb2371eaba8df67744e0c1e053fc",
+      "bytes": 10498
+    },
+    "final/markdown/blog/blog-why-dubai-is-the-perfect-place-to-buy-a-luxury-villa-unlocking-a-world-of-possibilities-1a81b784.md": {
+      "sha256": "f652855a5706809e386f3a0b88f35d971cd977e7216b8381dd1efaa70110c747",
+      "bytes": 9172
+    },
+    "final/markdown/blog/blog-why-dubai-remains-world-leading-luxury-property-market-59b9fecc.md": {
+      "sha256": "51cc97f41c65310b00d8455758a4042ed49eabfd1c93a24a9a6105c01e2bd584",
+      "bytes": 5540
+    },
+    "final/markdown/blog/blog-why-invest-in-dubai-real-estate-05674d4f.md": {
+      "sha256": "bfb4529bffbde01307486c646f2a8cb7b211dcaa636c379bda31571ea22bc436",
+      "bytes": 9558
+    },
+    "final/markdown/blog/blog-why-investors-are-eyeing-aida-as-omans-next-big-opportunity-761165a9.md": {
+      "sha256": "7f0d0ba086a044575ab76c686a4729418e75d495ffa1ff87a1f93fc65c7bcbaf",
+      "bytes": 3789
+    },
+    "final/markdown/blog/blog-why-luxury-real-estate-investment-portfolios-ada05f6a.md": {
+      "sha256": "3c40aed574847a2b3dbf9623b22cbc3247d0bb41519c55f166b69bfd038cc019",
+      "bytes": 6827
+    },
+    "final/markdown/blog/blog-why-luxury-villas-in-oman-are-your-next-dream-destination-188d0823.md": {
+      "sha256": "59a8eb3527e4f034860eeb5738dafaa1cc116f4f4fc5c5c4b7531f13ccf1bdd2",
+      "bytes": 12596
+    },
+    "final/markdown/blog/blog-why-marbella-s-villas-for-sale-are-attracting-global-buyers-3f871219.md": {
+      "sha256": "8532070c7a409ad5420e9733233602287b51bac9a9d88031aff36cad76cdf1dd",
+      "bytes": 8574
+    },
+    "final/markdown/blog/blog-why-your-next-investment-should-be-in-oman-c8e4fa85.md": {
+      "sha256": "93c17c9a3734ab3a8fd068aa6618e9ab26bdee371659f8e663f192a5e7b460f1",
+      "bytes": 2153
+    },
+    "final/markdown/blog/blog-your-beginners-guide-to-real-estate-investment-in-oman-34274c6a.md": {
+      "sha256": "e38098c03c7cdbcf98b8bdf60c691adfcbc15ffbe911c5ea0e180e81db8f927e",
+      "bytes": 3504
+    },
+    "final/markdown/blog/blog-your-dream-villa-awaits-exclusive-luxury-villas-for-sale-b19a92e6.md": {
+      "sha256": "bd7a8f41cc456a21b15b712762118fdcba7cbfe138b61df062cc467d1c660699",
+      "bytes": 8201
+    },
+    "final/markdown/blog/blog-your-dream-villa-awaits-exclusive-luxury-villas-for-sale-in-spain-a24d806e.md": {
+      "sha256": "c3ae74a13a9940c389ff93b3e5dd2cebedfdad398074ad0a2d1de8658e7015e2",
+      "bytes": 12043
+    },
+    "final/markdown/blog/blog-your-guide-to-buying-luxury-villas-for-sale-in-dubai-top-areas-and-investment-tips-2d55dd7c.md": {
+      "sha256": "6af9b53c64357d96b9e11a9b6dc314a88cebbd12e3ea7fe6ff06b3c95a83354c",
+      "bytes": 10601
+    },
+    "final/markdown/blog/blog-your-ultimate-guide-to-buying-luxury-villas-in-muscat-d4a57ef8.md": {
+      "sha256": "7737c1a5a2be3c7e073bbaf87445b16678cdc24369abd9cdcbcb7a37325e08ae",
+      "bytes": 10031
+    },
+    "final/markdown/communities/amaya-amaya-plots-435fc917.md": {
+      "sha256": "80e70739dd4b3bbabdb4380a91c32a99197d05679ed1419c3a7999b7032623a4",
+      "bytes": 4970
+    },
+    "final/markdown/communities/amaya-padel-living-201889b3.md": {
+      "sha256": "2cc80f32e1a6c8ab1d9d35323e959801868eaf08f39717010fa74b770c548be3",
+      "bytes": 2542
+    },
+    "final/markdown/communities/one-of-one-THE-ALBERT-HALL-MANSION-a74e1a81.md": {
+      "sha256": "59a572284553e8c4b863e8e7c2d64a93125acedd06bd9e968023fbcac8a27188",
+      "bytes": 2580
+    },
+    "final/markdown/communities/one-of-one-ee0f4e10.md": {
+      "sha256": "5ca5c659e749f4f547c85cb7ab8ccc9c152048a05eb23da9e88ccc550321464e",
+      "bytes": 3101
+    },
+    "final/markdown/communities/one-of-one-fendi-casa-azure-oceanfront-villas-a837fc3a.md": {
+      "sha256": "382a89ea5e3dabc1ce63228ae4cd5c730845230d6f35340b78f5e31a32ead25c",
+      "bytes": 2568
+    },
+    "final/markdown/communities/one-of-one-one-of-one-unlisted-by-pagani-b614173a.md": {
+      "sha256": "f6b08915e5f0ba74a3bf0adebd39dedae58cf85cb52132b5eb1fab1c33329c68",
+      "bytes": 3124
+    },
+    "final/markdown/communities/one-of-one-painite-villas-design-inspired-by-Automobili-Lamborghini-a188ec43.md": {
+      "sha256": "2e3a883cf5e83c5207683680e9619e6b6aeab82b47f5273e68c06d86130e43c0",
+      "bytes": 3104
+    },
+    "final/markdown/communities/one-of-one-project-pagani-ee57f981.md": {
+      "sha256": "1fcf6b8ffb829bb10a924ea0941c82e5c25edbc45310ada5af611f8f496bdf6b",
+      "bytes": 2736
+    },
+    "final/markdown/communities/one-of-one-top-of-the-astera-429d90ae.md": {
+      "sha256": "b323fcfb84ee0f9437b50fa2f3a3f6e611ae983810843b304abde35b9fb1ae29",
+      "bytes": 2287
+    },
+    "final/markdown/communities/one-of-one-trump-penthouse-ab20273a.md": {
+      "sha256": "6ccea013d10d9cc92bfb2cf327595b432afe2cd44cc3c3d2169b5f1d694dfc8e",
+      "bytes": 6805
+    },
+    "final/markdown/communities/rayana-darglobal-mansions-fendi-casa-cd4acaaa.md": {
+      "sha256": "42c2cd41ee0c66b3a10395b8c3d29ad7bc8f674a88c8b6b8cf41afeeb351559c",
+      "bytes": 2621
+    },
+    "final/markdown/communities/rayana-trump-international-qatar-a03a487b.md": {
+      "sha256": "1275c90b330ab65247c160e1531bddad6569ddc1860727b133320d18df1b4a3e",
+      "bytes": 2915
+    },
+    "final/markdown/communities/rayana-trump-mansions-43e06918.md": {
+      "sha256": "caf6b2f2f0bc7e7b295076dc8b8620a8aa3e3a541d1b5dce8699242cf4c03504",
+      "bytes": 2135
+    },
+    "final/markdown/corporate/about-f8e2f6d7.md": {
+      "sha256": "a716751a66aeb5c7c5c8d2df62516d0156b1e17afa3dac883f565979e5963fbb",
+      "bytes": 2056
+    },
+    "final/markdown/corporate/commercial-63338250.md": {
+      "sha256": "798c2a499fb79df8df8ec0581c23369186dcff62d08f195a53dc7c572d95187f",
+      "bytes": 5475
+    },
+    "final/markdown/corporate/faq-2bdf0f6f.md": {
+      "sha256": "5fb9f9a3bb6d284a4366bda14d1f9a51d62670bc32892d5263478a3b398f5c01",
+      "bytes": 10522
+    },
+    "final/markdown/corporate/home-3931bf92.md": {
+      "sha256": "7ee5581bd4128eb5c5e21e9e6c97ae229afabf67fbf2633d134171f8d0974020",
+      "bytes": 10565
+    },
+    "final/markdown/corporate/hospitality-ed26e5fb.md": {
+      "sha256": "07dac98039051f8c27ff9bf4f8995efdea748c185dec600dfba7c68c79f0fdb2",
+      "bytes": 2734
+    },
+    "final/markdown/corporate/investor-4ef6a511.md": {
+      "sha256": "a03cdc8b8d294fe4e4071987acecd6b4ec266bcc03b9ad9b5712deb65f069b2b",
+      "bytes": 3264
+    },
+    "final/markdown/corporate/luxury-golf-communities-0b3f0686.md": {
+      "sha256": "d466d12fec16c55ab4fc4ac4f90c25c0dc400cf3c8c0b7f9583352f93b188505",
+      "bytes": 6211
+    },
+    "final/markdown/corporate/tokenization-2902d614.md": {
+      "sha256": "ccc10e0662ae7d0dd68743ec06861c5c21b960ac13826fdd724a77956dffeeb6",
+      "bytes": 6778
+    },
+    "final/markdown/corporate/why-invest-05da34ef.md": {
+      "sha256": "135bf7426af1039f69ee29abe681b1b883be545652f63c703b7ca4d97f6d1c5c",
+      "bytes": 4184
+    },
+    "final/markdown/developments/Invest-crypto-14ba3c6b.md": {
+      "sha256": "f2a4baa33bcc10657f95842296376519a861f57d7f91b3c9e0c05eda8a70278e",
+      "bytes": 7032
+    },
+    "final/markdown/developments/La-Collina-6876db5d.md": {
+      "sha256": "84ee8b62327d42048cdd3a8b657f26bc027ea0dad2e5a2c01916414d02a3570a",
+      "bytes": 3643
+    },
+    "final/markdown/developments/Sunrise-Haven-Luxury-Villas-90d22faa.md": {
+      "sha256": "95c32a31d83106cb15b1969136672bd486d096618369215436a5012cdee3dfcc",
+      "bytes": 3420
+    },
+    "final/markdown/developments/aida-360-05059d78.md": {
+      "sha256": "a7d586d53ca8f1a52c8c70f4848a9c769a156af14265aa2acdc8c72207bbaa72",
+      "bytes": 3384
+    },
+    "final/markdown/developments/aida-coastal-investment-villas-9fc03cd0.md": {
+      "sha256": "8352d7a855378b9a76bffccc52631b3e01fe04db4cfb44bf2e441a9d88a86405",
+      "bytes": 3651
+    },
+    "final/markdown/developments/aida-trump-international-apartments-4c63b7b4.md": {
+      "sha256": "96581bbc9ff91b2c92cfcd3be13d6f48f442a4e232b2a50e07ea81a72acb02bb",
+      "bytes": 2941
+    },
+    "final/markdown/developments/aida-trump-international-cliff-villas-7c39e8c2.md": {
+      "sha256": "ef205d25d9a206e915d9835f958b24cf128973166466b5b8144a945832f7e3fc",
+      "bytes": 5627
+    },
+    "final/markdown/developments/aida-trump-international-hotel-22ff471a.md": {
+      "sha256": "5ebb76555a3906b7c1f79683f660b4c7fadd83726dd6e938f1f821f78b4a308f",
+      "bytes": 5311
+    },
+    "final/markdown/developments/aida-trump-villas-37319f01.md": {
+      "sha256": "3dca4761fee6a05cb987d56704a0a2f3438e438d6f91fa07d2e352fd43b3d134",
+      "bytes": 5263
+    },
+    "final/markdown/developments/amour-sans-detour-2-110afda2.md": {
+      "sha256": "ad6dc8d4d085a84827b023fc6874ea497cdf59a7c6f80dd25842af961c88f70d",
+      "bytes": 3164
+    },
+    "final/markdown/developments/amour-sans-detour-5911da93.md": {
+      "sha256": "ec3e623519d558134bbd92035fb5c0854e5a6057f4d3b896de5156991fc3b7f3",
+      "bytes": 3310
+    },
+    "final/markdown/developments/d-villas-at-jge-7bd5b7a3.md": {
+      "sha256": "f11425a299dbb680f0d5115ed7140126e950a3a7d4952beffd292982b013e500",
+      "bytes": 2636
+    },
+    "final/markdown/developments/davinci-tower-by-pagani-370b1896.md": {
+      "sha256": "8c43a0a232cef9f8c4fea90d047432690fbc00cae0c8d453cabd79af23b0c42e",
+      "bytes": 4109
+    },
+    "final/markdown/developments/development-management-14771513.md": {
+      "sha256": "e6f14cf0d0478079c201d14261064649c758a38360a1e753be3613771cec3aa5",
+      "bytes": 2026
+    },
+    "final/markdown/developments/dg1-798f0824.md": {
+      "sha256": "e82e28f834cb3fab2b7085b60917f05b9173a18b1bdf7dabb57fe545496d4a96",
+      "bytes": 2638
+    },
+    "final/markdown/developments/exclusive-membership-8b285d4e.md": {
+      "sha256": "803ffd014a841201e0e8da6c8795d0a8e4f20d8a48f4d7d36ea3922d50e520e6",
+      "bytes": 5342
+    },
+    "final/markdown/developments/exclusive-plots-8a39ba96.md": {
+      "sha256": "8fc6bc0b1472ff8ccfc1a645e87fd42d3c4396ef4e90ecbad037fed9fe6a9589",
+      "bytes": 5360
+    },
+    "final/markdown/developments/fairway-villas-aida-oman-9f12bf60.md": {
+      "sha256": "7354d5a8112eaef9e1e2752abe68647c81f699d3d8d211d35f97788c1553d22b",
+      "bytes": 3391
+    },
+    "final/markdown/developments/insignia-76ba6dcb.md": {
+      "sha256": "d32a59a7c686656ad120c19fc914708b9e64004b93ca0f1ebb8a88c22f2e1e4e",
+      "bytes": 6485
+    },
+    "final/markdown/developments/invest-in-aida-81c55982.md": {
+      "sha256": "bfe300b36d64e7c54e4087cc264e9e02330622b8c659542656b2856ce413da47",
+      "bytes": 3552
+    },
+    "final/markdown/developments/les-vagues-26a1892c.md": {
+      "sha256": "8a38a4f7966f86be18d427a8325e09e91ed8980deb27151778a439808cf6c3d5",
+      "bytes": 5283
+    },
+    "final/markdown/developments/live-all-in-78294015.md": {
+      "sha256": "6872ce9b1b32c7edeff06d9178761fbc8b77ec1322b57afb992b1db8ffafebab",
+      "bytes": 6806
+    },
+    "final/markdown/developments/marea-436d75c0.md": {
+      "sha256": "82478639642057db3b3c12fe127825303fd7ac3c253a4dc7a794dac8bbfdfe17",
+      "bytes": 5023
+    },
+    "final/markdown/developments/neptune-472eaa11.md": {
+      "sha256": "5dbf3fdb4497a20b96455abcca21878df32b62ade16b5fe6e03cbe0e2178f9cb",
+      "bytes": 4231
+    },
+    "final/markdown/developments/sohar-islamic-bc2ea23e.md": {
+      "sha256": "6e48b1ff26de4e2bac6aaa747347347479e771b2225c25b4a0490d6fa496eb3f",
+      "bytes": 5937
+    },
+    "final/markdown/developments/the-astera-6e456575.md": {
+      "sha256": "6517301d609767bf1fba583b22f684c3157aba1d17d719690f9d99f1a664f96d",
+      "bytes": 5409
+    },
+    "final/markdown/developments/the-great-escape-1-aida-oman-42bd6592.md": {
+      "sha256": "5648a11bf66c1411fd62d3f6afe25e8cda1ec7b8df55fc1c79891a3673bef3b7",
+      "bytes": 3745
+    },
+    "final/markdown/developments/the-great-escape-2-aida-oman-6084a5b6.md": {
+      "sha256": "0477cab8fc250945c96f8c2d9cda22b5628bb2984c02ce6dc76c188d78a363ad",
+      "bytes": 3365
+    },
+    "final/markdown/developments/the-mulliner-cb1d9a32.md": {
+      "sha256": "956ca2da4f7545388b083d531a4a0b0eae00759f091ceea5443c0907b7fc479a",
+      "bytes": 2430
+    },
+    "final/markdown/developments/tierra-viva-db7a0953.md": {
+      "sha256": "8cc16b1d41bf015cdfeda1e50162b3890df9f7e5c4f6ed382468043b017c3db4",
+      "bytes": 4609
+    },
+    "final/markdown/developments/trump-international-hotel-and-tower-dubai-5e673d5f.md": {
+      "sha256": "11d1cb38454eb81e7a14139fefb3feb9bb247a132f02a84abaf7dc9fcf2c57b7",
+      "bytes": 3796
+    },
+    "final/markdown/developments/trump-plaza-executive-residences-b99abd66.md": {
+      "sha256": "0726284e6871cc8e5f833a2330f2a4dd948b2bb09c324610c1021b85f7d8c869",
+      "bytes": 2176
+    },
+    "final/markdown/developments/trump-plaza-park-residences-1f382719.md": {
+      "sha256": "b9b7bf1ee16fde9346163cccbb370aca0056a3d9b53faecfa5a6834fbf65fe9b",
+      "bytes": 2130
+    },
+    "final/markdown/developments/trump-tower-jeddah-309874c0.md": {
+      "sha256": "ca8cd513dd638663787406933f74eaaf001a3fac808d6cc31a6a29f8a46ce6c6",
+      "bytes": 3818
+    },
+    "final/markdown/developments/urban-oasis-by-missoni-f087440b.md": {
+      "sha256": "ba3c650e6d7ddae85eeb1d0129387ec461f8673ae01cbf8466f8e4f1793049cb",
+      "bytes": 4480
+    },
+    "final/markdown/developments/w-residences-deca095b.md": {
+      "sha256": "294e0268e8cac13295fa75478bd7f5d84e50358a8c6224d74be0977e809544c9",
+      "bytes": 4734
+    },
+    "final/markdown/insights/insights-149-old-park-lane-luxury-london-e7d01e4d.md": {
+      "sha256": "68b5af6da851eea437689dda9c6a6998da11debc84e57a16d9e495114acb526f",
+      "bytes": 2522
+    },
+    "final/markdown/insights/insights-aston-martin-interiors-apartments-ras-al-khaimah-bcf59e8a.md": {
+      "sha256": "81d92f1c6c4c3e53c1650f5b09d3edb5dda11002df0b50478f999d690b3510e5",
+      "bytes": 3062
+    },
+    "final/markdown/insights/insights-automotive-designed-vacation-homes-benahavis-2208d965.md": {
+      "sha256": "4c52d8395f2ee232ee53cc0c39730e452841215ff63fe89682a87c7f96f4ac54",
+      "bytes": 2766
+    },
+    "final/markdown/insights/insights-capital-appreciation-developer-ras-al-khaimah-aeacb172.md": {
+      "sha256": "0bb845f4505666e6eebfe846188eba67dec519eff03940a54db22953219007e4",
+      "bytes": 2812
+    },
+    "final/markdown/insights/insights-crypto-tokenized-luxury-developer-a9cd4581.md": {
+      "sha256": "3a09d9f5ce88aa6a3a26a515f64ab9ad1e9447ad26d50d70347eb3c130675290",
+      "bytes": 2695
+    },
+    "final/markdown/insights/insights-elie-saab-branded-apartments-qatar-c718e8e8.md": {
+      "sha256": "4baac74e266f5fe217893a0c3888b818fdd771d1c98275b87bef21dd7520280b",
+      "bytes": 2880
+    },
+    "final/markdown/insights/insights-f202f4db.md": {
+      "sha256": "631a478be8dcf660d6f351e32d7d18b143cd94c7be117bb7db743791fac832e5",
+      "bytes": 6045
+    },
+    "final/markdown/insights/insights-global-citizenship-dual-residency-communities-dd8e05ef.md": {
+      "sha256": "5362ff5e4709a95b9330cee8da7ec62677de9c8f50276126d309cfd1a62eb13c",
+      "bytes": 2833
+    },
+    "final/markdown/insights/insights-lamborghini-inspired-villas-spain-3bdae403.md": {
+      "sha256": "aa7cdebc6529589716f6d38ec1a4fe5e57c1bb3aa710b2b395f55128ce6fdcec",
+      "bytes": 3061
+    },
+    "final/markdown/insights/insights-lse-listed-developer-dubai-a6ff2773.md": {
+      "sha256": "9f6fb57bb8d9a4434f27ac2b7f451037b088d602962e7c42fea935f03e4508ad",
+      "bytes": 2706
+    },
+    "final/markdown/insights/insights-luxury-golf-villas-muscat-branded-c4d054b7.md": {
+      "sha256": "a3e0f9be2da07e4667b7fb99e6965691f4baaea9f7e71761e32993dc2ee00743",
+      "bytes": 2771
+    },
+    "final/markdown/insights/insights-luxury-second-homes-saudi-residency-f4b6a709.md": {
+      "sha256": "eaddc544371ae990e155b3b30ff0521374cfe7fb227843c58dbd1e2b2738802d",
+      "bytes": 2868
+    },
+    "final/markdown/insights/insights-missoni-branded-residences-costa-del-sol-34692f91.md": {
+      "sha256": "accb384ec5609fb211673e0354099ddc20cda79377b54f80cc8e4f77702ed05b",
+      "bytes": 2953
+    },
+    "final/markdown/insights/insights-mouawad-branded-villas-riyadh-f78cf5fe.md": {
+      "sha256": "a877adbb0fd0ecf7b55efa6c24c317d1e84dda3c3909cb93832aedf1e93e6c8c",
+      "bytes": 2771
+    },
+    "final/markdown/insights/insights-oman-gated-communities-high-altitude-658e2bbf.md": {
+      "sha256": "eeb237441dac7d606b8251f0c7553f6b5ae6edc85f78eae840a8f328693a8323",
+      "bytes": 2825
+    },
+    "final/markdown/insights/insights-oman-golden-visa-sea-view-homes-1757d835.md": {
+      "sha256": "ea5c6223a08c8f0f8cb977fd408e863b2da92e2691f1f8a6f0e7aa11af7d3c36",
+      "bytes": 2900
+    },
+    "final/markdown/insights/insights-pagani-interiors-villas-dubai-4a5d402f.md": {
+      "sha256": "9cac17e76de7e665a3847d7b19f6ad15dec0e3d8e810b635c8ae31cbf0ea8010",
+      "bytes": 2802
+    },
+    "final/markdown/insights/insights-premiere-architectural-landmarks-dubai-482ab8a2.md": {
+      "sha256": "f882eac603addec26d4d6c319e96d8d1b3bfa219522131631f35571b26d29704",
+      "bytes": 2836
+    },
+    "final/markdown/insights/insights-safe-luxury-developer-oman-dce791e3.md": {
+      "sha256": "7236b46cced9e40de0ad57372aba7b3848d5525b4e122624c9810816293c7405",
+      "bytes": 2733
+    },
+    "final/markdown/insights/insights-supercar-designed-penthouses-uae-cf709121.md": {
+      "sha256": "15dbc20f89cff973c1dd1312aa47874516b60391b2d7b585987673483cefc4a3",
+      "bytes": 2821
+    },
+    "final/markdown/insights/insights-tokenized-fractional-luxury-hotels-me-c696fd1e.md": {
+      "sha256": "58294f8d1f0289e591d013d1c74709882196644f32e76341b9bc511a91da13b1",
+      "bytes": 2683
+    },
+    "final/markdown/insights/insights-transparent-financials-dubai-off-plan-b0efbced.md": {
+      "sha256": "539d309b47dbcc52ccc07a4cb3c8991223dd1d75e5094eb035351b30817e005c",
+      "bytes": 2674
+    },
+    "final/markdown/insights/insights-trump-international-hotel-dubai-72d9bba0.md": {
+      "sha256": "ced3b845e99cee992ddb354875a761327321c827c3e3def2b5554236ec28386d",
+      "bytes": 2682
+    },
+    "final/markdown/insights/insights-trump-partnered-projects-oman-8718c249.md": {
+      "sha256": "7385be1ac3fd78632af1eab172c74c1e3b75a9ffac5e5ffb8e135937c6b24265",
+      "bytes": 2980
+    },
+    "final/markdown/insights/insights-twisting-residential-towers-dubai-business-bay-2f5778a1.md": {
+      "sha256": "a570a2c506fd3693c505bc46d92cfbc86e91cffe3c3665878cc69684644a2211",
+      "bytes": 2831
+    },
+    "final/markdown/insights/insights-w-residences-downtown-dubai-569a8709.md": {
+      "sha256": "35c6ecd1818efb2e3cd485c2702de51b7a2d0be207953ed030d8735fdc1a6e75",
+      "bytes": 2808
+    },
+    "final/markdown/partners/partners-aston-martin-909b9bd6.md": {
+      "sha256": "934e0b76cb778251bed24fe71b191e27456cc3882cf0fa2618fedae6d91b9753",
+      "bytes": 4824
+    },
+    "final/markdown/partners/partners-elie-saab-07ea3453.md": {
+      "sha256": "0193c5eaf1c47283420af2531b571b47a7f6e69f89f51cc329d0feef75502cb0",
+      "bytes": 3925
+    },
+    "final/markdown/partners/partners-fendi-casa-df9cea5e.md": {
+      "sha256": "de560e6905eb63a0126034bc81d5a941d97d533a2b0f03a95068c0214bfee128",
+      "bytes": 4577
+    },
+    "final/markdown/partners/partners-lamborghini-05a2e22e.md": {
+      "sha256": "e1b3591bd1061f3710a9530eff9c7e25f0196b205f942db24a4247ac4a7357a3",
+      "bytes": 4268
+    },
+    "final/markdown/partners/partners-marriott-residences-aida-oman-8d93dc9e.md": {
+      "sha256": "c9e3f234331d8316b716484a6e4b8a94635fc4cff316cf2a56bdc972ba7ce940",
+      "bytes": 3573
+    },
+    "final/markdown/partners/partners-missoni-b63bb2fb.md": {
+      "sha256": "1fb1296d1abda02899080b68ae86c2239e9b311a73824645cd840c92c2086b9f",
+      "bytes": 5514
+    },
+    "final/markdown/partners/partners-mouawad-2f7625da.md": {
+      "sha256": "908ddfba2822ca4ff245a012f7f27ae7928b907b9d7972655ccb5e2e8f115416",
+      "bytes": 4135
+    },
+    "final/markdown/partners/partners-pagani-a040b614.md": {
+      "sha256": "3af966703c7758d6f336f72d719dd53bede2e251f000901116c055f625682311",
+      "bytes": 4465
+    },
+    "final/markdown/partners/partners-paramount-03f115b1.md": {
+      "sha256": "34a4259625cf31996d76665b04b61b94fca8fde54faf387a7ee72e140702a356",
+      "bytes": 2505
+    },
+    "final/markdown/partners/partners-the-trump-organization-48fb4de1.md": {
+      "sha256": "0a71e0533be612bb03771f2c54594dd66c127b2d6aece8516f34b7629c9d98e3",
+      "bytes": 11029
+    },
+    "final/markdown/partners/partners-w-hotels-fd4da781.md": {
+      "sha256": "969008b279278f0540d2fb839852ee4d346fea8072dc1e0bfef46d4ffa4aed7a",
+      "bytes": 4821
+    },
+    "final/markdown/press/press-74d6f592.md": {
+      "sha256": "ed438622d8a10b8c4230daf313c75d25d9fab7af06828e8338c253311c77bbb6",
+      "bytes": 14426
+    },
+    "final/markdown/press/press-DARGLOBAL-APPOINTS-ROTHSCHILD-CO-TO-EXPLORE-FURTHER-GROWTH-OPPORTUNITIES-IN-LONDON-AND-SAUDI-A-ad9988fc.md": {
+      "sha256": "f949f8a48e79edd18e8c39a9db83d6631467f2deaa8c0bfeac4880e1224fe90f",
+      "bytes": 3239
+    },
+    "final/markdown/press/press-Dar-Global-Kicks-Off-Construction-at-The-Astera-Interiors-by-Aston-Martin-with-the-Appointment-695df5ba.md": {
+      "sha256": "d2cfff74fd35d2023969d5e415bc7eb52411f2bd7c4171d1ddd7b1f48ff8a7dd",
+      "bytes": 3627
+    },
+    "final/markdown/press/press-Dar-Global-advances-construction-at-Tierra-Viva-its-first-European-luxury-development-with-Aut-8878bc69.md": {
+      "sha256": "4f4c59951ec3650788fbcb4a4255b8bb49696344fce00366ce59546ce60a0759",
+      "bytes": 4471
+    },
+    "final/markdown/press/press-Dar-Global-and-The-Trump-Organization-Expand-Collaboration-with-the-Launch-of-SAR-2-Billion-Tr-f8953296.md": {
+      "sha256": "d6d3d44f06d8105a6330990cad281625f8d74db438075f1febbdc508f232f1a0",
+      "bytes": 5267
+    },
+    "final/markdown/press/press-Dar-Global-completes-sale-of-historic-149-Old-Park-Lane-marketed-at-25mln-21208044.md": {
+      "sha256": "754004af167a963b99ab7edff1c5dd07ea8ae074786e820b4d08bb9b917ad184",
+      "bytes": 3484
+    },
+    "final/markdown/press/press-Dar-Global-sets-a-new-benchmark-in-luxury-hospitality-with-the-launch-of-the-500ml-Trump-Inter-8f2bae13.md": {
+      "sha256": "786209f47ecfc426b7cd8fe3f021ee9505ff13573c7e1633a68c45c868e31142",
+      "bytes": 4001
+    },
+    "final/markdown/press/press-DarGlobal-PLC-appoints-David-Weinreb-as-Chairman-ff55a079.md": {
+      "sha256": "f908065d59f23e70c32e95af7012852747d21a0eec9ab9d7f895b41bc7d039a1",
+      "bytes": 3890
+    },
+    "final/markdown/press/press-DarGlobal-appoints-China-Tiesiju-Civil-Engineering-Group-Co-LTD-a-the-main-contractor-for-DG1--e1d456d1.md": {
+      "sha256": "af5548094a530568839c38b921a279d5d717e4f02128b2876ed0648b5f8dcd4d",
+      "bytes": 4071
+    },
+    "final/markdown/press/press-DarGlobal-crafts-an-exceptional-residential-experience-with-the-launch-of-exclusive-DG-Villas--16b836d4.md": {
+      "sha256": "2e30dee8b9574c8a5a2fe1e9da6add44efceaa4bb41cb547ef5bb2014894fb70",
+      "bytes": 5770
+    },
+    "final/markdown/press/press-LET-IT-RAIN-DIAMONDS-DAR-GLOBAL-AND-MOUAWAD-HIGH-JEWELLERY-HOUSE-UNVEIL-SAR-880-MILLION-LANDMA-ce75819c.md": {
+      "sha256": "4b0cb150d0008b81bf6528823d9d0b5f4ae2a7714765a65c84ffebef7d5b2e7c",
+      "bytes": 4048
+    },
+    "final/markdown/press/press-dar-al-arkan-and-omran-group-announce-partnership-to-develop-aida-overlooking-the-sea-of-oman-29c87326.md": {
+      "sha256": "453444df20ae24ce9da44dc0abf2cda2d2f5ae5c845b16c3c1f0798c93bb0b75",
+      "bytes": 4476
+    },
+    "final/markdown/press/press-dar-al-arkan-and-pagani-automobili-give-customers-a-glimpse-of-the-worlds-first-ever-pagani-in-4ec12bcd.md": {
+      "sha256": "e4e178d54dc281bcc3d291c32830980b95d3f22a14d69d8c8891bac0ca6e3b8f",
+      "bytes": 4011
+    },
+    "final/markdown/press/press-dar-al-arkan-and-qetaifan-projects-unveil-premium-sea-front-residences-with-interiors-designed-4901219d.md": {
+      "sha256": "28e2162f325344a1eaf17a8cb57ce9bea2dcdbd22b6222778c57f502d0d52558",
+      "bytes": 5505
+    },
+    "final/markdown/press/press-dar-al-arkan-and-qetaifan-projects-unveil-premium-sea-front-residences-with-interiors-designed-52ea3cef.md": {
+      "sha256": "026023871106930b2eb1247adca6d2a2c221f00985db1996ca23cb99f0ffc55e",
+      "bytes": 6426
+    },
+    "final/markdown/press/press-dar-al-arkan-commences-construction-of-the-sold-out-w-residences-in-downtown-dubai-803ea706.md": {
+      "sha256": "580978183b026f0d0e7e7373ae19e86b40a077df7052afcaafd19393fb02dd55",
+      "bytes": 3257
+    },
+    "final/markdown/press/press-dar-al-arkan-global-launches-sales-of-the-most-premium-residential-address-in-qatar-les-vagues-a8003304.md": {
+      "sha256": "faa2ec61822604246ceb408eeedd421ae2ff55a91e627d5ec918a47e5a5dac67",
+      "bytes": 4993
+    },
+    "final/markdown/press/press-dar-al-arkan-introduces-trump-signature-villas-hotel-and-golf-course-at-its-hilltop-project-ai-d4f92b81.md": {
+      "sha256": "0f840486f85decebe8392f2d9cb2bbb5eca359c24d8608576a118ee583c03919",
+      "bytes": 3991
+    },
+    "final/markdown/press/press-dar-al-arkan-opens-office-in-china-in-a-bid-to-usher-in-global-growth-3957f91e.md": {
+      "sha256": "491308082bb42b7dd2c6c15c6a377fcc8e0326cddadf8080b24a0a3afde962e6",
+      "bytes": 3888
+    },
+    "final/markdown/press/press-dar-al-arkan-reveals-w-residences-dubai-downtown-overlooking-dubais-burj-khalifa-and-dubai-fou-53bade6d.md": {
+      "sha256": "f30aae9b28a3c29b8c4d9d53c4a87dd42a2d715e1ff82111edba90844e0f8bb7",
+      "bytes": 5484
+    },
+    "final/markdown/press/press-dar-al-arkan-starts-work-on-sidra-the-largest-master-development-in-bosnia-and-the-balkans-7759b160.md": {
+      "sha256": "a6111b42502cf546af8ccdf67ab2bb535c2bd77515a08adbd5a6e4eef55e5753",
+      "bytes": 4179
+    },
+    "final/markdown/press/press-dar-al-arkan-succeeds-in-the-listing-of-its-international-arm-dar-global-on-the-london-stock-e-4804077d.md": {
+      "sha256": "a9b1175910c51bb4453f9d8a306293caf64cf937764bc9d175453d53d9258005",
+      "bytes": 4617
+    },
+    "final/markdown/press/press-dar-al-arkan-teams-with-missoni-to-deliver-the-exclusive-urban-oasis-water-front-residential-t-7bb7f92c.md": {
+      "sha256": "23be885cbc809017d1a2364b6e03c74828bdf1326a8dc32bc5ac95f3ec9ff056",
+      "bytes": 4196
+    },
+    "final/markdown/press/press-dar-al-arkan-teams-with-pagani-automobili-to-unveil-an-ultra-exclusive-residential-tower-in-du-38b45d7f.md": {
+      "sha256": "1145ebefeae79584f1e46c07e585cff3f05bb5c9d7bc25ac74702d35ac822c99",
+      "bytes": 5587
+    },
+    "final/markdown/press/press-dar-al-arkan-tops-out-its-urban-oasis-by-missoni-residential-tower-in-dubai-at-34-stories-def42338.md": {
+      "sha256": "7d6dde219aa2d8bcda4879a96146dcfe9786c6cd66289b5407abe578d4d83e8b",
+      "bytes": 3705
+    },
+    "final/markdown/press/press-dar-global-17-3-roe-2025-strong-market-position-e7f692da.md": {
+      "sha256": "2b0d09d838721e263e9862b0e0e5dfadc2e21ce3c8fe01c91cbc1ecff379d78d",
+      "bytes": 2914
+    },
+    "final/markdown/press/press-dar-global-appoints-gulf-asia-contracting-for-trump-international-hotel-tower-dubai-cfbb2e9d.md": {
+      "sha256": "831f14365d240b5803b28993b0acb0fb46afb99d2e03acefd18406917b8ff713",
+      "bytes": 3418
+    },
+    "final/markdown/press/press-dar-global-awards-sar-338-million-rayana-master-community-infrastructure-contract-compass-bin--f2156f11.md": {
+      "sha256": "de3f6bed38a036dad13f825b40c5a4a9251c772973012a6cf81c39148c772741",
+      "bytes": 3975
+    },
+    "final/markdown/press/press-dar-global-awards-shapoorji-pallonji-mideast-l-l-c-the-fit-out-works-for-da-vinci-tower-by-pag-7d58183f.md": {
+      "sha256": "28e8abd086f6bdd7671547c16ac61e48bdfbbad80c5c793331040ce1af8682ba",
+      "bytes": 4298
+    },
+    "final/markdown/press/press-dar-global-capital-partners-targets-high-value-real-estate-opportunities-dubai-2c9e23f3.md": {
+      "sha256": "f070fe40d17098afa7c166111e040e33f74d0ebf628888d5d2f354e5adfb8376",
+      "bytes": 3972
+    },
+    "final/markdown/press/press-dar-global-delivers-66-percent-revenue-growth-hy-2026-portfolio-gdv-reaches-23-billion-0a41a36f.md": {
+      "sha256": "26241dbc2dfde2d2c42845637c632c0ed5940306aa3845b2a1886e4b8640fe9c",
+      "bytes": 3368
+    },
+    "final/markdown/press/press-dar-global-introduces-stunning-beach-residence-the-astera-interiors-by-aston-martin-fff50f1e.md": {
+      "sha256": "d31cb53c0015d74d97a620d8614e4ba72056e2bae1ffb254dd8c89d9e610362d",
+      "bytes": 4254
+    },
+    "final/markdown/press/press-dar-global-lamborghini-lounge-porto-cervo-summer-15b4f19d.md": {
+      "sha256": "09d15854322d3e932054af4750751264ce6f38d1ece933d4dccc07f31d6b7aec",
+      "bytes": 2678
+    },
+    "final/markdown/press/press-dar-global-launches-sales-for-aida-a-one-of-a-kind-mixed-use-gatedcommunity-featuring-trump-go-cff6ae5c.md": {
+      "sha256": "5a36a0e187e1e2ed14fa940334ff02acf8021ba1e063727ef7bc6a85b246b84d",
+      "bytes": 5865
+    },
+    "final/markdown/press/press-dar-global-opens-sales-trump-villas-simaisma-qatar-unprecedented-interest-f64bcac3.md": {
+      "sha256": "b786f6917120369e0da9c02a3eba3fa088db96b36f85be1499bd90ffe40a197a",
+      "bytes": 3097
+    },
+    "final/markdown/press/press-dar-global-trump-organization-launch-trump-hotel-tower-dubai-fce3bc47.md": {
+      "sha256": "c43b7e1e41ddd3ec58477163c762555d67ff2044e517a589eb3a65a30dced540",
+      "bytes": 4185
+    },
+    "final/markdown/press/press-dar-global-trump-organization-usd-1bn-trump-plaza-jeddah-c6f368f6.md": {
+      "sha256": "2a8cc676aaef72e020d39903bbd926508f5e3c9333f434f5c54df5bd8c68699b",
+      "bytes": 3883
+    },
+    "final/markdown/press/press-dar-globals-agents-event-paves-the-way-for-a-spectacular-debut-in-spanish-real-estate-a6307dde.md": {
+      "sha256": "ede6c0703287f0158abb94e631bf770597a819a31ff07fefa246b3fbf7315fea",
+      "bytes": 3329
+    },
+    "final/markdown/press/press-dar-globals-expansion-into-saudi-arabia-to-benefit-from-growing-international-interest-in-the--f9a391dc.md": {
+      "sha256": "57bc1d26011a5c4b711f98a9dfcd296beb74705a0f16147559744e09802b1c5f",
+      "bytes": 4097
+    },
+    "final/markdown/press/press-darglobal-acquires-prime-plot-jeddah-landmark-mixed-use-scheme-1ff1a2a9.md": {
+      "sha256": "f0374ebf3b1a65249dfc295b1998001a3c5654dc08a7e12fc41343695b0c6521",
+      "bytes": 2870
+    },
+    "final/markdown/press/press-darglobal-announces-partnership-with-aston-martin-to-deliver-stunning-beachfront-residences-in-5ceecc38.md": {
+      "sha256": "66e8b08afde203655554007c1dcbe47b293b3290f74baba18a0075eaf22377b0",
+      "bytes": 4338
+    },
+    "final/markdown/press/press-darglobal-appoints-acc-for-main-works-as-trump-tower-jeddah-rises-c3ca81ef.md": {
+      "sha256": "00ad431d2d875579d480a198b54a3ee79f0c004894268be7cba062ed745a22cb",
+      "bytes": 3548
+    },
+    "final/markdown/press/press-darglobal-appoints-al-adrak-for-great-escape-apartments-and-aida-phase-1-villas-oman-a8792e68.md": {
+      "sha256": "5ee95b766faa7dcbd8a44de248ee6fd9b75fd45bc8f97cd8fbde36ff4e1b3057",
+      "bytes": 3050
+    },
+    "final/markdown/press/press-darglobal-appoints-al-dahlawi-contracting-for-amaya-project-trump-plaza-jeddah-dde1dddc.md": {
+      "sha256": "85c0408ab219e4d194a11245fac6885e144959aacfdf8d8b1741290e5fc415f0",
+      "bytes": 3640
+    },
+    "final/markdown/press/press-darglobal-appoints-ene-construccion-as-main-contractor-for-tierra-viva-luxury-villas-187da982.md": {
+      "sha256": "ec8e694bd0fbd968988fd04e94cbfb11c32467f029f8880487b210500ca8cf23",
+      "bytes": 3385
+    },
+    "final/markdown/press/press-darglobal-art-district-real-estate-mad-muscat-marine-art-digital-district-7cf2914e.md": {
+      "sha256": "5717f98ac8e066242518ade5ad722f19a6b1653c27597d3c92e3e409e213fada",
+      "bytes": 3824
+    },
+    "final/markdown/press/press-darglobal-awards-enabling-works-contract-trump-international-hotel-tower-dubai-edrafor-emirate-65330562.md": {
+      "sha256": "633aecda8fa35706fd6cf4672b7a14537b602af489308a9c6437a7a26719d1ee",
+      "bytes": 2844
+    },
+    "final/markdown/press/press-darglobal-awards-main-contract-astera-aston-martin-gulf-asia-47a9875e.md": {
+      "sha256": "93899202deb0ff62ebb1c4b699c5eef4b8fbe84e03ccd19762b9900a08a57778",
+      "bytes": 3222
+    },
+    "final/markdown/press/press-darglobal-awards-the-main-works-of-w-residences-in-downtown-dubai-for-aed273000000-aed-414c6782.md": {
+      "sha256": "7747a00bb29b72f9a5ddd6e4f580b8346935e3b9cae09187f96bc1ee7eadb5e8",
+      "bytes": 2992
+    },
+    "final/markdown/press/press-darglobal-awards-top-agents-propelling-real-estate-sector-in-dubai-222178ca.md": {
+      "sha256": "046d50b39f6b77d1439638cae1af1ceb5c722aad89509910d46849bdea7db50e",
+      "bytes": 3213
+    },
+    "final/markdown/press/press-darglobal-begins-handover-of-iconic-davinci-tower-by-pagani-automobili-eea0f898.md": {
+      "sha256": "19a05164d7e07e1399b4214eae461c0c88d005e07e7d90524e9af546a9c0be48",
+      "bytes": 2935
+    },
+    "final/markdown/press/press-darglobal-breaks-ground-on-trump-tower-jeddah-62c6f9dd.md": {
+      "sha256": "582e10a464418d6703f9da1c7cdf7a9e5be4b8648d14c0af79f920b5708b753c",
+      "bytes": 3697
+    },
+    "final/markdown/press/press-darglobal-debuts-nickelodeon-hotels-resorts-oman-in-aida-setting-new-luxury-family-standard-5a174c12.md": {
+      "sha256": "44b717afffef285d01738c306d23aea393f17c76e5a8fca087694d11341e9c8a",
+      "bytes": 4653
+    },
+    "final/markdown/press/press-darglobal-fendi-casa-announce-azure-oceanfront-villas-oman-11e329a4.md": {
+      "sha256": "6e0bf42acac1c320dbb13d6200acadff6165e83aed8de8c17eaaebcece3018f8",
+      "bytes": 4172
+    },
+    "final/markdown/press/press-darglobal-first-saudi-company-equity-shares-london-stock-exchange-c7b28bab.md": {
+      "sha256": "04ca88d8efd5fe13b4f8c406f12ffd6fc6229fb748cdcfb18a3bbe22a2fe8576",
+      "bytes": 3310
+    },
+    "final/markdown/press/press-darglobal-five-years-global-expansion-23bn-development-portfolio-future-vision-f449489f.md": {
+      "sha256": "ce03368c5b0a5e7c124b4c5262fbbc76ec14dd4d44204e2a69404a83b95ca30e",
+      "bytes": 4170
+    },
+    "final/markdown/press/press-darglobal-gdv-growth-67-12-5bln-new-saudi-developments-financial-services-0805e45f.md": {
+      "sha256": "ea8e4303f9b9b5f909b3acfebadb6bec194383b9e4c3fe3e828293e210705b02",
+      "bytes": 6117
+    },
+    "final/markdown/press/press-darglobal-joins-hands-with-spanish-council-lighting-up-abu-dhabi-in-celebratory-colors-of-spai-f71e3583.md": {
+      "sha256": "55b278ee060e038e80930f5e7bfe11cae85b8531a55e215f47ad18b63b8ae1b6",
+      "bytes": 4591
+    },
+    "final/markdown/press/press-darglobal-launches-trump-plaza-jeddah-second-collaboration-1125c6c8.md": {
+      "sha256": "55db54f227976ee270702834682fb537756f8f97037eb5ea748abd5c0665c71d",
+      "bytes": 4301
+    },
+    "final/markdown/press/press-darglobal-london-stock-exchange-opening-bell-live-all-in-launch-e427fe87.md": {
+      "sha256": "22444e34778c6d5a4c7cf0eac2c452c2ae36189d844b183d189389e745f2b61b",
+      "bytes": 4335
+    },
+    "final/markdown/press/press-darglobal-partners-with-wasalt-to-advertise-trump-tower-jeddah-cb9ee4eb.md": {
+      "sha256": "1a517af430460574c27862095162db3d152021d8ba008a9024708955903347e9",
+      "bytes": 3776
+    },
+    "final/markdown/press/press-darglobal-strengthens-china-partnerships-saudi-real-estate-global-investors-78ed7029.md": {
+      "sha256": "b1ce02090b04d4b7e8ef0dc6053064dfd2b90c77599210cc169c9c65438ecbee",
+      "bytes": 3863
+    },
+    "final/markdown/press/press-emirates-nbd-usd-250m-syndicated-loan-dar-global-expansion-uae-d8ae0b3a.md": {
+      "sha256": "e55ceb8c1320660331beb8def9029885eb12de58d95f4d63f989f12e37f816ae",
+      "bytes": 4201
+    },
+    "final/markdown/press/press-exceptional-luxury-living-redefined-darglobal-and-automobili-lamborghini-present-tierra-viva-v-8940e052.md": {
+      "sha256": "9f5faa548b80018fcd67f4b0d4afc96d1f1421dcfddad60c1b80c3bee63adc6b",
+      "bytes": 4676
+    },
+    "final/markdown/press/press-helping-saudi-homegrown-brands-list-in-london-92eab7ac.md": {
+      "sha256": "8311c790900f8e9a22f7581366f7e6b071867e716ad6a18ba373054e76205bbf",
+      "bytes": 4978
+    },
+    "final/markdown/press/press-missoni-and-dar-global-launch-residential-development-project-in-southern-spain-92e22ca6.md": {
+      "sha256": "5cc51012b8a84c04d9079cd412b2a18ef71612b68e1154a271b0ce7bee882039",
+      "bytes": 3773
+    },
+    "final/markdown/press/press-missoni-and-dar-global-launch-residential-development-project-in-southern-spain-duplicate-2774-9e98947e.md": {
+      "sha256": "93600b4e4be6841a34da9a2be22ab2bbd89c1322ded88057042b510ce90f8d7c",
+      "bytes": 8174
+    },
+    "final/markdown/press/press-qatari-diar-darglobal-trump-international-golf-club-villas-simaisma-74bfdb93.md": {
+      "sha256": "db7c010ad7425884d58e83fca94897c3fdac742bb921a61f49ee2013c288e983",
+      "bytes": 3528
+    },
+    "final/markdown/project_listings/projects-52e87e20.md": {
+      "sha256": "db677af8db2faa9bcf85cc343d4994bc32841607cd5d959b55b4c0ef42547ea1",
+      "bytes": 4923
+    },
+    "final/markdown/project_listings/projects-properties-in-oman-3a8e0501.md": {
+      "sha256": "e5dae8fead0365bd56cdd545f5869771656b8fdfea3b8a43a5c9db4bad26fa87",
+      "bytes": 7297
+    },
+    "final/markdown/project_listings/projects-properties-in-oman-apartments-2ba8d655.md": {
+      "sha256": "e5881e8a10361cafe175effddbdfe66684b02a9a9b98103d084768d6e3cf0fe8",
+      "bytes": 5772
+    },
+    "final/markdown/project_listings/projects-properties-in-oman-hotel-rooms-27864b38.md": {
+      "sha256": "87491ebab8e5d49f200c00065ebeb3bdd1f1d4845da880d9194240a3256c2ef5",
+      "bytes": 723
+    },
+    "final/markdown/project_listings/projects-properties-in-qatar-eb0fda05.md": {
+      "sha256": "468c56a14e19e82ec297460a057d9744e48c0766c74b93546740e1958a1b06b0",
+      "bytes": 5026
+    },
+    "final/markdown/project_listings/projects-properties-in-qatar-villas-6f852a0f.md": {
+      "sha256": "182ade02579e72f63fc93ce5c1bcd953592d3d3c74737cf9de2767ddba0efc63",
+      "bytes": 726
+    },
+    "final/markdown/project_listings/projects-properties-in-saudi-arabia-5305b8d6.md": {
+      "sha256": "ba756c8fdb6c9b59cdbb848b0b5c6c90e4d738669c568b9531bf1194e3f38800",
+      "bytes": 7453
+    },
+    "final/markdown/project_listings/projects-properties-in-saudi-arabia-apartments-35f36c1d.md": {
+      "sha256": "66c3ed87be88d578e8213563494adb2f8b08b6e34c64bb73db9897cb0c6e8d86",
+      "bytes": 6100
+    },
+    "final/markdown/project_listings/projects-properties-in-saudi-arabia-villas-5639ccfd.md": {
+      "sha256": "1cb7c318601adada61f9b813a8c6a08b2313bb8a69288623af5322b1254e5685",
+      "bytes": 6431
+    },
+    "final/markdown/project_listings/projects-properties-in-spain-e5c25d65.md": {
+      "sha256": "d4d087024caa2c7b0f0f12300cf3b5d829945c66bbb8ee30b981897d33398e73",
+      "bytes": 6895
+    },
+    "final/markdown/project_listings/projects-properties-in-spain-villas-ddda6e6e.md": {
+      "sha256": "2f72514789554f06ca1879cda031019ca9ea5764190f38fb0fa1d755a5ec1925",
+      "bytes": 5726
+    },
+    "final/markdown/project_listings/projects-properties-in-uae-d39f6349.md": {
+      "sha256": "b5f6fd1d14ba620505717aa52c6cee808b0015d58b46f21b34675d8e1f1f9f28",
+      "bytes": 6150
+    },
+    "final/markdown/project_listings/projects-properties-in-uae-villas-3aaaeae5.md": {
+      "sha256": "8ee227b46af8851fc2ccd3156114a5a11e0ca32577f558ed146afb7dcff4341c",
+      "bytes": 5731
+    },
+    "final/markdown/project_listings/projects-properties-in-uk-92d11440.md": {
+      "sha256": "c7bc8acd8a320e77c33a3b99152d1ca7f6acc55f0163d2363d9ff7a0dc056e7c",
+      "bytes": 737
+    },
+    "final/markdown/project_listings/projects-properties-in-uk-apartments-da12dc55.md": {
+      "sha256": "d88025f3fc87c71cf43c2a26c9b90c136ee5a5ee2abe898349220b251ad306bc",
+      "bytes": 836
+    },
+    "final/summary.json": {
+      "sha256": "527c99891739775bbf077117a0302ad15bc78627163c5f7411a03fa809944dfd",
+      "bytes": 304
+    },
+    "final/validation_report.json": {
+      "sha256": "e410274312903fa26b98ca389efa5abd95458934adc4c133db6881c9b3c8c129",
+      "bytes": 141
+    },
+    "quarantine/404_pages/press/press-dar-global-introduces-its-unrivalled-debut-luxury-hospitality-project-in-the-maldives-in-partn-a826f17c.md": {
+      "sha256": "a92163e57652116b75a33401379abfc3be6a54ad7722dab85013fe52a844b3fc",
+      "bytes": 5743
+    },
+    "quarantine/404_pages/press/press-darglobal-trump-international-hotel-maldives-tokenized-hotel-development-7914fa94.md": {
+      "sha256": "d72408fe98f60bf693476e1ce2b41e410f6c56bce6b13ac41e90b0bdcef0560a",
+      "bytes": 5645
+    },
+    "quarantine/404_pages/press/press-world-liberty-financial-tokenizes-trump-international-hotel-maldives-a4839dce.md": {
+      "sha256": "fb8486dde1be61d67509d02104ff5ab0082666a106be754e0eb5356b68c58f84",
+      "bytes": 5641
+    },
+    "quarantine/developments/DarGlobal-Insignia-Card-5f817b6d.md": {
+      "sha256": "8288101b9ef15caf948cc69b863d536f79d96799907d562301156f2fdfffe37c",
+      "bytes": 794
+    },
+    "quarantine/developments/DarGlobal-exclusive-Off-Plan-Investment-Catalogue-d571d8e8.md": {
+      "sha256": "17e1b49c07405249674724cd4cc4f9d20239e9fb4e68f282151df8362b44f433",
+      "bytes": 820
+    },
+    "quarantine/developments/aston-martin-media-d9425e71.md": {
+      "sha256": "88e7874ae404da442328908ef6e23ef26312bb5a962d83d467160dba0882ba22",
+      "bytes": 694
+    },
+    "quarantine/duplicates/developments/Trump-International-Hotel-Tower-Dubai-2fabf404.md": {
+      "sha256": "6326f96850e1be22a0f0ed40d3d4a86751d2713742a7b600e93917c08142050a",
+      "bytes": 4545
+    },
+    "quarantine/duplicates/developments/dg-circle-0e8d826d.md": {
+      "sha256": "2499b99277dd8d40c822507620c9f720737f072a75ee17b4e23350838a8082c5",
+      "bytes": 11770
+    },
+    "quarantine/duplicates/developments/new-home-page-83956009.md": {
+      "sha256": "402696671e9d9065d444e4405d1277b7cede288b649ae179b23722df4302e621",
+      "bytes": 11774
+    },
+    "quarantine/duplicates/partners/partners-8bda23ca.md": {
+      "sha256": "a347cffc5d88a0d2294ee647407c2505c1de2591befee4aa498d41e6bb943b5b",
+      "bytes": 11765
+    },
+    "raw/blog/blog--The-Rise-of-Experiential-Real-Estate-Redefining-Modern-Living-440e6bc1.md": {
+      "sha256": "06631a6d0845893939e067dba93c34a01c467a4ff97856fe09b903716836a431",
+      "bytes": 8748
+    },
+    "raw/blog/blog--Why-Our-Broker-Programs-Are-the-Best-in-the-Business-e369e7ca.md": {
+      "sha256": "3a7b33f555073e11a23bf74d7963eebb0d00adc4e984e0f59fa68ca2750087b5",
+      "bytes": 8596
+    },
+    "raw/blog/blog-10-reasons-to-invest-in-dubai-real-estate-4618b392.md": {
+      "sha256": "7e4fe330bd31b72d7d25c54afb7a28aef67b56f51fd24867b742ed9ae4f7b057",
+      "bytes": 13085
+    },
+    "raw/blog/blog-2072673e.md": {
+      "sha256": "f3d03cc2bf6511efda33ff09765f5c34ebd623b511aa26e44ece81fac062c2ff",
+      "bytes": 14031
+    },
+    "raw/blog/blog-A-Cut-Above-The-Signature-Amenities-That-Set-DarGlobal-Apart-d2979323.md": {
+      "sha256": "c9733dd38f0dd88a79eefdeac15869b8ccc02de028c7b15a8a971d45eec25d9e",
+      "bytes": 5673
+    },
+    "raw/blog/blog-Al-Marjan-Island-A-Jewel-in-the-UAEs-Real-Estate-Market-7cdeb59a.md": {
+      "sha256": "0c10571bfd07bc3a72c7b79bd8fb5e2cfa2a0420ad644af2a736df0553072eba",
+      "bytes": 9492
+    },
+    "raw/blog/blog-An-Insider-s-Guide-to-the-Most-Prestigious-Real-Estate-Markets-0668c46f.md": {
+      "sha256": "a2243c55c29e77fb80d729f59a64fe8fe6f2826b6efa2523807abf60da3ef048",
+      "bytes": 4400
+    },
+    "raw/blog/blog-Elegance-in-the-Sky-DarGlobal-and-Trump-Organization-Unveil-Jeddah-Tower-bb5670fe.md": {
+      "sha256": "82e3fd9e42dc01e3ca36f20cf3f919b859e9538e8513a20e11e8765b13f883a1",
+      "bytes": 3425
+    },
+    "raw/blog/blog-Embrace-Spanish-Luxury-with-Tierra-Viva-by-DarGlobal-and-Automobili-Lamborghini-50908502.md": {
+      "sha256": "6f14b32e2fb5245895faa0d38c8e8aec5a140b57edc652b8b6f42cff1c0fcfb5",
+      "bytes": 9205
+    },
+    "raw/blog/blog-Embrace-Spanish-Luxury-with-Tierra-Viva-by-DarGlobal-debb9e1f.md": {
+      "sha256": "6a71d799d17baafd924c3b758c95ff9a6e420be89aba3ca285dcb59039e5eb05",
+      "bytes": 9023
+    },
+    "raw/blog/blog-Experience-Unmatched-Luxury-at-Neptune-by-Mouawad-Villas-in-Riyadh-cc55f8ae.md": {
+      "sha256": "6f51aba014504163c743b7499353f9f0d4f348c34f0114a5a65f89ae872459f4",
+      "bytes": 3962
+    },
+    "raw/blog/blog-How-DarGlobal-Ensures-Long-Term-Value-for-Its-Investors-7cd0f56d.md": {
+      "sha256": "f6902647b9138784260daf4365803576454e2b9155bcb3dd6e9c9d51b3b83561",
+      "bytes": 9141
+    },
+    "raw/blog/blog-How-DarGlobal-Turns-Iconic-Ideas-into-Landmarks-c3f0b388.md": {
+      "sha256": "b9f2faa743a95a140436aaf91c81f43e7c70d76a6854eec0da1a7b62e35074b5",
+      "bytes": 3538
+    },
+    "raw/blog/blog-How-DarGlobals-Properties-Promote-Wellbeing-and-Leisure-4e85cccc.md": {
+      "sha256": "21de4ff5a84d753032b50f5226492a96b1b7a44054162c191a39197e9d8b1bee",
+      "bytes": 3759
+    },
+    "raw/blog/blog-How-to-Diversify-Your-Portfolio-with-International-Real-Estate-Investments-567bb028.md": {
+      "sha256": "f72d8601760c4aa0ed5d0178a99b548b96a0f61bfef31b56be8cc0696d861f36",
+      "bytes": 3728
+    },
+    "raw/blog/blog-Inside-Spain-Exclusive-Estates-A-Look-at-the-Most-Prestigious-Properties-d4ec0d5c.md": {
+      "sha256": "cb224bc5ec0f2a2b8757028fa920ef8d57d7183de0968a3abd3f164e6aa46384",
+      "bytes": 4223
+    },
+    "raw/blog/blog-Investing-in-Coastal-Real-Estate-Why-Waterfront-Properties-Remain-Popular-1f13b751.md": {
+      "sha256": "d3cebdcbc3daa04f590027d680cf1641ec31606b399cea608e43aedafdd845f1",
+      "bytes": 3760
+    },
+    "raw/blog/blog-Investing-in-Elegance-The-Unique-Benefits-of-DarGlobal-Luxury-Properties-in-Qatar-680ad481.md": {
+      "sha256": "425416949f580b0db9053299e3e7ca636ed65d1b91b2a7f42584eefa19af64a0",
+      "bytes": 3884
+    },
+    "raw/blog/blog-Investing-in-Saudi-Arabia-s-Real-Estate-Opportunities-in-a-Growing-Market-05add0b7.md": {
+      "sha256": "2fe53564d207c20711a4dc91093d975da1982742fe8531850c8775703fd5f8fd",
+      "bytes": 4686
+    },
+    "raw/blog/blog-Les-Vagues-by-Elie-Saab-A-Masterpiece-of-Coastal-Luxury-and-Elegance-in-Qatar-75a2bc3d.md": {
+      "sha256": "f6101907d885055f635f103eb5e5478d2ae90ae79aa59fc18d38800b7568684d",
+      "bytes": 4684
+    },
+    "raw/blog/blog-Living-Between-Cities-Managing-Luxury-Properties-Across-the-Globe-69982cb0.md": {
+      "sha256": "e0181ab2ca6e97bca42b4251bb25a41abb0f7d211586bc9e88eb06df02b0f2f8",
+      "bytes": 5553
+    },
+    "raw/blog/blog-Luxury-Real-Estate-Trends-to-Watch-in-the-Coming-Years-64f33906.md": {
+      "sha256": "d0ec67829ad65b92dd7150099561207a0d95e0ec76a4bfcd883deed781689d07",
+      "bytes": 6114
+    },
+    "raw/blog/blog-Omans-Hidden-Gem-Living-in-the-Heart-of-AIDA-7e3ac821.md": {
+      "sha256": "fcc7ecb9be707a2dd53feb04521f60f48f19bb8642094b2d0105774045214257",
+      "bytes": 8607
+    },
+    "raw/blog/blog-Our-Vision-for-the-future-Whats-Next-for-Real-Estate-Development-a2541c04.md": {
+      "sha256": "2d0995cb90090755012ed66768430ebcca22fcd5d1d6f0c39f0cdd711f0f1ec5",
+      "bytes": 4391
+    },
+    "raw/blog/blog-Seasonal-Real-Estate-Trends-Why-Now-Is-the-Perfect-Time-to-Invest-ac5ad10d.md": {
+      "sha256": "29bc728d4c2c860e522d8352cb98c38a237be1e9f3ca84c9d6e41812f6bce261",
+      "bytes": 3355
+    },
+    "raw/blog/blog-Smart-Homes-and-Beyond-DarGlobals-Vision-for-Modern-Luxury-Living-93c66626.md": {
+      "sha256": "379e80520fdcd0a323ce6df87a4ae4013dbcf3d5a49bf96e09359ac255a7b5bf",
+      "bytes": 4417
+    },
+    "raw/blog/blog-The-Benefits-of-Owning-a-Branded-Residence-More-Than-Just-a-Name-166ab15d.md": {
+      "sha256": "391810b30fed278cf033006082acfb4c88a9e89461f839a0c12e9cf8884475e3",
+      "bytes": 3847
+    },
+    "raw/blog/blog-The-Growing-Trend-of-Dual-Purpose-Properties-Live-Earn-and-Relax-48eff8c3.md": {
+      "sha256": "e0fe574af3a6b1e607521b7f1ee9afb33a036f839cb7768867b55810aa2cd4b4",
+      "bytes": 9312
+    },
+    "raw/blog/blog-The-Rising-Appeal-of-Off-Plan-Properties-Why-Invest-Early-ee897328.md": {
+      "sha256": "ce3c305b823575734fafd17331924119eb6af9fa1edef00ba1e2d32488c5cee2",
+      "bytes": 3935
+    },
+    "raw/blog/blog-The-Rising-Demand-for-Holiday-Homes-Is-It-Worth-Investing-5fdd09de.md": {
+      "sha256": "a321c7f80c8509a60e8f2b66057fbeef3fe923c187ba8fe9ad36d4de7fd73f01",
+      "bytes": 6729
+    },
+    "raw/blog/blog-Top-5-Destinations-for-a-Second-Home-A-Guide-to-Smart-Investments-475f4193.md": {
+      "sha256": "5f7df33ec3656618163b2891e2f613be182a95dd03970dbfcab1a46799b004a1",
+      "bytes": 4287
+    },
+    "raw/blog/blog-Whats-Next-for-DarGlobal-A-Sneak-Peek-into-Our-Upcoming-Projects-0894540e.md": {
+      "sha256": "4f41f0e521a122968fb352c969b6d33adadf2d7613a6ef929b1e2bea7b2e5118",
+      "bytes": 5999
+    },
+    "raw/blog/blog-Where-Prestige-Meets-Place-The-Ultimate-Guide-to-Real-Estate-Location-Value-23eeea49.md": {
+      "sha256": "7b6de814bd3927e32a1fd8416d315fdd3844c74090e7b63a29172c6214c1a53b",
+      "bytes": 3452
+    },
+    "raw/blog/blog-Why-Luxury-Real-Estate-Is-the-Safest-Investment-in-2025-a8c86a72.md": {
+      "sha256": "762ac568c9ed9f752322aa8d13063afa24a9e690447c911a431e597a13cc266d",
+      "bytes": 9083
+    },
+    "raw/blog/blog-Why-Middle-Eastern-Real-Estate-Is-Booming-for-Foreign-Investors-aee4a51f.md": {
+      "sha256": "f70db18b1fe4b3845fb5a6fa7774b6f7052a5dbfdfc3161ba994a6369aa7a7bf",
+      "bytes": 9192
+    },
+    "raw/blog/blog-Why-Real-Estate-is-the-Best-Investment-in-a-Changing-World-4fe32d09.md": {
+      "sha256": "54ea47f15a20ae0ec9fc578fe90fe02948bb1f8a5dc6e731a8807301e707fd8e",
+      "bytes": 3604
+    },
+    "raw/blog/blog-Why-Saudi-Arabias-Luxury-Real-Estate-Market-Is-the-Investment-Opportunity-of-the-Decade-10c4806b.md": {
+      "sha256": "f453136d5bd19ed14de98984c7a21b3129f05ccd648c3917b0d3cb9f965e3a1f",
+      "bytes": 9563
+    },
+    "raw/blog/blog-aida-trump-international-hotel-redefining-luxury-hospitality-2233b027.md": {
+      "sha256": "56765b10f8a6e908d605e7d709a9fd2ae26928b11d749af436e295064cc07481",
+      "bytes": 6362
+    },
+    "raw/blog/blog-benahavis-luxury-villas-and-prime-real-estate-discover-your-perfect-investment-destination-44b17aff.md": {
+      "sha256": "b24241df15abdf42a117b1e22497956307a8defc31a424d506b21c7598057d1d",
+      "bytes": 5864
+    },
+    "raw/blog/blog-best-cities-to-invest-in-real-estate-in-gulf-f21e9e91.md": {
+      "sha256": "8c5079424bdd8780b7439c0976ad5e48d99b8afec520375c8d3d279745aeed5e",
+      "bytes": 12251
+    },
+    "raw/blog/blog-best-countries-luxury-real-estate-investment-2026-0466ae0c.md": {
+      "sha256": "505bfddc227c83ddedb7f17822d5c3d48b75e6009bd79a4f396729e7d8e664c3",
+      "bytes": 8137
+    },
+    "raw/blog/blog-branded-real-estate-dubai-081eaa40.md": {
+      "sha256": "48b6b7560d9355641a9c13c0546e9290b2d18a742f258aa866af5d8238a9347b",
+      "bytes": 9778
+    },
+    "raw/blog/blog-buying-luxury-villas-in-muscat-oman-your-gateway-to-arabian-pulence-911e1510.md": {
+      "sha256": "f1c45a6cf5141378e7914d6a6674a47ccd3337850ca1b9c9db8a9489ead29fee",
+      "bytes": 9914
+    },
+    "raw/blog/blog-buying-property-in-dubai-1d72c8a3.md": {
+      "sha256": "d988239a44a384ebb892b844e54ec18b6895c1b60e20a6c9584e22d02ca899a7",
+      "bytes": 11931
+    },
+    "raw/blog/blog-buying-property-in-oman-complete-guide-d15d7215.md": {
+      "sha256": "d3e0ee19dfbd59c0f234b3b11871e316d489698f8b809c7364fe76a0fe2e4bde",
+      "bytes": 10294
+    },
+    "raw/blog/blog-buying-property-in-oman-trends-predictions-28078351.md": {
+      "sha256": "a4bc0ef3b7e0bf98fa5184520d47d905f5e136e5e3909a42bd53e20b59e58e3f",
+      "bytes": 9488
+    },
+    "raw/blog/blog-buying-property-in-spain-complete-guide-239a7e51.md": {
+      "sha256": "9c1fca2a93e1a23133b790432f7d356c02f8c6814debe3e269f22176a3350938",
+      "bytes": 9460
+    },
+    "raw/blog/blog-can-foreigners-buy-property-in-qatar-dc3dc40c.md": {
+      "sha256": "f563960476612848513956551857b142a05123f02513f3dcd137e9392b2d65a4",
+      "bytes": 10227
+    },
+    "raw/blog/blog-can-foreigners-buy-property-in-saudi-arabia-16a5be04.md": {
+      "sha256": "1823c12b361180205ce8fa705563b31af5d5f64acfe907f0f2ab33d08d4e5ec5",
+      "bytes": 9503
+    },
+    "raw/blog/blog-can-foreigners-buy-property-uk-complete-guide-31a23d2e.md": {
+      "sha256": "d939bbbd75a1266450c9ff0073d65384b09b36f121f8956098c9189763d12735",
+      "bytes": 10479
+    },
+    "raw/blog/blog-capital-growth-vs-rental-yield-in-luxury-real-estate-dd79ffbf.md": {
+      "sha256": "9219421c72f423b2aa274b3db7453f3ee2e3da0a86ad34072735553cc82a7d0c",
+      "bytes": 8550
+    },
+    "raw/blog/blog-choosing-the-right-real-estate-developer-in-dubai-tips-for-finding-your-perfect-home-7a331818.md": {
+      "sha256": "e23bc1b8914e03c722bbd491cc756dd10f96313b883c873bb1ae38f9fd1efff4",
+      "bytes": 8846
+    },
+    "raw/blog/blog-choosing_your_dream_lifestyle_in_oman-d071d2c2.md": {
+      "sha256": "54f685f7b5950396b33a6ffadfb680db3cd9a2c6b1c25e9df693c40a293dce2f",
+      "bytes": 8515
+    },
+    "raw/blog/blog-commercial-vs-residential-real-estate-440196fe.md": {
+      "sha256": "287d17302f73233e877335f048011918a92fdad1a501a78638d1e945686c138c",
+      "bytes": 10147
+    },
+    "raw/blog/blog-cost-of-living-in-qatar-and-impact-on-real-estate-market-a830e856.md": {
+      "sha256": "6fcae33c43cbeb7de221fec53fbd50cb22950b6d1481c6db7c67ab0e116db3f7",
+      "bytes": 9740
+    },
+    "raw/blog/blog-costa-del-sol-a-blend-of-culture-comfort-29be8f64.md": {
+      "sha256": "b64b8090e2a18aeee78a82e76d4e71c58f80fdf607b282ecc9820b1a52ebbf56",
+      "bytes": 6379
+    },
+    "raw/blog/blog-creating-luxury-living-beyond-the-ordinary-62f15589.md": {
+      "sha256": "a00a832c87c9782fa46e7a0dd4cec3cc4d6128f8df6d1ca1bd801e2bc0f51f5d",
+      "bytes": 10700
+    },
+    "raw/blog/blog-current-trends-in-omans-real-estate-market-what-investors-need-to-know-d9e90684.md": {
+      "sha256": "608248899c466a964249a77ec5fea634c916a25c906d984b0362f4bb1e48cae0",
+      "bytes": 3620
+    },
+    "raw/blog/blog-darglobal-and-dar-al-arkan-promoting-dual-listing-with-the-london-stock-exchange-fe38c91c.md": {
+      "sha256": "f98a870eee193ea61ff3f9976d0fe4f81c2a0c5ac002aaeb035b849bd26d4383",
+      "bytes": 9476
+    },
+    "raw/blog/blog-defining-opulence-what-luxury-truly-means-in-todays-real-estate-market-096c1e7b.md": {
+      "sha256": "8cb14a5bde5dfcaff4ef86c3e5100774dc8a048fa6aecab1be1497f1d8765e9b",
+      "bytes": 4449
+    },
+    "raw/blog/blog-discover-dg1-residences-luxury-living-in-the-heart-of-dubai-b7009eae.md": {
+      "sha256": "acce98f8b756157c45872855199b0a213f0991167ed60bc91000527957b5311f",
+      "bytes": 8299
+    },
+    "raw/blog/blog-discover-luxury-villas-for-sale-in-costa-del-sol-and-tierra-viva-30ec4ec5.md": {
+      "sha256": "03256dadeacb871d82a0e1393522a3d56bd937c1eb3d9114aa459aaba37619c2",
+      "bytes": 10850
+    },
+    "raw/blog/blog-discover-the-best-of-ras-al-khaimah-5-top-attractions-836eaa8c.md": {
+      "sha256": "29294cf2074e348614592e982b826cf1869357b5ee656435621af957da3301cf",
+      "bytes": 6530
+    },
+    "raw/blog/blog-discover-the-luxury-and-leisure-of-al-marjan-island-uae-7ae84b38.md": {
+      "sha256": "b264311acf366d3c6c3da58d2e7b8201b0f2a8fb6362824b993c03f0c947a86d",
+      "bytes": 6935
+    },
+    "raw/blog/blog-discovering-omans-enchanting-blend-cultural-marvels-pristine-landscapes-and-a-gateway-to-cosmop-2ffe86b2.md": {
+      "sha256": "b9b2f9ef0950416da47d72dd0dd62447a7aa2e5d12d739412741e6b357dce839",
+      "bytes": 5144
+    },
+    "raw/blog/blog-do-you-pay-council-tax-on-empty-property-83a22c1c.md": {
+      "sha256": "b0070105c67e9663baefbe3471ffbe4cdf5acdf7cccf556152e17010da42ebeb",
+      "bytes": 9830
+    },
+    "raw/blog/blog-dubai-2040-smart-sustainable-city-roadmap-adb951dd.md": {
+      "sha256": "5e328e0ae8a62542c603d65401b92edfc1101bb425e016206f5dd6bc6c324ea1",
+      "bytes": 10187
+    },
+    "raw/blog/blog-dubai-property-prices-trend-2025-17ca3282.md": {
+      "sha256": "aecb589e611db7318aa50ad0b886275633df722ef1eb779c79a5f0f212b7e8a3",
+      "bytes": 11717
+    },
+    "raw/blog/blog-dubai-real-estate-investment-guide-bdccb629.md": {
+      "sha256": "50d64cbcbc44dd99613d01c9c11e02e434b13caf5005feeb200e99c28d81569c",
+      "bytes": 10109
+    },
+    "raw/blog/blog-dubai-real-estate-market-trends-2025-98394cb6.md": {
+      "sha256": "258847292a511a231ac49ac89ae5f2b4da7005f6abe59d5d6b2946b123426692",
+      "bytes": 9918
+    },
+    "raw/blog/blog-dubai-real-estate-roi-in-2025-eb47f0d8.md": {
+      "sha256": "5896bc8e48d5a10709b15d469328faae454f49f8e90a2bc85b330f6e3ed18b8d",
+      "bytes": 12172
+    },
+    "raw/blog/blog-eco-friendly-architecture-and-luxury-living-25ddf43e.md": {
+      "sha256": "04076df7809bb4caf5788556de947c3e591866bdeb5f17caaecfa4d0598339a5",
+      "bytes": 11032
+    },
+    "raw/blog/blog-eid-shopping-extravaganza-top-places-in-dubai-for-your-holiday-purchases-0aa76d94.md": {
+      "sha256": "277a2f08b974b70451590532848b6f2141605e4439ecc1d420bbea351ece6ce2",
+      "bytes": 9746
+    },
+    "raw/blog/blog-elegance-unveiled-discovering-the-timeless-charm-of-cortesin-spain-52e3f46e.md": {
+      "sha256": "62ae585087e6c46638e17222d5df03d6fe3d74288feaec540550ce0d2f622f9b",
+      "bytes": 3610
+    },
+    "raw/blog/blog-elevate-your-lifestyle-the-da-vinci-tower-interiors-by-pagani-8e4bc5e6.md": {
+      "sha256": "6cde754053e88b95f3d8d85276070797f5468497503b61b32bbaed6814317274",
+      "bytes": 3690
+    },
+    "raw/blog/blog-embrace-the-best-of-london-living-discover-culture-in-luxury-7e5a808c.md": {
+      "sha256": "f0abfd5eea47c11bd41032561ffb4746b9601186d1baafce108f33b05de7d203",
+      "bytes": 9067
+    },
+    "raw/blog/blog-exclusive-lifestyle-features-elevating-luxury-homes-with-private-amenities-b06fcd19.md": {
+      "sha256": "953120397cde1c5ebe549f0b6ddc52ed6a5eed741f82b66352a65658605d8e24",
+      "bytes": 3171
+    },
+    "raw/blog/blog-experience-refined-tranquility-at-the-great-escape-2-in-aida-oman-14e7ba15.md": {
+      "sha256": "61298e4eda4a3ddb8a77aa9f5dbcef9ad0f1dcad16e5a655bdecc46dd9446ceb",
+      "bytes": 8429
+    },
+    "raw/blog/blog-experience-the-extraordinary-tierra-viva-launch-event-in-puerto-banus-7b7b4627.md": {
+      "sha256": "3d6bc33dc4ab91cb3d70977a193b8e42c83ac0bc77ce667407815c80adab725d",
+      "bytes": 4670
+    },
+    "raw/blog/blog-experience-unmatched-luxury-at-the-weekend-in-doha-qatar-2666fc56.md": {
+      "sha256": "33cbcd507f353ae2322781263b9d28bc746f8a8775eae1f83fca9bf8dd1f41a8",
+      "bytes": 3766
+    },
+    "raw/blog/blog-explore-natures-playground-dream-villa-for-sale-oman-7829ec4d.md": {
+      "sha256": "07c911118e809334b33c6b07985d4470c13b99d2ed5d57b3e4f847709ed758a3",
+      "bytes": 8914
+    },
+    "raw/blog/blog-exploring-dubais-art-scene-the-7-best-art-museums-f72f4c84.md": {
+      "sha256": "be5cff026eef3bfc4b3cef36f5945e2cbd7c1e2ddd539b70d8f365c7c82b68da",
+      "bytes": 4115
+    },
+    "raw/blog/blog-exploring-spain-s-luxury-villa-market-uncover-hidden-gems-and-authentic-experiences-with-darglo-5b3a9335.md": {
+      "sha256": "712cd3eb70f3ee652b6f6cc756e1152898a04b09f97661efc4499ec618fb3d7d",
+      "bytes": 10023
+    },
+    "raw/blog/blog-exploring-the-market-for-villas-for-sale-in-dubai-a-comprehensive-guide-for-discerning-investor-2a871df1.md": {
+      "sha256": "999c14dc7add716c56638dd092aa75a249ec5fe5dac3b6a709f6a50d3b67e384",
+      "bytes": 11494
+    },
+    "raw/blog/blog-family-friendly-fun-in-dubai-your-ultimate-guide-to-a-memorable-saturday-afternoon-4479cb27.md": {
+      "sha256": "9cff51415aceea1473c63624494ca30ee756ace5ef68dfdd6fc3fedc8fb025a6",
+      "bytes": 9312
+    },
+    "raw/blog/blog-finding-your-dream-home-top-tips-for-buying-a-luxury-villa-for-sale-ebe69e1c.md": {
+      "sha256": "0afad6062da2e6c228588e78122e8c6979604dc2c0bdffe21d842191235d038b",
+      "bytes": 10226
+    },
+    "raw/blog/blog-five-types-of-insurance-coverage-every-homeowner-needs-5832f851.md": {
+      "sha256": "bc553871fc00f440d4c759ecec0e3537f4f93bf1658c9a1c46e1d15f7912089b",
+      "bytes": 9062
+    },
+    "raw/blog/blog-foreign-investment-in-saudi-arabia-028af022.md": {
+      "sha256": "b02d0b14465b0011996c8d5bdd988935b9163a7172ddd7873b4b158a8695b51e",
+      "bytes": 11645
+    },
+    "raw/blog/blog-freehold-vs-leasehold-dubai-f3fa787a.md": {
+      "sha256": "2a2748fe08a8d518f49197764efec1833524dec30726010c62f3cd0da735fad2",
+      "bytes": 12418
+    },
+    "raw/blog/blog-from-vision-to-reality-the-most-anticipated-real-estate-projects-in-muscat-08174d8b.md": {
+      "sha256": "4287f3010d2182fe8b842194b9d13d7de30af1583adc6d181d383d8eaa0268b0",
+      "bytes": 3857
+    },
+    "raw/blog/blog-future-of-branded-residences-f3383ce7.md": {
+      "sha256": "5073c6026476559a348d389e9864d2a75c28a133d6a61d51d32f7b09696280e8",
+      "bytes": 5733
+    },
+    "raw/blog/blog-future-of-real-estate-ksa-5d7d348a.md": {
+      "sha256": "4c5ab3696579718bf0c3c1e98d6e841d5a1b674840b354265ef4851fea25ae88",
+      "bytes": 9658
+    },
+    "raw/blog/blog-futuristic-splendor-navigating-the-architectural-marvels-of-doha-qatar-8b49fc5b.md": {
+      "sha256": "e1f65cec63d482a4b733a79e3d0a88526815fe06bb84bf5160992d7737bbb09c",
+      "bytes": 9707
+    },
+    "raw/blog/blog-golden-visa-countries-for-real-estate-roi-3cc0f633.md": {
+      "sha256": "9228bb8f77ea024039fffa2ae8f5454dcdb62bd7c6512d67cea15375da2a021f",
+      "bytes": 12617
+    },
+    "raw/blog/blog-high-roi-and-roe-real-estate-co-branding-through-the-lens-of-ziad-el-chaar-ceo-of-darglobal-d5758905.md": {
+      "sha256": "e6185d51ce430c2e632df982e3067f75347e84862169be480d07072bc9075878",
+      "bytes": 7129
+    },
+    "raw/blog/blog-holiday-home-investment-in-oman-695362e9.md": {
+      "sha256": "5f82b5ea27d5bc2fdde5c6ffc4e20141b9d62e20bd9ebb55b2f5bc4293ba9c24",
+      "bytes": 9197
+    },
+    "raw/blog/blog-holiday-home-investment-in-spain-667044b9.md": {
+      "sha256": "94f9de215880ed7cd038224229a12c3fd529ceca4072c2cd870fe32684c0f25d",
+      "bytes": 12642
+    },
+    "raw/blog/blog-hotel-chains-meet-real-estate-a-new-era-for-muscats-property-market-e8f76ec7.md": {
+      "sha256": "9d178d24d37a06f1cda17dca15cdaead8b8d2a6d5d50f158cfc521644bc2568c",
+      "bytes": 9584
+    },
+    "raw/blog/blog-how-international-investors-buy-luxury-property-with-confidence-8d4385ef.md": {
+      "sha256": "8f9cf23a92f1d8fa5ba45c8f4912d884c75599d32cfc51ac5f8c270e54769b3e",
+      "bytes": 6450
+    },
+    "raw/blog/blog-how-luxury-real-estate-supports-global-mobility-and-residency-d7c007e8.md": {
+      "sha256": "07a43b27b013d4a33f0609e578c13d96b94eb5de166ebb462cac6f45ec12e1fd",
+      "bytes": 7066
+    },
+    "raw/blog/blog-how-to-buy-a-villa-in-dubai-7ebbb77e.md": {
+      "sha256": "6fd3cc7192b88f1f28dbe4943bf46d84fb2f6e7790610b4245470701ef8ca8ae",
+      "bytes": 7278
+    },
+    "raw/blog/blog-how-to-buy-luxury-real-estate-76615090.md": {
+      "sha256": "f60fd1e88132a7bac124a439681c925a8ada29ec882bf1b63a169a3be7e88c4b",
+      "bytes": 9223
+    },
+    "raw/blog/blog-how-to-buy-property-in-london-23349b1e.md": {
+      "sha256": "d7edc3b41d6803fcaea6255e5a952734fc19aa6a371f364520b3d8c9fd5cd784",
+      "bytes": 10569
+    },
+    "raw/blog/blog-how-to-buy-property-in-spain-complete-guide-aaaf180a.md": {
+      "sha256": "66ceb22629e7c886b5066c2f87a347da3b1aa0684db8aa85331c195c190b12b2",
+      "bytes": 9793
+    },
+    "raw/blog/blog-how-to-design-luxury-homes-2025-031f1d53.md": {
+      "sha256": "743a5698cf37878a5ff8e8cf2db9c97571dc59fc2ed5469c5dc55ae8f6f36853",
+      "bytes": 10612
+    },
+    "raw/blog/blog-how-to-evaluate-a-luxury-property-before-you-invest-49e31cc2.md": {
+      "sha256": "2eaec35dd5f0bef4345478907873311f947a4494f679fc43bf5242efa7730911",
+      "bytes": 6938
+    },
+    "raw/blog/blog-how-to-get-into-real-estate-in-dubai-69cb4dc8.md": {
+      "sha256": "2628c017d13ef71f241b1d50a089efe97bef3fdd0447d340af36519639e041a2",
+      "bytes": 8365
+    },
+    "raw/blog/blog-how-to-get-residence-visa-dubai-2025-48b4b209.md": {
+      "sha256": "b89534c42ef9cc41d65a546aa085701ad5bbe3be70506ddc2c200f6e4ec5ec29",
+      "bytes": 10435
+    },
+    "raw/blog/blog-how-to-invest-in-dubai-real-estate-b534016a.md": {
+      "sha256": "7f4470e942f93e8f3020b8b1970bbce5e68cdcbd7e1f63fe8041953a22402734",
+      "bytes": 10561
+    },
+    "raw/blog/blog-how-to-invest-in-housing-491cc67c.md": {
+      "sha256": "26f1a1c65c5da6095a6b4b6e94e8c34d50f62266a6861a487db87ba32002b5db",
+      "bytes": 6835
+    },
+    "raw/blog/blog-how-to-invest-in-property-2025-71b20924.md": {
+      "sha256": "41644de4ce3d47c40dd79ba381d56f5e66e8e40bef26c2e1beadb9dc98df5f86",
+      "bytes": 9437
+    },
+    "raw/blog/blog-how-to-invest-in-uk-property-a01e4cb8.md": {
+      "sha256": "8fa48fa59d8bca54efae38710feb8736f4604db95ec53dac1e655121a25be9dc",
+      "bytes": 7980
+    },
+    "raw/blog/blog-impact-of-global-events-on-international-real-estate-market-041eaaf0.md": {
+      "sha256": "c153244933b2833496560b4c74dc495103ced5a512103ce1143205a9b15e99f5",
+      "bytes": 11707
+    },
+    "raw/blog/blog-impact-of-tourism-on-saudi-arabia-real-estate-market-18f86707.md": {
+      "sha256": "10f70d4be3beee38e7e6d01b6102d1c5bd94348b1c13763616a754be14d22b25",
+      "bytes": 9014
+    },
+    "raw/blog/blog-impact-of-vision-2030-on-riyadh-real-estate-3e0e03d6.md": {
+      "sha256": "b10e8c39a1410c94b87dff10b284f6693c298322b9d82ab6ba760874d4d5b0bc",
+      "bytes": 9079
+    },
+    "raw/blog/blog-inside-dubai-priciest-listing-exploring-the-most-exclusive-apartment-for-sale-in-2024-14fa2ad5.md": {
+      "sha256": "7acb3a57ff41fc57e8adf25918952aaf49ea359c39eb0cbc4ff127a6db945345",
+      "bytes": 3817
+    },
+    "raw/blog/blog-invest-in-luxury-and-nature-discover-the-beauty-of-bosnia-and-herzegovina-with-sidra-7cc2d9e2.md": {
+      "sha256": "3fae343e1b17324f18a526af6c17a12a60c6f54ae68f6f3d69497bf2633e268f",
+      "bytes": 5718
+    },
+    "raw/blog/blog-investing-in-hotel-apartments-in-dubai-ae128cc3.md": {
+      "sha256": "01c9c978ec94812f0fdffe3df2b0e14b96758f3cef10cd991c970e0899b3c4cc",
+      "bytes": 9621
+    },
+    "raw/blog/blog-investing-in-london-properties-a-strategic-analysis-for-2024-fd0e9518.md": {
+      "sha256": "f04c199353a5ede0d42c05f2caa4ac10453840b8bcc7cf75e20e2738896d2d7f",
+      "bytes": 4054
+    },
+    "raw/blog/blog-investing-in-marbella-luxury-villas-timeless-elegance-lucrative-returns-1fd72256.md": {
+      "sha256": "39787909d38fe0f7fbd54d7e4c9eba9606c534ebd71c462623a8eabede377cd8",
+      "bytes": 8972
+    },
+    "raw/blog/blog-investing-in-oman-opportunities-and-benefits-148cc80e.md": {
+      "sha256": "d46985f8230452840f38a8ff6f8aeef5aab3226b2dbfc89452af0349f1bf5a2f",
+      "bytes": 12692
+    },
+    "raw/blog/blog-investing-in-qatar-is-now-the-right-time-to-enter-the-real-estate-market-17a05050.md": {
+      "sha256": "f6762ed88ac9fc18ba1a376f63dab3b5c94e221771b9dec651366a62aceffc1a",
+      "bytes": 4074
+    },
+    "raw/blog/blog-investing-in-the-jewel-of-the-middle-east-is-oman-the-next-big-real-estate-opportunity-81520479.md": {
+      "sha256": "96e460bf42c7e6bd998acb6718c4e40deff1432b8d2bcd7300237c2c815d1299",
+      "bytes": 3984
+    },
+    "raw/blog/blog-investment-spotlight-assessing-the-viability-of-dubai-real-estate-in-2024-d3955490.md": {
+      "sha256": "dd893bb88b55902445ac1eef31aef878ac67349b09da5146488b3a874ef425de",
+      "bytes": 3919
+    },
+    "raw/blog/blog-is-buying-a-home-a-good-investment-652f3d66.md": {
+      "sha256": "dc2e2364c00dbabe2150925366949b837ed59da84a503f54b9af49c60a718528",
+      "bytes": 9529
+    },
+    "raw/blog/blog-is-buying-a-second-home-still-a-smart-investment-a1e2847a.md": {
+      "sha256": "cb1fba5b2ea71de75e6d227366a8cb3988ad3420a012e5c86361322e95b8b3c4",
+      "bytes": 7079
+    },
+    "raw/blog/blog-key-factors-driving-the-sale-of-villas-in-oman-unveiling-the-sultanate-s-irresistible-allure-93349d8b.md": {
+      "sha256": "b4dc563ef089654903a9c66e2ac23fc128f49a66afba7060b9fc094c1cb7f84e",
+      "bytes": 9467
+    },
+    "raw/blog/blog-les-vagues-where-couture-meets-comfort-elie-saabs-visionary-real-estate-venture-in-qatar-ues-el-0eb6e078.md": {
+      "sha256": "3a99ea579544c81f947f1f40f4d537b25c99ad1ef306f22042c83f24bbb9c5d6",
+      "bytes": 3977
+    },
+    "raw/blog/blog-london-a-city-of-unmatched-diversity-and-opportunity-7f1ff12e.md": {
+      "sha256": "82aba730909576ae9649040a9a4a706e7535a93db37f48b382472dc908ca5570",
+      "bytes": 9492
+    },
+    "raw/blog/blog-londons-prime-real-estate-where-to-invest-in-2024-451606a5.md": {
+      "sha256": "8e21e6aa23156faabb54822e4c2346629f189d258ebca404a885b83a21c7f02f",
+      "bytes": 4565
+    },
+    "raw/blog/blog-luxury-amenities-in-spain-branded-villas-6ecc2b75.md": {
+      "sha256": "0d26abed5b791d1cd17fa316ec50076658b1413b46aaff8b135aa81b8fe91ee0",
+      "bytes": 12126
+    },
+    "raw/blog/blog-luxury-apartments-in-dubai-the-epitome-of-elevated-living-and-astute-investment-33df37fd.md": {
+      "sha256": "8803ebe5631a8aa352e55cfb4743a62bc2f02b28020de6ee61c9beff0bf5dddd",
+      "bytes": 11884
+    },
+    "raw/blog/blog-luxury-living-in-oman-s-enchanting-capital-10b9faa0.md": {
+      "sha256": "74f76f1aebb010c91f182d6b124235afb9ed75ce074c14a20f0fcdc9d69fb7bf",
+      "bytes": 11638
+    },
+    "raw/blog/blog-luxury-living-qatar-c4ba5d82.md": {
+      "sha256": "6ca69074d62d2617a7763c46e0e2fa41db0c084761d041b92717573e10919eab",
+      "bytes": 8709
+    },
+    "raw/blog/blog-luxury-real-estate-developers-in-spain-crafting-dreams-in-the-heart-of-the-mediterranean-950ffa4e.md": {
+      "sha256": "d68e67c9dad06bc4af7e6e76546dc03cb14ef6fbfb13d5e7bc1a337c208aa967",
+      "bytes": 9006
+    },
+    "raw/blog/blog-luxury-real-estate-long-term-wealth-2969a172.md": {
+      "sha256": "726ecbd04294fa635aa9f2a844f9693458a1d4878c26930aae168183eb696ec4",
+      "bytes": 6325
+    },
+    "raw/blog/blog-luxury-real-estate-market-analysis-forecasting-trends-and-opportunities-2a79a8de.md": {
+      "sha256": "58adfd0d5cb5e550e0ed299f54636344636add600e11e07e79cfa9402efd0b71",
+      "bytes": 9779
+    },
+    "raw/blog/blog-luxury-real-estate-trends-2026-bb8772a6.md": {
+      "sha256": "4ca40d52335a05bfae726eaf80f9e4f9007962004842ac698977cd88903e129b",
+      "bytes": 8042
+    },
+    "raw/blog/blog-luxury-vacation-homes-finding-your-perfect-retreat-in-paradise-a4609015.md": {
+      "sha256": "f0ed2ca8aff68fbfebca6f1411b3a7ddf3c5b32952ac60a6ecf2056e67cdc7f2",
+      "bytes": 9166
+    },
+    "raw/blog/blog-luxury-villas-for-sale-in-dubai-gateway-to-world-of-experiences-dbf725f8.md": {
+      "sha256": "aa292f086c7d579d399c656cae4b086b5b43b9a48ac4b440342028fe9ec7c35d",
+      "bytes": 8858
+    },
+    "raw/blog/blog-luxury-villas-for-sale-in-marbella-a-Buyer-s-guide-bcc346d6.md": {
+      "sha256": "33dbe341314265dde8f68ceaf0801c2cced4c7606ed9365088ce5b6779c6b9c6",
+      "bytes": 12283
+    },
+    "raw/blog/blog-luxury-villas-for-sale-in-marbella-a-buyer-s-guide-to-sun-kissed-opulence-d826bc9d.md": {
+      "sha256": "af7a2d9d7a5a21b791a04557af131941e1be390cc8f16c84ed508dfe83f5467e",
+      "bytes": 10486
+    },
+    "raw/blog/blog-luxury-villas-in-spain-what-to-look-for-and-where-to-invest-194397aa.md": {
+      "sha256": "5dd61659a7b8fdc6d46699a0db35d785aa0cc1082703e32801dcad4edd57e01d",
+      "bytes": 11217
+    },
+    "raw/blog/blog-luxury-waterfront-properties-bd38fdca.md": {
+      "sha256": "6adb1d5c08b8d54c56cc2c675d4e347d19c1118905b6286667aed992323015c2",
+      "bytes": 10190
+    },
+    "raw/blog/blog-luxury-waterfront-properties-what-makes-them-so-valuable-19407007.md": {
+      "sha256": "90d7457ad49746f57c881db25a67e9c34d10788d83567d92d1e1defb6b44f914",
+      "bytes": 5973
+    },
+    "raw/blog/blog-making-history-with-omans-real-estate-market-f2566c7c.md": {
+      "sha256": "1aba5bbc5a482fbc59fb557e4f7251acd338d3bcfefb95f43159a9a2de7d4262",
+      "bytes": 8269
+    },
+    "raw/blog/blog-malaga-vs-marbella-for-real-estate-investment-19d9a6a0.md": {
+      "sha256": "5436ecd0dd8be5d9dc5089a9483f9d9d52f8380e014b4b6eadad188009837159",
+      "bytes": 10186
+    },
+    "raw/blog/blog-marbella-beyond-the-beach-a-cultural-and-culinary-journey-from-your-luxury-villa-02a215e8.md": {
+      "sha256": "477c6061cb148b86f23303f70d8d09272b600cb58bfbbce0b3666e343de4d056",
+      "bytes": 9797
+    },
+    "raw/blog/blog-marbella-s-magnetic-charm-why-it-s-the-epicentre-for-luxurious-villa-living-d5030a52.md": {
+      "sha256": "eee8b9a09d620d24dfc77e4b02de1ad452f0c69a3d07f68f372a096498a4b713",
+      "bytes": 10458
+    },
+    "raw/blog/blog-marbella-your-year-round-luxury-retreat-with-darglobal-4654ffb0.md": {
+      "sha256": "6a772f5dcee045170a841fa817046b8f16ceefa97f7ba54d37d2d4f719953b02",
+      "bytes": 9348
+    },
+    "raw/blog/blog-market-insights-luxury-villas-for-sale-in-marbella-a-deep-dive-into-the-trends-and-opportunitie-bbfe754a.md": {
+      "sha256": "c05810e2dcc606bf9efa414b3e44cf8a794f110cf237512cfdff923383dabce3",
+      "bytes": 12092
+    },
+    "raw/blog/blog-modern-architecture-in-dubai-97197275.md": {
+      "sha256": "66ccaea5f0bffc2e0292dd793fdf8cae49f106cf112bf4d3f52f09b40742e77d",
+      "bytes": 8911
+    },
+    "raw/blog/blog-muscat-s-rise-as-a-luxury-haven-the-investment-opportunities-and-lifestyle-benefits-of-luxury-v-16996c6c.md": {
+      "sha256": "8040c93a4ed31323159abb6843ed6eb60001ee775037c5bf4d09190f210b1104",
+      "bytes": 10761
+    },
+    "raw/blog/blog-oasis-of-opulence-exploring-the-luxurious-lifestyles-of-muscat-oman-a644ff2b.md": {
+      "sha256": "cc3073e428d2823007bacd6255e0b00a0a7cb811c2d25734727b68032d6c4142",
+      "bytes": 8866
+    },
+    "raw/blog/blog-off-plan-property-investment-in-dubai-b456cbb8.md": {
+      "sha256": "63e799f23a0c1631c38cecd8e4b1a3229844b0e0c27fdd3bb5aed44c0a33a6e3",
+      "bytes": 12667
+    },
+    "raw/blog/blog-oman-s-luxury-villas-for-sale-an-investment-overview-for-the-discerning-buyer-3224ffc5.md": {
+      "sha256": "d13c47ed1013180cd91194adf2f79600dd405a8a1395836ac290472f87eb5104",
+      "bytes": 9199
+    },
+    "raw/blog/blog-oman-vision-2040-4d3f7c88.md": {
+      "sha256": "073be584d0e6a11c94fc231c297b84bc7f23b2ca9bee62b67e41ca3f406ccf27",
+      "bytes": 12214
+    },
+    "raw/blog/blog-plano-group-top-seller-aida-oman-darglobal-success-story-8abcba4e.md": {
+      "sha256": "cdbc623654d52943a7d796b5f7b77dc3f076cda3f4c20004834fa0d6da2bea90",
+      "bytes": 4619
+    },
+    "raw/blog/blog-premier-properties-exploring-marbellas-most-luxurious-neighborhoods-9b48f7ed.md": {
+      "sha256": "c54f182bb570a15df428c5ddb2989178efc99f4886cb7884331b0124b24957aa",
+      "bytes": 4277
+    },
+    "raw/blog/blog-property-investment-in-oman-42265bd9.md": {
+      "sha256": "bfaa488f00b210e96bd4b8dad2f563fc7c2f976a53e809654397629617eb696e",
+      "bytes": 10231
+    },
+    "raw/blog/blog-property-investment-in-qatar-for-non-qataris-854177c3.md": {
+      "sha256": "524585000cc80a345183e301c499f1a3ddd9ad753c9b8b39af8f264b765c0c21",
+      "bytes": 11945
+    },
+    "raw/blog/blog-property-transfer-vs-title-deed-differences-548b24be.md": {
+      "sha256": "ad4f7ef8f4aba406316b04d3621b48d0a1955ae545b9649adf89a83e2b79da8e",
+      "bytes": 9171
+    },
+    "raw/blog/blog-proptech-and-impact-on-real-estate-market-15c02446.md": {
+      "sha256": "40838f0ed9fd576b10f28d45111c63f92a178cb85c3815d96a91dafee7ab878e",
+      "bytes": 11403
+    },
+    "raw/blog/blog-qatar-crown-jewel-a-look-inside-the-hottest-property-on-the-market-bf0b784e.md": {
+      "sha256": "a33366264b235f403def73a248775ffa04494457c4abea2e58981e686e5e0a38",
+      "bytes": 4210
+    },
+    "raw/blog/blog-qatars-vision-2030-opportunities-and-advantages-for-real-estate-investor-0a4a9903.md": {
+      "sha256": "58aece73564b2527d7fddb23993275adff149d5fba58c23092f7b8493247fb76",
+      "bytes": 9740
+    },
+    "raw/blog/blog-real-estate-forecast-next-5-years-dubai-0d482c84.md": {
+      "sha256": "756cd11be0acbb59eb8fb0fbc3901f688aa1351a626a3c069dbcf0a3ab7d8836",
+      "bytes": 8856
+    },
+    "raw/blog/blog-real-estate-investment-in-qatar-682ce89d.md": {
+      "sha256": "f7d94d4fd5e8125293f71197dd671196ca337f29abed0db5a9036c0c5cfb5e15",
+      "bytes": 8305
+    },
+    "raw/blog/blog-real-estate-investment-in-rak-885e2848.md": {
+      "sha256": "e10b63cbbcb02469120deca54b22be2c8872ab1ddd28faf9592124eeb1ed7ccd",
+      "bytes": 8659
+    },
+    "raw/blog/blog-real-estate-investment-international-residency-bb9fd812.md": {
+      "sha256": "b241dde2a99d442e05955099494edd62cf61cac56276aad5e7e106282de9c94e",
+      "bytes": 10476
+    },
+    "raw/blog/blog-real-estate-market-in-middle-east-baa4d51c.md": {
+      "sha256": "da43bb43205d130b1adeacc090654793b8ff68e95ea59cbe00f60973a7c0abc6",
+      "bytes": 11047
+    },
+    "raw/blog/blog-real-estate-market-trends-in-emerging-global-cities-9acef0b8.md": {
+      "sha256": "2774148cc05163fa35537e35a7ae3f17c0604999bc6609f882041e401a69c45d",
+      "bytes": 11946
+    },
+    "raw/blog/blog-redefining-luxury-real-estate-development-for-the-discerning-buyer-4276746a.md": {
+      "sha256": "aafdbf32db6fd0469e2e6eb4129c7b8ee71e54898d0767d417e1ad3ff4b94270",
+      "bytes": 9552
+    },
+    "raw/blog/blog-redefining-real-estate-development-for-the-discerning-buyer-9d74b90a.md": {
+      "sha256": "15ddf72e1456bdfb307a345f73db9fe66a064bd9ed6ccdbd1140cf9d78410df1",
+      "bytes": 10101
+    },
+    "raw/blog/blog-remote-work-lifestyle-aida-9ecbbc16.md": {
+      "sha256": "468cbde14fc2da7956e9ecef49543d98f1fdf8dbba3717d520642cdb8a456bc1",
+      "bytes": 3813
+    },
+    "raw/blog/blog-rental-property-investing-guide-5e02b464.md": {
+      "sha256": "a1907373c18b5dfb9a63f51844b0bfcc559f226b9fe7c088bd17c26fa119bcb5",
+      "bytes": 13139
+    },
+    "raw/blog/blog-renting-vs-buying-in-qatar-277ac295.md": {
+      "sha256": "5db2710df3efe63fd21baf7114100a492a7d787bf9722fdea5819bdb460a20a9",
+      "bytes": 11507
+    },
+    "raw/blog/blog-rise-of-reit-in-dubai-fce5ce80.md": {
+      "sha256": "47709f985c1600666181bf42715bb315c531b99f62fc35eea7660971e87c4785",
+      "bytes": 8728
+    },
+    "raw/blog/blog-rise-of-smart-homes-in-saudi-arabia-b1f4d1e5.md": {
+      "sha256": "24a72c1fcad369697ca27b8c33167638e9824e78b3099fcc6a76c2bf53893acb",
+      "bytes": 9413
+    },
+    "raw/blog/blog-role-of-art-collectibles-enhancing-luxury-home-interior-bf829173.md": {
+      "sha256": "1998a199631f5efe75e5e9c07778cf0cc5ba494379ed9bca86d82d9f139fbd8f",
+      "bytes": 6953
+    },
+    "raw/blog/blog-runway-residences-fashion-brands-redefining-luxury-living-elie-saab-missoni-and-dg-797b62df.md": {
+      "sha256": "9307c444fab891bad135c164575c2090b08fc1f81df5eb928f10904cd29cfb7c",
+      "bytes": 10195
+    },
+    "raw/blog/blog-saudi-arabia-smart-cities-2f965667.md": {
+      "sha256": "f30d983139d8a4ff3218018899a0eed9fa767e1d8cbd1504188ca56fe4761474",
+      "bytes": 9742
+    },
+    "raw/blog/blog-second-home-in-spain-b8ac70cd.md": {
+      "sha256": "0ac9d3c42fb2eb772ab71a7d584905626ed047bf2b745c3aa88da79f88a99853",
+      "bytes": 11301
+    },
+    "raw/blog/blog-smart-home-interior-design-2025-9b3b988f.md": {
+      "sha256": "7f237e537b2e0805cc65cb4495c4062cd1199771c8d2b2fb5a919070a1a31fff",
+      "bytes": 10003
+    },
+    "raw/blog/blog-smart-home-technology-2025-c38800f1.md": {
+      "sha256": "63088c8fabd6264b8694188b4a98c7b2f5b9aaab914752750e25eba89b181625",
+      "bytes": 10627
+    },
+    "raw/blog/blog-smart-home-technology-with-luxury-living-03fec6e1.md": {
+      "sha256": "31083ac98438b796ee6f0319795ae1a36aac03ae0888654cc65907130e47d346",
+      "bytes": 7011
+    },
+    "raw/blog/blog-spain-and-oman-two-of-the-best-places-to-buy-a-villa-for-lavish-living-053363cb.md": {
+      "sha256": "6d3fb355130a56481b6687a4ec4b83546e30e1bedc9e3b3b589103c1af4884e0",
+      "bytes": 12366
+    },
+    "raw/blog/blog-spain-s-top-luxury-villas-to-buy-your-guide-to-securing-a-slice-of-paradise-4af7952f.md": {
+      "sha256": "a86ec3566eeb426dfaf5acc1cd89f5ae7cdcfd89c032b1d357492a6bf9c58207",
+      "bytes": 9058
+    },
+    "raw/blog/blog-spotlight-on-up-and-coming-luxury-market-in-oman-aaf7b3c5.md": {
+      "sha256": "7b50b2b23d0fd2cac994af35147d3c1c9ecce7d20bb14ba40f5d52b487c8d967",
+      "bytes": 4005
+    },
+    "raw/blog/blog-staying-up-to-speed-on-the-latest-residential-design-trends-for-2024-bf94ec13.md": {
+      "sha256": "b3a37366c2bad99a4b8f04a3d2b30a53daff9a73262fd4492901ecc263112483",
+      "bytes": 3724
+    },
+    "raw/blog/blog-synergy-in-style-exploring-collaborations-between-luxury-brands-and-real-estate-8a03ba69.md": {
+      "sha256": "7a40cacd8ad6343d455003b8ac8ee15d32fefad3b3fc380f3b12bbce044e9a06",
+      "bytes": 4051
+    },
+    "raw/blog/blog-tech-meets-luxury-smart-homes-redefining-opulent-living-be6e93c0.md": {
+      "sha256": "c889d9334f9f693f681a255d6985da48634ae739614be22742247637bd5001e3",
+      "bytes": 3442
+    },
+    "raw/blog/blog-the-appeal-of-villas-for-sale-in-marbella-what-buyers-should-know-a34cf09e.md": {
+      "sha256": "1577365a9743348cb58fabee655a5b6d8d8b46c1faf618ff5aaaebd5a51c91ae",
+      "bytes": 9707
+    },
+    "raw/blog/blog-the-astera-redefining-luxury-living-with-aston-martin-interiors-8dc4f148.md": {
+      "sha256": "32039383b1af551876c1e98de79bd54e6fcc7cfcc194c32cef308dd43c325522",
+      "bytes": 6090
+    },
+    "raw/blog/blog-the-best-dubai-neighborhoods-for--luxury-villas-your-guide-to-opulent-living-in-the-city-of-dre-2a834a3b.md": {
+      "sha256": "d6868c096b6517970ea3727c97db97b3832608bac82da0fa849e61f9087bda98",
+      "bytes": 9924
+    },
+    "raw/blog/blog-the-booming-real-estate-market-in-oman-a-lucrative-opportunity-for-investors-and-homeowners-d0594bfb.md": {
+      "sha256": "7d5529f873f05243be42981505ac0bca86fdc90c97982e2d41b051ad9c0aac8f",
+      "bytes": 7740
+    },
+    "raw/blog/blog-the-complete-guide-to-investing-in-dubai-off-plan-properties-dd6cf8a0.md": {
+      "sha256": "6c5813d5a8876e8f68c6322ffdb611f069360ba9bfcb625bbc47262be76a9df0",
+      "bytes": 9138
+    },
+    "raw/blog/blog-the-impact-of-location-on-luxury-real-estate-values-factors-to-consider-83bb2f9b.md": {
+      "sha256": "99312d4699d91e02e6e1763ac52cc1faa23306b67f3e63c2a595b28f332a0efd",
+      "bytes": 9292
+    },
+    "raw/blog/blog-the-new-work-from-paradise-trend-luxury-villas-in-oman-as-remote-work-havens-1741e1dd.md": {
+      "sha256": "c6e9c42cee7c9570c6a983b99eaad4e69051ca390cbdb835aa89e2f3ac24b55c",
+      "bytes": 8848
+    },
+    "raw/blog/blog-the-rise-of-luxury-real-estate-in-spain-analyzing-investment-opportunities-41b2f0e3.md": {
+      "sha256": "ad84f9c590c4e308238a2e2a3a70edebc27bd7d3688eaecd2e047c6cf78461ab",
+      "bytes": 4273
+    },
+    "raw/blog/blog-the-trump-golf-villas-luxury-living-with-a-view-at-aida-oman-8cf5a02f.md": {
+      "sha256": "ac956487326b33bd4f340313bde6526de09964194161e9bf150a65acfd68f40f",
+      "bytes": 4054
+    },
+    "raw/blog/blog-the-ultimate-muscat--oman-luxury-villa-buying-experience-a219820f.md": {
+      "sha256": "e5580e45906634eb737cc3e3a190428df2b14dffa5dd3ec0b3c917dc5661b481",
+      "bytes": 10276
+    },
+    "raw/blog/blog-tierra-viva-an-example-of-how-the-automotive-industry-is-shaping-luxury-real-estate-eb01ce0b.md": {
+      "sha256": "9165017e6199052bb8f33d7117939166c3a45e0a5bb264eba4d8c44604dcbed8",
+      "bytes": 5946
+    },
+    "raw/blog/blog-top-branded-residences-in-downtown-dubai-8e1c5327.md": {
+      "sha256": "e4d69f52774a1e790b5f07fa75129aba95394ad94b620965f43d12f0d97817af",
+      "bytes": 11260
+    },
+    "raw/blog/blog-top-considerations-when-buying-a-luxury-residence-in--dubai-a-comprehensive-guide-for-discernin-a22e4238.md": {
+      "sha256": "e0e24f70675ee0bb6ee11025c9afbaec42ba28a472dda6dec10e7fb777df32a9",
+      "bytes": 8931
+    },
+    "raw/blog/blog-top-luxury-gated-communities-7c086251.md": {
+      "sha256": "0d3e03b8a485fc7131f0c488f316dd82c7c25d9db5f4ab3d7d320dea4360e4c3",
+      "bytes": 11155
+    },
+    "raw/blog/blog-trump-lnternational-debuts-in-aida-oman-a-landmark-in-luxury-3c7409f0.md": {
+      "sha256": "f531ad173c6069633b5e089e6054328ab965652c17d1cc165f9f41df9bc7e860",
+      "bytes": 6550
+    },
+    "raw/blog/blog-types-of-lighting-in-interior-design-39245e03.md": {
+      "sha256": "29ef9c9b1f199f7790b2c3b815ae6363b6c22b7d42cabfdb2bf0ad8b15bdfa5f",
+      "bytes": 10067
+    },
+    "raw/blog/blog-unlocking-the-door-to-your-dream-home-essential-financial-steps-for-homebuyers-0b500004.md": {
+      "sha256": "9b1cbc4d54f3611003cd33b76ba1dd0463bd81ce1f69f906ae679f9917885bb0",
+      "bytes": 3874
+    },
+    "raw/blog/blog-unlocking-the-doors-to-tax-free-real-estate-investment-in-oman-724a0c3a.md": {
+      "sha256": "f9b500f75531db6674857f7d35382970344528de3763493ab2482cae6340d669",
+      "bytes": 9160
+    },
+    "raw/blog/blog-unravelling-the-luxuries-of-costa-del-sol-best-things-to-do-places-to-visit-b333772c.md": {
+      "sha256": "a9f519ab1bac2a6df2ad4b0012a584245014543b7d2a61c8cda6f06259a8c9af",
+      "bytes": 6661
+    },
+    "raw/blog/blog-unveiling-qatars-luxurious-investment-oasis-your-gateway-to-opulence-d52efb83.md": {
+      "sha256": "7bccf6e1b2aa4787f613e1d374f1875b510f071185cc90f1168e0e46c6a5d1ca",
+      "bytes": 4895
+    },
+    "raw/blog/blog-unveiling-the-astera-where-luxury-real-estate-meets-automotive-excellence-10274c5b.md": {
+      "sha256": "07508d3b265ecf8be518526d23e245e1c67bac3bf10e53219bed646978c90bbe",
+      "bytes": 4388
+    },
+    "raw/blog/blog-unveiling-utopia-residences-paganis-automotive-artistry-meets-unparalleled-luxury-17bfe85b.md": {
+      "sha256": "7c99205aabe2d781f5983aecd6ba62d6bed43b0ebc071dfdc9e0edd15c646fdd",
+      "bytes": 6326
+    },
+    "raw/blog/blog-unwind-and-connect-at-dg1-residences-a-lifestyle-beyond-compare-7667da34.md": {
+      "sha256": "13ff94b7162d33fdc3be761cd75087cb652ecc4cb9d1f52bd3bd3130e186e7ef",
+      "bytes": 4328
+    },
+    "raw/blog/blog-villa-for-sale-in-dubai-s-most-desirable-locations-b1d5481f.md": {
+      "sha256": "3126ff0e42b7c781e2a4d5032a069d8cbb325cf1bfb9d859e0c5823f404ec8f5",
+      "bytes": 12369
+    },
+    "raw/blog/blog-villas-in-spain-to-buy-unlocking-the-hidden-gems-of-authentic-luxury-living-3c17890d.md": {
+      "sha256": "3957be39052752a7d5af2646279c094d1407034d7364cdfa13c3d17c3bed98c0",
+      "bytes": 11108
+    },
+    "raw/blog/blog-wellness-real-estate-guide-a06d3e8a.md": {
+      "sha256": "fdf380f0e7a93f33ffafe8a2c6a841d90f290faed2061f9d39a0031f65fc8c90",
+      "bytes": 11581
+    },
+    "raw/blog/blog-what-is-a-golden-visa-in-spain-e400a630.md": {
+      "sha256": "c7d0801e9a71d92be51bab0e42cbe23d819998d70879f057cccb8e90fb14c3e8",
+      "bytes": 8725
+    },
+    "raw/blog/blog-what-is-property-insurance-premium-9b900811.md": {
+      "sha256": "f648a90f97168fef1c9f951684452eaab1616402955cee76d3d03af2858c9338",
+      "bytes": 11703
+    },
+    "raw/blog/blog-what-is-waterfront-property-6d3029b1.md": {
+      "sha256": "6fb1338f6218f78fe64a791d66f32658ad545d4691a5160505b51a6a0d7e2a72",
+      "bytes": 8562
+    },
+    "raw/blog/blog-what-makes-an-apartment-luxury-be22f80a.md": {
+      "sha256": "364d6def8e25d7fd4af6722eea67e2fe172d3bc56c39b9a3dba82b054e37dc16",
+      "bytes": 11447
+    },
+    "raw/blog/blog-what-makes-great-luxury-real-estate-developer-key-traits-industry-leaders-68a82eaf.md": {
+      "sha256": "73d1bc6d0c6536de3e414f16cf46a4adea2c679d2d1d75ed0cfe4e3b653c505d",
+      "bytes": 8689
+    },
+    "raw/blog/blog-where-luxury-meets-design-aston-martins-collaboration-with-darglobal-on-the-astera-35474220.md": {
+      "sha256": "bad08b58ad768ce8bc006fb08ad2a372f31c025ab760938eebf9b5b91d1ff1ac",
+      "bytes": 4302
+    },
+    "raw/blog/blog-where-to-invest-money-in-uae-5b7c2cf3.md": {
+      "sha256": "ada74627cf6ad67efa33ca4047f9d6722ad0ebf06c9699ec4e069ca059b1575f",
+      "bytes": 9242
+    },
+    "raw/blog/blog-why-aida-trump-international-cliff-villa-are-the-ultimate-luxury-getaway-88925df2.md": {
+      "sha256": "4e75d5a5b55a2a6a9009705e6f01de2d7cef0eb41ff9e238e186d9707d851c46",
+      "bytes": 8436
+    },
+    "raw/blog/blog-why-branded-residences-outperform-traditional-luxury-homes-23658a95.md": {
+      "sha256": "7ec83bb72b1efe487f1afffa96d97271d490e444af3c69800b1efefb6a324256",
+      "bytes": 6602
+    },
+    "raw/blog/blog-why-buy-property-in-spain-bee4d5ff.md": {
+      "sha256": "68d1c184959b7788c322407fd056f69e0960b59ca5ffcdefbbfaa78f4d5c6ed8",
+      "bytes": 11925
+    },
+    "raw/blog/blog-why-choose-marbella-top-luxury-villas-for-sale-in-this-idyllic-destination-7f9c5528.md": {
+      "sha256": "1178bd5de23c067ad41e6945b7df1a39f3b6e775e268b41fda69afe5c28a7747",
+      "bytes": 10684
+    },
+    "raw/blog/blog-why-dubai-is-the-perfect-place-to-buy-a-luxury-villa-unlocking-a-world-of-possibilities-1a81b784.md": {
+      "sha256": "6ca6feb89e21f79fb192080d317f47f0849006e8779e5abff02d07ec5ef88668",
+      "bytes": 9357
+    },
+    "raw/blog/blog-why-dubai-remains-world-leading-luxury-property-market-59b9fecc.md": {
+      "sha256": "fe02e2ec42886b6396acf09950e81f3d1c887be3a70539e4481f83a088d860f5",
+      "bytes": 5801
+    },
+    "raw/blog/blog-why-invest-in-dubai-real-estate-05674d4f.md": {
+      "sha256": "e648ee8ba38fca6e32fb5e1452e59885618dc2db2282e38f311e67a83604333d",
+      "bytes": 9750
+    },
+    "raw/blog/blog-why-investors-are-eyeing-aida-as-omans-next-big-opportunity-761165a9.md": {
+      "sha256": "a2fdff43728a8af7888964f8909b718110048291d528c8d94143a4b16c0039b9",
+      "bytes": 9017
+    },
+    "raw/blog/blog-why-luxury-real-estate-investment-portfolios-ada05f6a.md": {
+      "sha256": "c756e4bd63d344d72f9204c4cd6c84d4b45dd297c0059de3e0a821965b670069",
+      "bytes": 7028
+    },
+    "raw/blog/blog-why-luxury-villas-in-oman-are-your-next-dream-destination-188d0823.md": {
+      "sha256": "6b873b520375deffd9a2c0d18c108c89bccb14ede6fd582f1ac23f8952629d94",
+      "bytes": 12771
+    },
+    "raw/blog/blog-why-marbella-s-villas-for-sale-are-attracting-global-buyers-3f871219.md": {
+      "sha256": "18923cdf33412b8d05901dae5781fb93ef09c6c394e4690bdab10d1c7a45a6e7",
+      "bytes": 8758
+    },
+    "raw/blog/blog-why-your-next-investment-should-be-in-oman-c8e4fa85.md": {
+      "sha256": "d1a327551834fe38d22260a34457086f0ac8c1b0754ed03ab9c5ad437e6dd8b7",
+      "bytes": 2361
+    },
+    "raw/blog/blog-your-beginners-guide-to-real-estate-investment-in-oman-34274c6a.md": {
+      "sha256": "3897a2b0ed70d075a1c0824ca33b6810922128852c299c1a5740aefe84f90b31",
+      "bytes": 3728
+    },
+    "raw/blog/blog-your-dream-villa-awaits-exclusive-luxury-villas-for-sale-b19a92e6.md": {
+      "sha256": "983e42cd5cc718083f31b4a25d22990e70e8169ac7957786adbe6cbd579f0aae",
+      "bytes": 8380
+    },
+    "raw/blog/blog-your-dream-villa-awaits-exclusive-luxury-villas-for-sale-in-spain-a24d806e.md": {
+      "sha256": "953f538e0d03e51ac07abd727b873bfb88370e0147134214af63079f9f0b1f05",
+      "bytes": 12218
+    },
+    "raw/blog/blog-your-guide-to-buying-luxury-villas-for-sale-in-dubai-top-areas-and-investment-tips-2d55dd7c.md": {
+      "sha256": "6db4e44e9981bf967e8db7433ef5967f8d0521ba20cf60a7824509d58bae8fde",
+      "bytes": 10790
+    },
+    "raw/blog/blog-your-ultimate-guide-to-buying-luxury-villas-in-muscat-d4a57ef8.md": {
+      "sha256": "652a2eee3d3962327c1de1c5fa0a469d199990133b29de2c17ce0bcb6412b8cd",
+      "bytes": 10207
+    },
+    "raw/communities/amaya-amaya-plots-435fc917.md": {
+      "sha256": "0d07e8b72be15dd9101b8dcccf3c07d388c1d04b4948c028a808fc74bd206c83",
+      "bytes": 5619
+    },
+    "raw/communities/amaya-padel-living-201889b3.md": {
+      "sha256": "50f13613999c3ea42cbb376041e86753e2a26e5e6957b4fe4fccea615df6a8a6",
+      "bytes": 3089
+    },
+    "raw/communities/one-of-one-THE-ALBERT-HALL-MANSION-a74e1a81.md": {
+      "sha256": "7ff55fba3a261da8bb4044adc40e62833127b41c6ea6e98639caf231a7b1180a",
+      "bytes": 7879
+    },
+    "raw/communities/one-of-one-ee0f4e10.md": {
+      "sha256": "40534cb9389945c53a44b4911a3f4c9903e4335f93ab2061613b2d6fb177bcf3",
+      "bytes": 3925
+    },
+    "raw/communities/one-of-one-fendi-casa-azure-oceanfront-villas-a837fc3a.md": {
+      "sha256": "fc4a65e5b3cd6c581be84b822ce4c5f721082f3991a1ef5e8161e6adb09765d7",
+      "bytes": 2923
+    },
+    "raw/communities/one-of-one-one-of-one-unlisted-by-pagani-b614173a.md": {
+      "sha256": "097d061242a1f025ded7fb4a529d966e27575ae7ca277b171b357e1779c82085",
+      "bytes": 8686
+    },
+    "raw/communities/one-of-one-painite-villas-design-inspired-by-Automobili-Lamborghini-a188ec43.md": {
+      "sha256": "220b56fff564698e76dfed69829998763da37eceb09d130ad314830274c37ee4",
+      "bytes": 3281
+    },
+    "raw/communities/one-of-one-project-pagani-ee57f981.md": {
+      "sha256": "6714994264f1728c370feede6b307e0ee5438cb8ae2685d7ac1f74e436652f76",
+      "bytes": 8110
+    },
+    "raw/communities/one-of-one-top-of-the-astera-429d90ae.md": {
+      "sha256": "2d1bcbdc8ae63c9263f297fa2999a40b0f2ab5dead83ac89297ec4cad7e5f0d0",
+      "bytes": 7640
+    },
+    "raw/communities/one-of-one-trump-penthouse-ab20273a.md": {
+      "sha256": "ed7e75390d9902009f313f6ac6a90a92e3870f6e2f984124162fbecc28f16f03",
+      "bytes": 7248
+    },
+    "raw/communities/rayana-darglobal-mansions-fendi-casa-cd4acaaa.md": {
+      "sha256": "8018a6d6a38f64352e77d018357c9ce8174fbc03e5cc6d61ccf66cf33e72ea7c",
+      "bytes": 3433
+    },
+    "raw/communities/rayana-trump-international-qatar-a03a487b.md": {
+      "sha256": "cd914b54dff25892c1d03df545ef7b921570fb05359cb3f99c6902768f0fc987",
+      "bytes": 3801
+    },
+    "raw/communities/rayana-trump-mansions-43e06918.md": {
+      "sha256": "8e7383b21f687c585e7659e601cdb66f31ba6a7c64e8cbbe4dfd773939e2b24b",
+      "bytes": 2904
+    },
+    "raw/corporate/about-f8e2f6d7.md": {
+      "sha256": "821eadc7acb0c5592f4ea12685a8cde7a213f7b57d31a7802d41237db86ec6bd",
+      "bytes": 2417
+    },
+    "raw/corporate/commercial-63338250.md": {
+      "sha256": "04a054c1c3c65221bbd126336736fb4a76ba0b97b8fc9781a8e366270e866f55",
+      "bytes": 5934
+    },
+    "raw/corporate/faq-2bdf0f6f.md": {
+      "sha256": "6f567e4c0920d9114d2f3b553f7c7e3a09451aed0b780c7580147507896ea67a",
+      "bytes": 10746
+    },
+    "raw/corporate/home-3931bf92.md": {
+      "sha256": "d5fb797bb74b69553dfc456fa7331c8606faf1f4bdcae61d22d89904b16a6e48",
+      "bytes": 11758
+    },
+    "raw/corporate/hospitality-ed26e5fb.md": {
+      "sha256": "4f0e34501efcf24a5c4d1e09e6ef29ae60dd2d4ae53130c677fed1c91ec4d2a6",
+      "bytes": 8659
+    },
+    "raw/corporate/investor-4ef6a511.md": {
+      "sha256": "ee18c2a2c0db002b9ac8f8a2e5c67c20cdf3741993c267450e6709a144c76ce7",
+      "bytes": 3531
+    },
+    "raw/corporate/luxury-golf-communities-0b3f0686.md": {
+      "sha256": "edbe2880832dc3d683fa4ddf408d4c0dde144430f223c0f0b056c3667f0ecf1a",
+      "bytes": 6702
+    },
+    "raw/corporate/tokenization-2902d614.md": {
+      "sha256": "b8f6771a3a3982be3fa0094f722f20d974b73c2c078313da92db2a7ab81d9a04",
+      "bytes": 7237
+    },
+    "raw/corporate/why-invest-05da34ef.md": {
+      "sha256": "8ae01bde816d5e9d6a1fbd85624b6dab7fa76d1a48efc56954fedb088ea7c268",
+      "bytes": 9892
+    },
+    "raw/developments/Invest-crypto-14ba3c6b.md": {
+      "sha256": "f036a213f21adaa223c96212712f61c3f87913d92b0fad24dcc40d23522ec2d1",
+      "bytes": 7493
+    },
+    "raw/developments/La-Collina-6876db5d.md": {
+      "sha256": "30ed92e44d9f4c856843acb105bfe18963f9ab63e0efbd1c84db99d9bdbddd6c",
+      "bytes": 9554
+    },
+    "raw/developments/Sunrise-Haven-Luxury-Villas-90d22faa.md": {
+      "sha256": "08b4e3b222ddfa96585ddce9f75e63cf409e9d15871204aa4f55c8c4a8f11fdb",
+      "bytes": 4130
+    },
+    "raw/developments/aida-360-05059d78.md": {
+      "sha256": "7075631fab68badaee8d709d723ec4fe9317a49e564f5daec751f676b04d01aa",
+      "bytes": 7643
+    },
+    "raw/developments/aida-coastal-investment-villas-9fc03cd0.md": {
+      "sha256": "209cc061935982163f9010acaec174b0ff4675a78bd3d5b1f842fa30cc26b243",
+      "bytes": 4386
+    },
+    "raw/developments/aida-trump-international-apartments-4c63b7b4.md": {
+      "sha256": "ca2afe8685d13e5d643f868e4735e399d07e3193be4edec919ba445feaf0c240",
+      "bytes": 3489
+    },
+    "raw/developments/aida-trump-international-cliff-villas-7c39e8c2.md": {
+      "sha256": "1c2be06365442eb135184e8f0158426e8878d35fd72ad13466b2ec736ed6beec",
+      "bytes": 6405
+    },
+    "raw/developments/aida-trump-international-hotel-22ff471a.md": {
+      "sha256": "ef5f578a3514ad068a6f7d3e294207675e34216683489abc43483d12251c0bee",
+      "bytes": 6410
+    },
+    "raw/developments/aida-trump-villas-37319f01.md": {
+      "sha256": "346271e968c5b9772347ed8b802d88cc74163c8c091e7d8a47727d73c8f469f9",
+      "bytes": 5979
+    },
+    "raw/developments/amour-sans-detour-2-110afda2.md": {
+      "sha256": "07065750b01b586c184e19d7bd2b7b072c78a5eea9e41ba845d0b30821aa0e3b",
+      "bytes": 3692
+    },
+    "raw/developments/amour-sans-detour-5911da93.md": {
+      "sha256": "423551b0d84f0644fdea3120868b023bebb877ad847f66042d227c38bfcff662",
+      "bytes": 3933
+    },
+    "raw/developments/d-villas-at-jge-7bd5b7a3.md": {
+      "sha256": "a26be3118b8367d181622c7a92c76dc511b492a4af409e20f1394316e5650a3a",
+      "bytes": 3211
+    },
+    "raw/developments/davinci-tower-by-pagani-370b1896.md": {
+      "sha256": "566acf3ba8beb382145bb77f4893b5f9612e3041e789d703d0773c323ad7ea44",
+      "bytes": 4884
+    },
+    "raw/developments/development-management-14771513.md": {
+      "sha256": "057b1e64c2c82fbea560848fd3f7b618adfaf8cb894b72cd4785ad3f5e6f261f",
+      "bytes": 7494
+    },
+    "raw/developments/dg1-798f0824.md": {
+      "sha256": "d2eaa6a71ecfa502af84e1e179b26555be0d7c6dfc84c39ee8707274b1a6704b",
+      "bytes": 3231
+    },
+    "raw/developments/exclusive-membership-8b285d4e.md": {
+      "sha256": "b6173d1f869f92f3f8a35a9d78fb2d1ff031e16397742af8de0e1d447e2269b5",
+      "bytes": 5803
+    },
+    "raw/developments/exclusive-plots-8a39ba96.md": {
+      "sha256": "8c46b913fb413d0fa8f97aaa5b5f6a044aa475e2bb54cfddce8594532c89a0bc",
+      "bytes": 5820
+    },
+    "raw/developments/fairway-villas-aida-oman-9f12bf60.md": {
+      "sha256": "51d592bac2a790a9d7e8838a53515588510149b36dac9911f32c3bcb3d4f481c",
+      "bytes": 4093
+    },
+    "raw/developments/insignia-76ba6dcb.md": {
+      "sha256": "bfd7f716a8fd564e76536b69e7ee159e61649a15d322f62da6b658a5b3124399",
+      "bytes": 6944
+    },
+    "raw/developments/invest-in-aida-81c55982.md": {
+      "sha256": "63f998a7a47545b4f45b0a9b975a2433787499c0110f521727a36cca4cc3b188",
+      "bytes": 4096
+    },
+    "raw/developments/les-vagues-26a1892c.md": {
+      "sha256": "188fb9e129b68fd363c384a86f95621cbeb498d63590d6f1dfb516576128f23c",
+      "bytes": 6048
+    },
+    "raw/developments/live-all-in-78294015.md": {
+      "sha256": "6a8c804d6ced4e15c09bad65c72e4d3b5e3dac1e511e6207333ceb5c740ce434",
+      "bytes": 7285
+    },
+    "raw/developments/marea-436d75c0.md": {
+      "sha256": "61aff70733c5d745084f4988c6640aef23541b6df483a263eb15e651629bd5d1",
+      "bytes": 5763
+    },
+    "raw/developments/neptune-472eaa11.md": {
+      "sha256": "262ed9a17544ae6881dab7e0824367c1b7075283925a455d4e98f4332b2401a2",
+      "bytes": 4808
+    },
+    "raw/developments/sohar-islamic-bc2ea23e.md": {
+      "sha256": "83d63c4f65658e3cb43a3e779596747e6248207ca3a5bd1d1c93a1d6a0985bc3",
+      "bytes": 6398
+    },
+    "raw/developments/the-astera-6e456575.md": {
+      "sha256": "ee08bb07a20d62ad34480a0abba8f0d2fb979e717d3a06cc94953c0cd273399f",
+      "bytes": 6011
+    },
+    "raw/developments/the-great-escape-1-aida-oman-42bd6592.md": {
+      "sha256": "4f8ebc308a97f2aea7a031cfdbd836a2c4000e704864397acb8bf9bac21ce15e",
+      "bytes": 4419
+    },
+    "raw/developments/the-great-escape-2-aida-oman-6084a5b6.md": {
+      "sha256": "e5d2664bc041ad77b78e4aaaff11a5e831463ac293a04d994cef2130f499993c",
+      "bytes": 4086
+    },
+    "raw/developments/the-mulliner-cb1d9a32.md": {
+      "sha256": "fb9909bbae4a1f26915a5f2da4c1a6567a29a8b82c29e3bd2ffd1e540ae31b20",
+      "bytes": 2986
+    },
+    "raw/developments/tierra-viva-db7a0953.md": {
+      "sha256": "32f093bf39046a0208b38a6a45966fea7137b8ec1f970e2b7945cb68616ceaa2",
+      "bytes": 5184
+    },
+    "raw/developments/trump-international-hotel-and-tower-dubai-5e673d5f.md": {
+      "sha256": "12e79ad6e0d78b1c3e2fca69378cd4bee95dfa97a28854b619906413cb5c337f",
+      "bytes": 4549
+    },
+    "raw/developments/trump-plaza-executive-residences-b99abd66.md": {
+      "sha256": "e5ff6d587afe6284835e51b206b017b7b6cd9c1a5df10b89eae20863d56577c1",
+      "bytes": 2646
+    },
+    "raw/developments/trump-plaza-park-residences-1f382719.md": {
+      "sha256": "a6d1aa2808ee05991aa55b37e9d0f5421e683726d82ec8c93a1135eb0646bb47",
+      "bytes": 2730
+    },
+    "raw/developments/trump-tower-jeddah-309874c0.md": {
+      "sha256": "bc8dbc43b99c68079101777949ab252cfdf4a9f0719bc8df6f870a39439f7d36",
+      "bytes": 4718
+    },
+    "raw/developments/urban-oasis-by-missoni-f087440b.md": {
+      "sha256": "dbbde91d5db0a944204fa97ca7f33e77fb6bffa11698af2b186ea13f02c6d5e0",
+      "bytes": 5176
+    },
+    "raw/developments/w-residences-deca095b.md": {
+      "sha256": "5fb4da74296a9f52665c4d483beaf0cf1fede56d9c052cd08e0047a37c24f6eb",
+      "bytes": 5434
+    },
+    "raw/insights/insights-149-old-park-lane-luxury-london-e7d01e4d.md": {
+      "sha256": "898a5e9d29943990cb3a0e7e7ed4ec071b7ff672ae56a11720fa68554d632919",
+      "bytes": 7680
+    },
+    "raw/insights/insights-aston-martin-interiors-apartments-ras-al-khaimah-bcf59e8a.md": {
+      "sha256": "19acea8730b6256eef000fc74a40315ed19d0bdbd6d396ee7e026257bd0cbc2f",
+      "bytes": 8236
+    },
+    "raw/insights/insights-automotive-designed-vacation-homes-benahavis-2208d965.md": {
+      "sha256": "10765b081bbb40d0cf89f74549a246aa393ee65cdcd7e4bad8867c0ee4293d62",
+      "bytes": 7936
+    },
+    "raw/insights/insights-capital-appreciation-developer-ras-al-khaimah-aeacb172.md": {
+      "sha256": "0c215772f85d3436adec2187288b7acbbe7c0db13495de41b4e36497671e3a32",
+      "bytes": 7983
+    },
+    "raw/insights/insights-crypto-tokenized-luxury-developer-a9cd4581.md": {
+      "sha256": "928f569ae483ba348c063df5c9d0cb7c1e29c3f828fdc5bf90fea5a156b3b02f",
+      "bytes": 7855
+    },
+    "raw/insights/insights-elie-saab-branded-apartments-qatar-c718e8e8.md": {
+      "sha256": "a14bfa262bfeb7072b0406bee53be09803d436dde8e25b06716b6ea5e9d7ca1d",
+      "bytes": 8043
+    },
+    "raw/insights/insights-f202f4db.md": {
+      "sha256": "30b8e725d9467e3c05b59439bba4bf6c6189dccda49c4c75281d3fe9b8cd8756",
+      "bytes": 11171
+    },
+    "raw/insights/insights-global-citizenship-dual-residency-communities-dd8e05ef.md": {
+      "sha256": "a5459c118ed657979455d2d02d492bde2153a47907fb43f488eda9f808e5542b",
+      "bytes": 8007
+    },
+    "raw/insights/insights-lamborghini-inspired-villas-spain-3bdae403.md": {
+      "sha256": "6a3186cc9e642b314d2ac822ed6e323942128afa6b743fc4a50fd70b9fa7673b",
+      "bytes": 8220
+    },
+    "raw/insights/insights-lse-listed-developer-dubai-a6ff2773.md": {
+      "sha256": "695505a2a5a4af1587630645413251e3d4134975647dba7ac33d9b981443aef6",
+      "bytes": 7861
+    },
+    "raw/insights/insights-luxury-golf-villas-muscat-branded-c4d054b7.md": {
+      "sha256": "4720fbd2d4280db928b1f82dc6c04c995bce9a8f817e6eddf9d09243413cf4db",
+      "bytes": 7933
+    },
+    "raw/insights/insights-luxury-second-homes-saudi-residency-f4b6a709.md": {
+      "sha256": "884f6e32d98f72e62c1d821b9e93f96e90411770de5a73c522e82f9a04e7d977",
+      "bytes": 8029
+    },
+    "raw/insights/insights-missoni-branded-residences-costa-del-sol-34692f91.md": {
+      "sha256": "c2d6d9fbcf5f28d5c840066f8609bbf93239696fb8d4f6ede3434892470fc5b0",
+      "bytes": 8122
+    },
+    "raw/insights/insights-mouawad-branded-villas-riyadh-f78cf5fe.md": {
+      "sha256": "52bc631e5000581f282951eb96642e624dc63823b353cba5e41e0f183f78c292",
+      "bytes": 7926
+    },
+    "raw/insights/insights-oman-gated-communities-high-altitude-658e2bbf.md": {
+      "sha256": "4a6d99a92b06c352fed51b14c96c9c128dbab6a38e65dfc80312bd2320525296",
+      "bytes": 7899
+    },
+    "raw/insights/insights-oman-golden-visa-sea-view-homes-1757d835.md": {
+      "sha256": "157e6d254b7d9cc3662b3c6f1621987555f98e22d9ab0ed6b631ed775e16a81b",
+      "bytes": 8057
+    },
+    "raw/insights/insights-pagani-interiors-villas-dubai-4a5d402f.md": {
+      "sha256": "e46957fbbd7e8507a39ac00ffec66fdfdbb150c7ea12ae4643f978aeaddb1c46",
+      "bytes": 7958
+    },
+    "raw/insights/insights-premiere-architectural-landmarks-dubai-482ab8a2.md": {
+      "sha256": "8658b0ba28c285c55f3a9617eba5935d282275be1bf8dc133f5b209221ecc74e",
+      "bytes": 8000
+    },
+    "raw/insights/insights-safe-luxury-developer-oman-dce791e3.md": {
+      "sha256": "ca2e80b19efde5b49c33da58ca1b7e766e6edbf01592c506d96bd643bd604bd0",
+      "bytes": 7885
+    },
+    "raw/insights/insights-supercar-designed-penthouses-uae-cf709121.md": {
+      "sha256": "1e5aa0ac8f3c584b7820def40a0471de64336dbb747ebc9467c68bbdddef2572",
+      "bytes": 7982
+    },
+    "raw/insights/insights-tokenized-fractional-luxury-hotels-me-c696fd1e.md": {
+      "sha256": "6bd1c05fba19ecc1edb0a6c2d85ae76aa484be916212e7a404ed06b4e807920d",
+      "bytes": 7846
+    },
+    "raw/insights/insights-transparent-financials-dubai-off-plan-b0efbced.md": {
+      "sha256": "624585cbad1ec48a60518ece533a434653ef96073ab2e9b3dc571c87d9e83d7e",
+      "bytes": 7840
+    },
+    "raw/insights/insights-trump-international-hotel-dubai-72d9bba0.md": {
+      "sha256": "09de1f36abe24196d71d7b0fffc18a1b31e4450b0ad2b1bb57a2ab84f46f75dc",
+      "bytes": 7840
+    },
+    "raw/insights/insights-trump-partnered-projects-oman-8718c249.md": {
+      "sha256": "c7188907c32f9df3d8f394a9e923be4926fc8d563368a14e1af884e736cb2699",
+      "bytes": 8135
+    },
+    "raw/insights/insights-twisting-residential-towers-dubai-business-bay-2f5778a1.md": {
+      "sha256": "9703d4e6e91217eca59e754add24ab74154609c416374cf29e609acd5ea217f6",
+      "bytes": 8003
+    },
+    "raw/insights/insights-w-residences-downtown-dubai-569a8709.md": {
+      "sha256": "a4e1f565b1451f1743c5a1f4dd15c3f1386d71d73184f622b3591c883ac368c9",
+      "bytes": 7961
+    },
+    "raw/manifest.csv": {
+      "sha256": "6dbcd3525e5f97943a05a4b4a7ec28ec269794f9a3ef498ea9068f41be75c6bc",
+      "bytes": 83314
+    },
+    "raw/partners/partners-aston-martin-909b9bd6.md": {
+      "sha256": "2dff64f5daaf2ef2d9c24266908ce377c6a80cf67d95ff5ebdc728c79cfec732",
+      "bytes": 5395
+    },
+    "raw/partners/partners-elie-saab-07ea3453.md": {
+      "sha256": "d2860019dd193592327b883081dd06c41d1c2059c91f7d733331e73618389c57",
+      "bytes": 4613
+    },
+    "raw/partners/partners-fendi-casa-df9cea5e.md": {
+      "sha256": "5e7815b0884d9e9b59fcdaf80afd6d964a0e40a53aa873f0a930bd4b6466c0a1",
+      "bytes": 10021
+    },
+    "raw/partners/partners-lamborghini-05a2e22e.md": {
+      "sha256": "76e93d7292eca525cee36199c53098109c49e40c784e5a97c2f01fd5e1758d4b",
+      "bytes": 5013
+    },
+    "raw/partners/partners-marriott-residences-aida-oman-8d93dc9e.md": {
+      "sha256": "b726b5a8e0de77387eedc4104702dabfdd8ade19cadcb6a2738fdd6ecda28954",
+      "bytes": 8867
+    },
+    "raw/partners/partners-missoni-b63bb2fb.md": {
+      "sha256": "82125c9736741449e5c4b0e72ed8d305e8f2b4ca9d2deaca7c626007dcb3a495",
+      "bytes": 11198
+    },
+    "raw/partners/partners-mouawad-2f7625da.md": {
+      "sha256": "a04d7f4e2223811bb3d701cd860359f4305ab558247a74bf950f23d418854ba9",
+      "bytes": 9563
+    },
+    "raw/partners/partners-pagani-a040b614.md": {
+      "sha256": "83a476671cf8c1bb4ee8aabb443cfd1b512ad7cdda3d4e82477108ce3efea7dd",
+      "bytes": 5042
+    },
+    "raw/partners/partners-paramount-03f115b1.md": {
+      "sha256": "a79de62be3c91932a8048d7090c4b3880c964546f2bfe9ddad73346871a38f5c",
+      "bytes": 7850
+    },
+    "raw/partners/partners-the-trump-organization-48fb4de1.md": {
+      "sha256": "d5d7de5c70cf842df02600db94ccffeb12da0280ebdfeb0568795c341261fa9b",
+      "bytes": 12249
+    },
+    "raw/partners/partners-w-hotels-fd4da781.md": {
+      "sha256": "c3ed5a71ceff7ae917165c038c360a8073b5b6fafd4aba49a71ac5a5c7b4306d",
+      "bytes": 10062
+    },
+    "raw/press/press-74d6f592.md": {
+      "sha256": "012ee5f14d765eeb8ba659c43103d3c7b9bf21b38ce61d42dcdc47047a8619be",
+      "bytes": 21347
+    },
+    "raw/press/press-DARGLOBAL-APPOINTS-ROTHSCHILD-CO-TO-EXPLORE-FURTHER-GROWTH-OPPORTUNITIES-IN-LONDON-AND-SAUDI-A-ad9988fc.md": {
+      "sha256": "734e1d9d66c980530883b13a24f6e4c4225668f68d671986dbd342d99bc5bbf8",
+      "bytes": 8619
+    },
+    "raw/press/press-Dar-Global-Kicks-Off-Construction-at-The-Astera-Interiors-by-Aston-Martin-with-the-Appointment-695df5ba.md": {
+      "sha256": "1946a5b4ae2018174a45e2cd129b7ed1b8d0fab34190f2b7ebd23f8042956c2a",
+      "bytes": 9101
+    },
+    "raw/press/press-Dar-Global-advances-construction-at-Tierra-Viva-its-first-European-luxury-development-with-Aut-8878bc69.md": {
+      "sha256": "05f221127388ea0d83b9a6b4e74a8b09972d9e73b41457213a3023c3c3957f2c",
+      "bytes": 9935
+    },
+    "raw/press/press-Dar-Global-and-The-Trump-Organization-Expand-Collaboration-with-the-Launch-of-SAR-2-Billion-Tr-f8953296.md": {
+      "sha256": "e1b4440fadebf5859f8efcabcc697f96bc68fb919fccb5db508e0a00f815a6aa",
+      "bytes": 10775
+    },
+    "raw/press/press-Dar-Global-completes-sale-of-historic-149-Old-Park-Lane-marketed-at-25mln-21208044.md": {
+      "sha256": "c7f95d4125d1c94cda1f5525df735e7499b5fba4d0387f03eae1109163548a75",
+      "bytes": 8883
+    },
+    "raw/press/press-Dar-Global-sets-a-new-benchmark-in-luxury-hospitality-with-the-launch-of-the-500ml-Trump-Inter-8f2bae13.md": {
+      "sha256": "6d0e7eedb55ecb4ee76e24635c60a037719945b8dd33ff917bbe840fa01c5ced",
+      "bytes": 4110
+    },
+    "raw/press/press-DarGlobal-PLC-appoints-David-Weinreb-as-Chairman-ff55a079.md": {
+      "sha256": "12f887836cf21ef5e0472ab55acff48171d3aa5cd4921ac2cb3f80e9d6f44f60",
+      "bytes": 9245
+    },
+    "raw/press/press-DarGlobal-appoints-China-Tiesiju-Civil-Engineering-Group-Co-LTD-a-the-main-contractor-for-DG1--e1d456d1.md": {
+      "sha256": "2547f6b2e2e09f1ec93c3b17919ba2df2e80925fd269b9a77771d95efd9e738d",
+      "bytes": 9557
+    },
+    "raw/press/press-DarGlobal-crafts-an-exceptional-residential-experience-with-the-launch-of-exclusive-DG-Villas--16b836d4.md": {
+      "sha256": "d77ad9c710422f097150c1c4650e0c1a8f6c97cdb6f027f6642882b66347cc3b",
+      "bytes": 11386
+    },
+    "raw/press/press-LET-IT-RAIN-DIAMONDS-DAR-GLOBAL-AND-MOUAWAD-HIGH-JEWELLERY-HOUSE-UNVEIL-SAR-880-MILLION-LANDMA-ce75819c.md": {
+      "sha256": "4b0cb150d0008b81bf6528823d9d0b5f4ae2a7714765a65c84ffebef7d5b2e7c",
+      "bytes": 4048
+    },
+    "raw/press/press-dar-al-arkan-and-omran-group-announce-partnership-to-develop-aida-overlooking-the-sea-of-oman-29c87326.md": {
+      "sha256": "f320ca591cbcfeab911e8980088f29862c12cf39f894595a624bd590ff9d7e31",
+      "bytes": 4516
+    },
+    "raw/press/press-dar-al-arkan-and-pagani-automobili-give-customers-a-glimpse-of-the-worlds-first-ever-pagani-in-4ec12bcd.md": {
+      "sha256": "d50ad9a422cdeb94c46377ea71b54ab84f560220f630885d9da3b99cfbf3bb19",
+      "bytes": 4044
+    },
+    "raw/press/press-dar-al-arkan-and-qetaifan-projects-unveil-premium-sea-front-residences-with-interiors-designed-4901219d.md": {
+      "sha256": "f8c15cf9da2ad461c15ac9901cedb1a396e9a1bd05e6c491385684750b21ae1b",
+      "bytes": 5573
+    },
+    "raw/press/press-dar-al-arkan-and-qetaifan-projects-unveil-premium-sea-front-residences-with-interiors-designed-52ea3cef.md": {
+      "sha256": "d95b71c4f7a9d10993ec4d094967ce48e6ef5ca7460d387bd9ade78f5cb277fc",
+      "bytes": 11980
+    },
+    "raw/press/press-dar-al-arkan-commences-construction-of-the-sold-out-w-residences-in-downtown-dubai-803ea706.md": {
+      "sha256": "5ac9b3746f9e6f9b7a0d860c9719945da20f7c760b1e620d7a1df8baece3fb37",
+      "bytes": 8662
+    },
+    "raw/press/press-dar-al-arkan-global-launches-sales-of-the-most-premium-residential-address-in-qatar-les-vagues-a8003304.md": {
+      "sha256": "9454213bcd49e31cb31e6c4c213b19e54b94e4713201d16a69dd2d6dfd09739c",
+      "bytes": 10610
+    },
+    "raw/press/press-dar-al-arkan-introduces-trump-signature-villas-hotel-and-golf-course-at-its-hilltop-project-ai-d4f92b81.md": {
+      "sha256": "b1a0a409845802b63cbf85fbc101006ded2e759befbeed4fb0dc680e0e14c4ec",
+      "bytes": 4019
+    },
+    "raw/press/press-dar-al-arkan-opens-office-in-china-in-a-bid-to-usher-in-global-growth-3957f91e.md": {
+      "sha256": "943524d5e28e07833b66be8a4eef4256755d214468f8126d7a448e14d8f47eb7",
+      "bytes": 9267
+    },
+    "raw/press/press-dar-al-arkan-reveals-w-residences-dubai-downtown-overlooking-dubais-burj-khalifa-and-dubai-fou-53bade6d.md": {
+      "sha256": "4017d2d5ce6ac98e6f12b1de9b688c9a3755fb99da63a5e3c2ace541083a1ee6",
+      "bytes": 5542
+    },
+    "raw/press/press-dar-al-arkan-starts-work-on-sidra-the-largest-master-development-in-bosnia-and-the-balkans-7759b160.md": {
+      "sha256": "5669efb73be235453b6815496179fc630c8a9f67d1d448a69980eb8c00dfa3b4",
+      "bytes": 9599
+    },
+    "raw/press/press-dar-al-arkan-succeeds-in-the-listing-of-its-international-arm-dar-global-on-the-london-stock-e-4804077d.md": {
+      "sha256": "2f5690007133a1d00bc4a12b18fd11a7c0b2305f95add0e551d8e322a32eddc2",
+      "bytes": 10119
+    },
+    "raw/press/press-dar-al-arkan-teams-with-missoni-to-deliver-the-exclusive-urban-oasis-water-front-residential-t-7bb7f92c.md": {
+      "sha256": "36bbe81b059bf84c15d6215a2764e8023712f465202bec63fe8b1f5f53a4c864",
+      "bytes": 4240
+    },
+    "raw/press/press-dar-al-arkan-teams-with-pagani-automobili-to-unveil-an-ultra-exclusive-residential-tower-in-du-38b45d7f.md": {
+      "sha256": "9393a9007ca3427a80c5b91b8321f07fe61c47dbaf0861e6d7757784b50dff82",
+      "bytes": 11076
+    },
+    "raw/press/press-dar-al-arkan-tops-out-its-urban-oasis-by-missoni-residential-tower-in-dubai-at-34-stories-def42338.md": {
+      "sha256": "2272376b7c2bb4c2618239bfe9b9dfa87708762f344a49a6e70d1793ba8a7e17",
+      "bytes": 9129
+    },
+    "raw/press/press-dar-global-17-3-roe-2025-strong-market-position-e7f692da.md": {
+      "sha256": "e497bc7637736b6e6775c7fd0cec00c1878090d175967efa7e5b572e3cf72d9a",
+      "bytes": 8302
+    },
+    "raw/press/press-dar-global-appoints-gulf-asia-contracting-for-trump-international-hotel-tower-dubai-cfbb2e9d.md": {
+      "sha256": "314692314f0b425510eabd4ac1db6921d1d9a07cfd5ec10bc58c670110747f3f",
+      "bytes": 8795
+    },
+    "raw/press/press-dar-global-awards-sar-338-million-rayana-master-community-infrastructure-contract-compass-bin--f2156f11.md": {
+      "sha256": "2a39a6c2f73e1acea61cfaf1dcf00bd9bb687ce2c709c011a7f02a24336a4da9",
+      "bytes": 9448
+    },
+    "raw/press/press-dar-global-awards-shapoorji-pallonji-mideast-l-l-c-the-fit-out-works-for-da-vinci-tower-by-pag-7d58183f.md": {
+      "sha256": "11a4cbbd20daac9c626f4a526775d18c98a80d664d860143ee478ecc27e653a2",
+      "bytes": 4648
+    },
+    "raw/press/press-dar-global-capital-partners-targets-high-value-real-estate-opportunities-dubai-2c9e23f3.md": {
+      "sha256": "5a98b4cb4657119a1293056b327f0996be0c26480e052e8cd880e8217a5ec68a",
+      "bytes": 9376
+    },
+    "raw/press/press-dar-global-delivers-66-percent-revenue-growth-hy-2026-portfolio-gdv-reaches-23-billion-0a41a36f.md": {
+      "sha256": "26241dbc2dfde2d2c42845637c632c0ed5940306aa3845b2a1886e4b8640fe9c",
+      "bytes": 3368
+    },
+    "raw/press/press-dar-global-introduces-stunning-beach-residence-the-astera-interiors-by-aston-martin-fff50f1e.md": {
+      "sha256": "d31cb53c0015d74d97a620d8614e4ba72056e2bae1ffb254dd8c89d9e610362d",
+      "bytes": 4254
+    },
+    "raw/press/press-dar-global-lamborghini-lounge-porto-cervo-summer-15b4f19d.md": {
+      "sha256": "3084e2c7ba1c4c6688429ef0c9aceeb5cf7846e621ed16ac9b688eb9be0ea039",
+      "bytes": 8075
+    },
+    "raw/press/press-dar-global-launches-sales-for-aida-a-one-of-a-kind-mixed-use-gatedcommunity-featuring-trump-go-cff6ae5c.md": {
+      "sha256": "64be493b8753c4a2870126a7a77ad64578259180aa0c5ab8ee4e39ec5d0dd193",
+      "bytes": 11484
+    },
+    "raw/press/press-dar-global-opens-sales-trump-villas-simaisma-qatar-unprecedented-interest-f64bcac3.md": {
+      "sha256": "9a024624fb79df5636a874c273898c5aad953fbc8acc53f633adb5b7def4e047",
+      "bytes": 8461
+    },
+    "raw/press/press-dar-global-trump-organization-launch-trump-hotel-tower-dubai-fce3bc47.md": {
+      "sha256": "c43b7e1e41ddd3ec58477163c762555d67ff2044e517a589eb3a65a30dced540",
+      "bytes": 4185
+    },
+    "raw/press/press-dar-global-trump-organization-usd-1bn-trump-plaza-jeddah-c6f368f6.md": {
+      "sha256": "a8a7a9d62841d321b91e63b0e39374bd5498059c86f7f8e91f22e5c5ee6beffc",
+      "bytes": 3919
+    },
+    "raw/press/press-dar-globals-agents-event-paves-the-way-for-a-spectacular-debut-in-spanish-real-estate-a6307dde.md": {
+      "sha256": "b43a4991f46104dc2af8a2ac23dbeac837bf74b9976e21c27b36b3b1b4d26a0f",
+      "bytes": 8710
+    },
+    "raw/press/press-dar-globals-expansion-into-saudi-arabia-to-benefit-from-growing-international-interest-in-the--f9a391dc.md": {
+      "sha256": "782003efaa2814fcf1c760faa3b9e901ffe33d78bddebf07a30308dcb758946b",
+      "bytes": 9638
+    },
+    "raw/press/press-darglobal-acquires-prime-plot-jeddah-landmark-mixed-use-scheme-1ff1a2a9.md": {
+      "sha256": "db64cdc41a325f75b69ae7a6df97a7f15f3bec32807ec087b26f933da7e5d7b2",
+      "bytes": 8228
+    },
+    "raw/press/press-darglobal-announces-partnership-with-aston-martin-to-deliver-stunning-beachfront-residences-in-5ceecc38.md": {
+      "sha256": "d20c01af09eab75bac68f18649cdf12c546163dc4aba86eb554a32ed4c43fcf6",
+      "bytes": 4365
+    },
+    "raw/press/press-darglobal-appoints-acc-for-main-works-as-trump-tower-jeddah-rises-c3ca81ef.md": {
+      "sha256": "230217e7faf98437ce55db9f6968aa8b710cd985b0925eeb10154ac84f4dc6ba",
+      "bytes": 8994
+    },
+    "raw/press/press-darglobal-appoints-al-adrak-for-great-escape-apartments-and-aida-phase-1-villas-oman-a8792e68.md": {
+      "sha256": "f6bcf1a17ed3410a6e936ca3c641c22bcc41ad3432671f0b05b1ac216756748d",
+      "bytes": 8471
+    },
+    "raw/press/press-darglobal-appoints-al-dahlawi-contracting-for-amaya-project-trump-plaza-jeddah-dde1dddc.md": {
+      "sha256": "01c22fcb207c1469daaa422b4a5a3731d39bf7550223c97d18e394401ac91180",
+      "bytes": 9091
+    },
+    "raw/press/press-darglobal-appoints-ene-construccion-as-main-contractor-for-tierra-viva-luxury-villas-187da982.md": {
+      "sha256": "395bbb3e959f5d3da8890c17c7d04f975c8e03668497a0dc4c86aea42df4cbd2",
+      "bytes": 8834
+    },
+    "raw/press/press-darglobal-art-district-real-estate-mad-muscat-marine-art-digital-district-7cf2914e.md": {
+      "sha256": "5717f98ac8e066242518ade5ad722f19a6b1653c27597d3c92e3e409e213fada",
+      "bytes": 3824
+    },
+    "raw/press/press-darglobal-awards-enabling-works-contract-trump-international-hotel-tower-dubai-edrafor-emirate-65330562.md": {
+      "sha256": "633aecda8fa35706fd6cf4672b7a14537b602af489308a9c6437a7a26719d1ee",
+      "bytes": 2844
+    },
+    "raw/press/press-darglobal-awards-main-contract-astera-aston-martin-gulf-asia-47a9875e.md": {
+      "sha256": "2487a1cf68b4371d49811fa890715e5faae80a951d5eed63385f0afc6c89dd9c",
+      "bytes": 8603
+    },
+    "raw/press/press-darglobal-awards-the-main-works-of-w-residences-in-downtown-dubai-for-aed273000000-aed-414c6782.md": {
+      "sha256": "1270ffb13fb1f590ef8df1d69a35f7ef25ae05547e532fd9d01d4e02b3ee2b63",
+      "bytes": 8400
+    },
+    "raw/press/press-darglobal-awards-top-agents-propelling-real-estate-sector-in-dubai-222178ca.md": {
+      "sha256": "e62f527a0447bdbbaab62530ef0d35c44f7750dcd730c90a118f0b8abaa14685",
+      "bytes": 8553
+    },
+    "raw/press/press-darglobal-begins-handover-of-iconic-davinci-tower-by-pagani-automobili-eea0f898.md": {
+      "sha256": "66382fdc856f15412a61e810d486e3459dd98caefc51b6f72c8e172dacf4bdc7",
+      "bytes": 8273
+    },
+    "raw/press/press-darglobal-breaks-ground-on-trump-tower-jeddah-62c6f9dd.md": {
+      "sha256": "4aba6f8e2b2cfc704f8749c1e34b91107f91be7f69c636d6a7e4e4303df59164",
+      "bytes": 9077
+    },
+    "raw/press/press-darglobal-debuts-nickelodeon-hotels-resorts-oman-in-aida-setting-new-luxury-family-standard-5a174c12.md": {
+      "sha256": "49aeb4d6c33d0bd1cd3626ff214fea05d212221e111b68eaccec646576911a99",
+      "bytes": 10150
+    },
+    "raw/press/press-darglobal-fendi-casa-announce-azure-oceanfront-villas-oman-11e329a4.md": {
+      "sha256": "a50084cca6cb1a648b4c027d25ec74b53081a7bab4d598f12e45e81c0e5afc2b",
+      "bytes": 9504
+    },
+    "raw/press/press-darglobal-first-saudi-company-equity-shares-london-stock-exchange-c7b28bab.md": {
+      "sha256": "ae2c927098385bee8579499b69546ab0d80f142a5f6f8b635ae64a43bf28e9c2",
+      "bytes": 8712
+    },
+    "raw/press/press-darglobal-five-years-global-expansion-23bn-development-portfolio-future-vision-f449489f.md": {
+      "sha256": "ce03368c5b0a5e7c124b4c5262fbbc76ec14dd4d44204e2a69404a83b95ca30e",
+      "bytes": 4170
+    },
+    "raw/press/press-darglobal-gdv-growth-67-12-5bln-new-saudi-developments-financial-services-0805e45f.md": {
+      "sha256": "ea8e4303f9b9b5f909b3acfebadb6bec194383b9e4c3fe3e828293e210705b02",
+      "bytes": 6117
+    },
+    "raw/press/press-darglobal-joins-hands-with-spanish-council-lighting-up-abu-dhabi-in-celebratory-colors-of-spai-f71e3583.md": {
+      "sha256": "1a3f3988fe887193c0495c9f209b0267080eea97eb5421c1dbad5d0c1766fe96",
+      "bytes": 4652
+    },
+    "raw/press/press-darglobal-launches-trump-plaza-jeddah-second-collaboration-1125c6c8.md": {
+      "sha256": "7533a40abd9afda25c8d7f018b8dcb0b785c7b97ecf8f2a4fbbca701aa232ac2",
+      "bytes": 9734
+    },
+    "raw/press/press-darglobal-london-stock-exchange-opening-bell-live-all-in-launch-e427fe87.md": {
+      "sha256": "4b0b88f765b5ae2027763fb13e3582a34ba93e6133d5d78d28b7f70481396479",
+      "bytes": 4373
+    },
+    "raw/press/press-darglobal-partners-with-wasalt-to-advertise-trump-tower-jeddah-cb9ee4eb.md": {
+      "sha256": "f1d3689dcec58404006bb3de9dcf35a0f6d5a39a74a963d8594de26eab4013d0",
+      "bytes": 9127
+    },
+    "raw/press/press-darglobal-strengthens-china-partnerships-saudi-real-estate-global-investors-78ed7029.md": {
+      "sha256": "67adf632c3dc023bfd4a38481aa4000fe7caf8fd3da56c8b9d94c7f680d70e1b",
+      "bytes": 9240
+    },
+    "raw/press/press-emirates-nbd-usd-250m-syndicated-loan-dar-global-expansion-uae-d8ae0b3a.md": {
+      "sha256": "277fb8f0d1d412360a696f431454c732fb00519cdda1942f78fbea2b035468f6",
+      "bytes": 9608
+    },
+    "raw/press/press-exceptional-luxury-living-redefined-darglobal-and-automobili-lamborghini-present-tierra-viva-v-8940e052.md": {
+      "sha256": "3478cebecee33448f54656cd563a495cd6e241bd9eb0f706715888070dfa0361",
+      "bytes": 10151
+    },
+    "raw/press/press-helping-saudi-homegrown-brands-list-in-london-92eab7ac.md": {
+      "sha256": "101e9bb476f6ee3d98c3ad39c618cf0129911892dd2ca587d881854ffc70c9bf",
+      "bytes": 5027
+    },
+    "raw/press/press-missoni-and-dar-global-launch-residential-development-project-in-southern-spain-92e22ca6.md": {
+      "sha256": "0131dee1f47b764f389d120eb305d707b4ede186713d5a3674c8f16eba9fcb88",
+      "bytes": 9139
+    },
+    "raw/press/press-missoni-and-dar-global-launch-residential-development-project-in-southern-spain-duplicate-2774-9e98947e.md": {
+      "sha256": "0691327581d4fe71bbe850bf0ae77486f1e9bf187ce5eb2a6b2c138b68e038bf",
+      "bytes": 8199
+    },
+    "raw/press/press-qatari-diar-darglobal-trump-international-golf-club-villas-simaisma-74bfdb93.md": {
+      "sha256": "f67de87ba636d470d5d37f96232641d64ac9674295b0237af410afb69f0bce98",
+      "bytes": 8943
+    },
+    "raw/project_listings/projects-52e87e20.md": {
+      "sha256": "a169aeefb0b9fc4f3a363bfb2aba31543c6dcdceb2ede24b759094a86f5f469a",
+      "bytes": 6492
+    },
+    "raw/project_listings/projects-properties-in-oman-3a8e0501.md": {
+      "sha256": "71530137aec1893c5c95601778b5cad38c1e9ddddbd3b268aa17db9c1d8269ae",
+      "bytes": 13387
+    },
+    "raw/project_listings/projects-properties-in-oman-apartments-2ba8d655.md": {
+      "sha256": "b5af82883a859c2b960f4a1939196f8e7d0d6199311ab36716c93407b750f278",
+      "bytes": 11513
+    },
+    "raw/project_listings/projects-properties-in-oman-hotel-rooms-27864b38.md": {
+      "sha256": "59c92274f51bdec5575cd66efa7a7a50c525a5cb3a32e9f5558f22888f16a0c6",
+      "bytes": 6340
+    },
+    "raw/project_listings/projects-properties-in-qatar-eb0fda05.md": {
+      "sha256": "e654cd730589bf3be6bc2496359bbdda6fbe7631fd2646b34803934e504d7824",
+      "bytes": 10749
+    },
+    "raw/project_listings/projects-properties-in-qatar-villas-6f852a0f.md": {
+      "sha256": "088e6988d46ff49c19621dc9e1fe5079827a27b0b3bf8498955116774bc1cd24",
+      "bytes": 6432
+    },
+    "raw/project_listings/projects-properties-in-saudi-arabia-5305b8d6.md": {
+      "sha256": "875e519bae634df633aadea6b054a78b3f74e510f4444a8c564ff3a768651b0f",
+      "bytes": 13334
+    },
+    "raw/project_listings/projects-properties-in-saudi-arabia-apartments-35f36c1d.md": {
+      "sha256": "1da1116ba8a5d542961f431d4abeb872fa4d92392a33841360ce7d42d4249657",
+      "bytes": 11789
+    },
+    "raw/project_listings/projects-properties-in-saudi-arabia-villas-5639ccfd.md": {
+      "sha256": "ddaf56d497d4e30c2bf7ee48a936a45f1df3bdedaf0e749977dcfa388ae4ff54",
+      "bytes": 12223
+    },
+    "raw/project_listings/projects-properties-in-spain-e5c25d65.md": {
+      "sha256": "7023611dd7534c8c1822f63f404027308b93ae70c922266f75f1f1ac63a0d2bd",
+      "bytes": 12641
+    },
+    "raw/project_listings/projects-properties-in-spain-villas-ddda6e6e.md": {
+      "sha256": "7dc4849e5684a1dd5e9ce4047531bb609e9c22a5d31fa993155889e33fc92832",
+      "bytes": 11451
+    },
+    "raw/project_listings/projects-properties-in-uae-d39f6349.md": {
+      "sha256": "432b912e8f018a8ded19fe19addb1ab589090e7f92854e2bb000c1ed2f4ad109",
+      "bytes": 12155
+    },
+    "raw/project_listings/projects-properties-in-uae-villas-3aaaeae5.md": {
+      "sha256": "5381ef9c80bf7a98c0612a596164a49fbe557af42e78ce60e0e3a7367ecf9cb0",
+      "bytes": 11433
+    },
+    "raw/project_listings/projects-properties-in-uk-92d11440.md": {
+      "sha256": "3aeb0c4316edf32f9a7af5df8bdfa807419ee920c2017a58afd1bd8a17391dc9",
+      "bytes": 6451
+    },
+    "raw/project_listings/projects-properties-in-uk-apartments-da12dc55.md": {
+      "sha256": "8cde4fa07ff419aaa83f27a579273f931b96a19ba03d673a07544624112f49cd",
+      "bytes": 6561
+    }
+  },
+  "tree_sha256": "4195ae923bf023a3935f3a2705c41f049459a8fe7855f43c8469059c69a8c465"
+}
