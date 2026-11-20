@@ -84,6 +84,8 @@ def interpret(question, records=(), chunks_path=None):
             dar = True
             if not wasalt:
                 property_intent = False
+    if dar and not wasalt and not listing:
+        property_intent = False  # An explicit company scope outranks a generic property noun.
     route = 'both' if dar and wasalt else 'properties' if property_intent else 'darglobal' if dar else 'wasalt' if wasalt or procedure else 'clarify' if ambiguous or q.strip(' .!?') in ('hello', 'hi', 'مرحبا') else 'general'
     if property_intent and dar and wasalt:
         route = 'both_properties'
@@ -201,3 +203,60 @@ def search_properties(records, filters, limit=10):
     if lookup is not None:
         result['listing_lookup'] = lookup
     return result
+
+
+def conversation_plan(question, history, records=(), chunks_path=None):
+    """Resolve only marked elliptical turns, using at most the last four turns.
+
+    State belongs to the caller's history, never the shared cached Chatbot.
+    The existing interpreter still validates every new structured constraint.
+    """
+    plan = interpret(question, records, chunks_path)
+    q = normalize(question)
+    from .development_evidence import development_index
+    catalogue = development_index(chunks_path)
+    named = catalogue.resolve(question)
+    explicit = (re.search(r'dar\s*global|دار\s*جلوبال|wasalt|وصلت|for rent|for sale|للايجار|للبيع', q)
+                or listing_identifiers(q) or named['resolved'] or named['ambiguous'])
+    elliptical = re.search(
+        r'\b(tell me more|what about|only those|only these|how much|where is it|where are they|'
+        r'what are the (?:prices|main features)|what amenities|explain that|explain it)\b|'
+        r'\b(?:it|they|their|those|these)\b|المرافق|ماذا عن|فقط|اقل من|اشرح ذلك|اين يقع|كم سعر', q)
+    if explicit or not elliptical:
+        return plan, question
+    recent = list(history)[-4:]
+    prior = next((turn for turn in reversed(recent) if turn.get('role') == 'user'), None)
+    last = recent[-1].get('result', {}) if recent and recent[-1].get('role') == 'assistant' else {}
+    clarify = Interpretation('clarify', clarification=(
+        'أي مشروع أو مجموعة عقارات تقصد؟' if re.search('[\u0600-\u06ff]', q)
+        else 'Which development or set of properties do you mean?'))
+    if not prior:
+        return clarify, question
+    previous = str(last.get('context_question') or prior.get('content', ''))[:1500]
+    old = interpret(previous, records, chunks_path)
+    route = last.get('route', old.route)
+    if route == 'properties':
+        inherited = dict(last.get('filters', old.filters))
+        # Seed only categorical context and a budget period, not old numeric
+        # constraints. New constraints override old values after validation.
+        seed = str(inherited.get('property_type', 'property'))
+        if inherited.get('purpose'):
+            seed += ' for ' + inherited['purpose']
+        if inherited.get('price_period') and not re.search(r'year|month|day|annual|سنو|سنة|شهر|يومي', q):
+            seed += ' per ' + inherited['price_period']
+        delta = interpret(seed + ' ' + question, records, chunks_path)
+        if not inherited or delta.route != 'properties':
+            return clarify, question
+        delta.filters = {**inherited, **delta.filters}
+        return delta, question
+    if route not in ('darglobal', 'wasalt'):
+        return clarify, question
+    subject = 'Wasalt' if route == 'wasalt' else 'DarGlobal'
+    if route == 'darglobal':
+        entity = catalogue.resolve(previous)
+        if entity['ambiguous'] or len(entity['urls']) > 1:
+            return clarify, question
+        if entity['resolved']:
+            subject += ' project ' + max(entity['aliases'], key=len)
+    effective = subject + ': ' + question
+    return Interpretation(route), effective

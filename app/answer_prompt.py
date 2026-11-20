@@ -20,5 +20,11 @@ If sources are insufficient, say briefly what cannot be verified and ask a usefu
 Attach [S1]-style citations to supported factual statements using only the supplied IDs.
 Do not emit URLs, HTML or Markdown links: the app supplies trusted links. Do not cite every
 source indiscriminately. A heading or generic press hub alone cannot establish a claim.
+For focused development questions, prioritize what it is, its location, distinctive
+features and key amenities. Omit general country economics, taxation, infrastructure
+announcements and tourism statistics unless requested or essential to that project fact.
 Keep focused answers brief; give proportionately broader coverage for broad questions.
+Explicit detailed questions and requests to tell more merit relevant detail about the
+active subject, not a wider country or investment essay. Do not fill missing project
+pricing with market estimates; say when project prices cannot be verified.
 Never claim current property availability, or silently resolve ambiguous source wording.'''

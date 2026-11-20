@@ -17,7 +17,7 @@ from .embeddings import EmbeddingClient
 from .evaluate_openrouter import MODELS, OpenRouterAPI
 from .answer_prompt import SYSTEM_PROMPT
 from .index_embeddings import batches, load_chunks, read_manifest
-from .property_search import interpret, load_properties, normalize, search_properties
+from .property_search import conversation_plan, interpret, load_properties, normalize, search_properties
 from .vector_store import ChromaStore, identity
 from .openrouter_diagnostics import fallback_eligible
 from .presentation import property_summary
@@ -255,12 +255,15 @@ class Chatbot:
         started = time.perf_counter()
         if not question.strip() or len(question) > 1500:
             raise ValueError('Please enter a question of 1–1500 characters.')
-        plan = interpret(question, self.records, chunks_path=self.config.chunks_path)
+        plan, contextual_question = conversation_plan(question, history if explicit_filters is None else (),
+                                                       self.records, self.config.chunks_path)
+        if explicit_filters is None:
+            question = contextual_question
         if explicit_filters is not None:
             plan.filters = explicit_filters
             plan.clarification = ''
             plan.route = 'properties'
-        result = {'route': plan.route, 'filters': plan.filters, 'answer': '', 'sources': [], 'properties': None, 'error': '', 'generation': None}
+        result = {'route': plan.route, 'filters': plan.filters, 'answer': '', 'sources': [], 'properties': None, 'error': '', 'generation': None, 'context_question': question}
         if plan.clarification:
             result['answer'] = plan.clarification
             return result
