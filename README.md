@@ -1,158 +1,171 @@
-# RealtyAI — DarGlobal and Wasalt
+# RealtyAI
 
-RealtyAI is a Streamlit chatbot for exploring DarGlobal developments and searching
-historical Wasalt property listings. It combines retrieval-augmented answers with
-deterministic property filtering and links to the original public sources.
+RealtyAI helps you explore DarGlobal developments and search historical Wasalt
+property listings through natural-language questions. It finds relevant stored
+information, gives answers with original source links, and supports follow-up
+questions.
 
-## What it supports
+**Live Demo:** [Open RealtyAI](https://realtyai-rag-chatbot.onrender.com)
 
-- DarGlobal company and development questions, including recognized project names
-  such as AIDA, country-specific questions and representative portfolio overviews.
-- Wasalt informational questions and cross-company comparisons.
-- Exact Wasalt listing-ID lookup and property filters for location, purpose, type,
-  price, price period, area, bedrooms and other supported attributes.
-- English and Arabic questions, compact property cards, verified match counts,
-  citations, conversation history and visible processing states.
+**Source Code:** [GitHub repository](https://github.com/PrasannaKumar29/realtyai-rag-chatbot)
 
-Pure structured property searches use JSONL filtering and presentation, with
-**zero OpenAI or OpenRouter calls**. Unknown listing IDs return a dataset-miss
-notice without unrelated sources. Missing attributes remain unknown rather than
-being treated as confirmed matches or mismatches. Requests for explanations and
-knowledge questions retain the evidence-grounded generation path.
+**[Watch Demo Video](https://drive.google.com/file/d/1XoDjnNbFg1ysRWl2EHFr7sYvwCvczrwP/view?usp=sharing)**
 
-## Architecture
+## Try These Questions
 
-```text
-Streamlit question or structured form
-  ├─ Pure property search → JSONL filters → verified counts, cards and source URLs
-  └─ Knowledge / explanation request
-       → source routing and corpus-derived development-name resolution
-       → OpenAI query embedding + prebuilt Chroma retrieval when needed
-       → bounded source evidence → OpenRouter generation → citation validation
+- What is the AIDA development in Oman?
+- What developments does DarGlobal have in Spain?
+- Show villas for rent in Riyadh under SAR 100,000 per year.
+- How is DarGlobal different from Wasalt?
+
+You can ask supported follow-ups, such as “What amenities does it have?” after a
+project question, or “Only those under SAR 100,000 per year” after a rental search.
+If the subject is unclear, RealtyAI may ask you to clarify.
+
+## What RealtyAI Can Do
+
+- **Explain DarGlobal developments** using information from the collected pages.
+- **Search historical Wasalt listings** by listing ID or exact conditions such as
+  city, property type, sale or rent, price, area and bedrooms.
+- **Continue supported conversations** about the same project or narrow a previous
+  property search. Explicit new topics take priority over earlier context.
+- **Show original source links** with factual answers and property cards.
+- **Accept English and Arabic questions.** Supported wording and available source
+  information determine what it can answer.
+
+Missing property details stay unknown. A listing absent from the collected data
+may still exist on the live website. The collection is not a complete catalogue
+of either company's properties or services.
+
+## How It Works
+
+Instead of relying only on what an AI model remembers, RealtyAI searches a
+prepared collection of website information and uses the relevant passages to
+answer the question. This approach is called retrieval-augmented generation, or
+**RAG**.
+
+There are two paths:
+
+```mermaid
+flowchart TD
+    Q[Question] --> K[Knowledge question]
+    K --> E[OpenAI query embedding]
+    E --> C[Chroma searches the stored information]
+    C --> P[Relevant source passages]
+    P --> M[OpenRouter model]
+    M --> A[Answer with validated source links]
+    Q --> F[Structured Wasalt search]
+    F --> X[Exact filters]
+    X --> L[Stored Wasalt listings]
+    L --> R[Verified results and listing cards]
 ```
 
-The prebuilt index contains **1,709 vectors**, generated with
-`text-embedding-3-small` at **1,536 dimensions**. A corpus-derived inventory covers
-19 development pages; it is a retrieval aid, not a complete corporate catalogue.
-Citation IDs are validated by application code against retrieved sources. The
-application uses a temporary writable copy of Chroma so the bundled index stays
-unchanged. Starting the application does not scrape or rebuild the index.
+An *embedding* is a numerical representation that helps find passages with a
+similar meaning to the question. Chroma stores and searches these representations.
+The application checks citation IDs and connects them to the original source URLs.
 
-## Data provenance and limitations
+Pure structured searches use exact filters and stored records. They make **no
+OpenAI embedding or OpenRouter generation calls**. Questions asking for an
+explanation can use the AI answer path.
 
-The knowledge bundle derives from **685 public-source documents**: 419 DarGlobal
-pages, 261 Wasalt property pages and five Wasalt informational pages. The Wasalt
-JSONL contains 261 structured listings. Source URLs point to the original
-[darglobal.co.uk](https://darglobal.co.uk/) and [wasalt.sa](https://wasalt.sa/) pages.
+## Data Sources
 
-Wasalt records were collected on **18 November 2026** and are historical snapshots.
-Prices, availability and listing details are not verified current. A missing ID
-means it was not found in the collected dataset; it does not establish whether
-it exists on the live website. Incomplete coverage and missing or inconsistent
-source attributes limit comparisons and search results. Portfolio examples are
-representative, and do not establish completeness or business-market rankings.
+The collection contains **685 source documents**, captured on **18 November 2026**:
 
-The complete runtime bundle is included in `runtime_assets/` (45.36 MiB), with
-SHA-256 checksums in [its manifest](runtime_assets/manifest.json). It includes
-chunk text and provenance, listings, the complete SQLite/HNSW store, the index
-manifest and the required tokenizer encoding. Original extraction corpora,
-archives, local credentials and machine-specific migration reports remain outside
-the published repository. No acquisition is required to run the Docker image.
+| Source | Documents |
+|---|---:|
+| [DarGlobal](https://darglobal.co.uk/) public pages | 419 |
+| [Wasalt](https://wasalt.sa/) property pages | 261 |
+| Wasalt informational pages | 5 |
 
-## Run locally with Docker
+The prepared collection contains **1,709 indexed passages** and **261 structured
+Wasalt listing records**. The [runtime bundle](runtime_assets/) includes the
+prebuilt index, text, listing data and a [checksum manifest](runtime_assets/manifest.json).
 
-From the repository root, build the validated target architecture:
+These are historical snapshots, not a live property feed. Prices and availability
+must be checked on the original website. Public sources are attributed through
+their original links; their inclusion does not imply endorsement.
 
-```sh
-docker buildx build --platform linux/amd64 --load -t realtyai:local .
-```
+## Important Demo Limitations
 
-Start without credentials to explore structured property searches:
+**Free language-model rate limits.** RealtyAI uses a free model through
+OpenRouter. If you see “Rate limit reached; please try again later”, allow some
+time and retry. Rate limits can temporarily prevent AI-generated answers even
+when the website is working. Recovery time and model availability are not
+guaranteed. Pure structured property searches do not depend on this model.
 
-```sh
-docker run --rm --platform linux/amd64 --name realtyai-local \
-  -p 10000:10000 \
-  -e OPENAI_API_KEY='' -e OPENROUTER_API_KEY='' realtyai:local
-```
+**Render Free hosting.** The service may sleep when idle, so the first visit
+after inactivity can take longer. See [Render's free-service limits](https://render.com/docs/free).
 
-Open **http://localhost:10000**. Try `Show listing 5891036` or
-`Villas for rent in Riyadh under SAR 100000/year`. Knowledge questions require the
-API credentials described below. Stop with Ctrl-C or `docker stop realtyai-local`.
+**Historical Wasalt data.** Collected listings are not current live listings.
+Verify pricing, availability and other details with the original source.
 
-For knowledge answers, securely set `OPENAI_API_KEY` and `OPENROUTER_API_KEY` in
-your host environment, then pass them by name instead of putting values in the
-command or image:
+## Run Locally
 
-```sh
-docker run --rm --platform linux/amd64 --name realtyai-local \
-  -p 10000:10000 \
-  --env OPENAI_API_KEY --env OPENROUTER_API_KEY realtyai:local
-```
+You need Git and Docker with Buildx support. The prebuilt knowledge index is
+included, so you do not need to scrape websites or create embeddings again.
 
-The image runs as an unprivileged user, binds to `0.0.0.0`, and respects `PORT`
-(default 10000). It includes a health check at `/_stcore/health`. API credentials
-must be supplied at runtime, never as Docker build arguments or committed files.
+1. Clone the repository:
 
-## Configuration and model dependencies
+   ```sh
+   git clone https://github.com/PrasannaKumar29/realtyai-rag-chatbot.git
+   cd realtyai-rag-chatbot
+   ```
 
-[`.env.example`](.env.example) documents supported settings with blank credentials.
-The Docker image already sets the runtime data paths; ordinary usage needs only
-the two keys for knowledge answers. Pure structured searches need neither key.
+2. Create a local environment file:
 
-| Variable | Purpose / default |
+   ```sh
+   cp .env.example .env
+   ```
+
+   Open `.env` locally and fill in `OPENAI_API_KEY` and `OPENROUTER_API_KEY`.
+   Keep the other defaults. Docker passes these settings as environment variables
+   at runtime; credentials are not built into the image. `.env` is Git-ignored:
+   never commit it or share its contents. OpenAI query embeddings may incur charges.
+
+3. Build the Linux AMD64 image:
+
+   ```sh
+   docker buildx build --platform linux/amd64 --load -t realtyai:local .
+   ```
+
+4. Start RealtyAI:
+
+   ```sh
+   docker run --rm --platform linux/amd64 --name realtyai-local \
+     -p 10000:10000 --env-file .env realtyai:local
+   ```
+
+5. Open **http://localhost:10000**. Stop the app with Ctrl-C.
+
+For pure structured property searches, you can leave both API keys blank. The
+Docker image sets the data paths and uses port `10000`. The health endpoint is
+`/_stcore/health`.
+
+The defaults use `text-embedding-3-small` with 1,536 dimensions and
+`baidu/ernie-5.5-flash-preview:free` with reasoning enabled. Keep the embedding
+settings unchanged so they match the included index. The optional free-model
+fallback is disabled by default. Other supported settings are listed in
+[`.env.example`](.env.example).
+
+## Technologies Used
+
+| Technology | Role |
 |---|---|
-| `OPENAI_API_KEY` | Query-embedding credential for semantic questions |
-| `OPENAI_EMBEDDING_MODEL` | `text-embedding-3-small`; must match the existing index |
-| `OPENAI_EMBEDDING_DIMENSIONS` | `1536`; must match the existing index |
-| `OPENROUTER_API_KEY` | Answer-generation credential |
-| `OPENROUTER_MODEL` | `baidu/ernie-5.5-flash-preview:free`; the approved primary is enforced |
-| `OPENROUTER_ENABLE_FALLBACK` | `false` by default |
-| `CHROMA_COLLECTION` | `real_estate_knowledge` |
-| `CHROMA_PATH` | `/opt/realtyai/runtime_assets/chroma` in Docker |
-| `CHUNKS_PATH` | `/opt/realtyai/runtime_assets/chunks.jsonl` in Docker |
-| `WASALT_LISTINGS_PATH` | `/opt/realtyai/runtime_assets/listings.jsonl` in Docker |
-| `TOKENIZER_CACHE` | `/opt/realtyai/runtime_assets/tokenizer` in Docker |
-| `PORT` | Streamlit listening port; `10000` |
+| Python | Runs the application and exact property filters |
+| Streamlit | Provides the chat interface and listing cards |
+| ChromaDB | Searches the prepared knowledge collection |
+| OpenAI embeddings | Converts knowledge questions into searchable representations |
+| OpenRouter / ERNIE 5.5 Flash Preview | Generates answers from selected source passages |
+| Docker | Packages the app and prebuilt data together |
+| Render | Hosts the public demo |
 
-Semantic query embeddings use the OpenAI API and may incur charges. Generation
-requests use the selected free ERNIE endpoint with reasoning enabled and zero-price
-routing constraints. Free-provider availability and rate limits can interrupt
-answers; account quotas and provider capacity are separate failure modes.
+The project has **224 passing automated tests** covering routing, follow-ups,
+filtering, source validation and UI behavior. The full development suite requires
+original local corpus fixtures that are not included in the runtime distribution.
 
-The optional approved Nemotron endpoint,
-`nvidia/nemotron-3-ultra-550b-a55b:free`, is attempted at most once only when fallback
-is explicitly enabled and the primary HTTP 429 is positively classified as an
-upstream-provider capacity/rate-limit error. Account, daily, per-minute,
-authentication, credit and unknown errors do not trigger fallback. There is no
-paid routing or further model fallback. Deterministic property cards remain
-available independently of generation.
+## Disclaimer
 
-## Verification and repository layout
-
-With the container running, verify health and run the guarded offline acceptance:
-
-```sh
-curl --fail http://localhost:10000/_stcore/health
-docker exec realtyai-local python -B packaging/validate_offline.py
-```
-
-The complete development suite has **209 passing tests**. It requires the original
-local corpus fixtures and development environment, which are intentionally not
-part of the runtime distribution. The container acceptance above uses only the
-published runtime bundle and makes no API requests.
-
-| Path | Contents |
-|---|---|
-| `app/` | Chatbot, retrieval, filtering, citation validation and Streamlit UI |
-| `runtime_assets/` | Checksummed, prebuilt knowledge and structured listing bundle |
-| `packaging/` | Container startup and offline acceptance scripts |
-| `tests/` | Offline development regression tests |
-| `scripts/` | Historical corpus preparation/extraction tools; not run at startup |
-| `docs/` | Architecture, evaluation and checkpoint reports |
-| `Dockerfile`, `requirements-runtime.txt` | Linux runtime packaging and pinned dependencies |
-
-[Checkpoint 21A](docs/CHECKPOINT_21A_RESULTS.md) records AMD64 build verification,
-asset sizes, integrity checks and reproduction commands. The observed offline
-peak was **375.25 MiB** under Docker Desktop AMD64 emulation; a native service with
-an enforced 512 MiB limit still needs validation. Image size is approximately
-1.36 GiB. No Render deployment has been performed.
+RealtyAI is an independent technical-assignment demonstration built using publicly
+available information. It is not an official product of DarGlobal or Wasalt and
+is not sponsored or endorsed by either company.
