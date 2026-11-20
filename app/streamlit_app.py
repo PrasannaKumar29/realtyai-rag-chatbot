@@ -10,6 +10,24 @@ from app.presentation import captured_date, filter_question, property_card, prop
 
 st.set_page_config(page_title='RealtyAI', page_icon='🏙️', layout='centered')
 
+# Only application-owned, documented st.container key classes are styled.
+# No widget internals, JavaScript, downloaded fonts or external assets.
+st.html("""<style>
+.st-key-realty_header { padding-block: 0.25rem 0.75rem; }
+.st-key-realty_header h1 { letter-spacing: -0.045em; }
+.st-key-realty_welcome {
+    padding: 1.5rem; margin-block: 0.5rem 1rem;
+    border: 1px solid #3d4d54; border-top: 2px solid #cbb58b;
+    border-radius: 1rem; background: #19242b;
+}
+.st-key-realty_welcome button { text-align: start; height: auto; min-height: 3rem; }
+.st-key-realty_welcome p { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+    .st-key-realty_welcome { padding: 1rem; }
+    .st-key-realty_header h1 { font-size: 2rem; }
+}
+</style>""")
+
 
 
 @st.cache_resource(show_spinner=False)
@@ -33,11 +51,13 @@ def render(result):
             card = property_card(record)
             with st.container(border=True):
                 st.markdown(f"**{card['heading']}**")
+                if record.get('title'):
+                    st.caption(record['title'])
                 st.caption(card['location'])
-                st.markdown(f"**{card['price']}**")
+                st.markdown(f"### {card['price']}")
                 st.write(card['attributes'])
                 st.caption(f"Captured: {captured_date(record.get('scraped_at'))}")
-                st.link_button('Original Wasalt listing / المصدر', record['source_url'])
+                st.link_button('Original Wasalt listing / المصدر', record['source_url'], use_container_width=True)
                 if record.get('quality_flags'):
                     st.caption(f"Source quality: {len(record['quality_flags'])} recorded warnings")
                     with st.expander('Source quality notes'):
@@ -46,9 +66,10 @@ def render(result):
                 with st.expander('Technical details', expanded=False):
                     st.json(record)
     if result.get('sources') and properties is None:
-        with st.expander('Cited sources'):
-            for source in result['sources']:
-                st.link_button(f"{source['source_id']} · {source['title']}", source['source_url'])
+        st.divider()
+        st.caption('Sources · Original public pages')
+        for source in result['sources']:
+            st.link_button(f"{source['source_id']} · {source['title']}", source['source_url'], use_container_width=True)
 
 
 st.session_state.setdefault('conversation', [])
@@ -74,7 +95,9 @@ def clear_conversation():
 question, filters = None, None
 with st.sidebar:
     st.subheader('Property tools')
+    st.caption('Explore the collected Wasalt listings with exact filters.')
     st.caption(SNAPSHOT)
+    st.divider()
     with st.expander('Advanced property search'):
         with st.form('property_filters'):
             # JSONL only, no Chroma load until a query is submitted.
@@ -104,24 +127,27 @@ with st.sidebar:
                 question = filter_question(filters)
 
 welcome = not st.session_state.conversation
-heading, action = st.columns([5, 1])
-with heading:
-    st.title('RealtyAI')
-with action:
-    st.button('New chat', on_click=clear_conversation, use_container_width=True)
-st.caption('Your AI-powered guide to DarGlobal developments and Wasalt properties.')
+with st.container(key='realty_header'):
+    heading, action = st.columns([4, 1], vertical_alignment='center')
+    with heading:
+        st.title('RealtyAI')
+    with action:
+        st.button('New chat', on_click=clear_conversation, use_container_width=True)
+    st.caption('Your AI-powered guide to DarGlobal developments and Wasalt properties.')
 if welcome:
-    with st.container():
+    with st.container(key='realty_welcome'):
+        st.caption('EXPLORE · DISCOVER · ASK')
         st.chat_input('Ask about developments or find a property...', max_chars=1500,
                       key='chat_question', on_submit=submit_chat,
                       disabled=st.session_state.pending_request is not None)
-    st.caption('Try asking...')
-    suggestions = ('Explore DarGlobal developments', 'What is the AIDA project?',
-                   'Find villas for rent in Riyadh', 'How does Wasalt work?')
-    for column, example in zip(st.columns(2) * 2, suggestions):
-        with column:
-            if st.button(example, use_container_width=True, disabled=st.session_state.pending_request is not None):
-                question = example
+        st.caption('Try asking...')
+        suggestions = ('Explore DarGlobal developments', 'What is the AIDA project?',
+                       'Find villas for rent in Riyadh', 'How does Wasalt work?')
+        for column, example in zip(st.columns(2) * 2, suggestions):
+            with column:
+                if st.button(example, use_container_width=True, disabled=st.session_state.pending_request is not None):
+                    question = example
+    st.caption('Grounded in publicly available real-estate information. Independent demonstration; no official affiliation.')
 
 if question:
     queue_question(question, filters)
